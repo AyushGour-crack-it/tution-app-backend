@@ -1,0 +1,31 @@
+import mongoose from "mongoose";
+
+const ReactionSchema = new mongoose.Schema(
+  {
+    userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+    emoji: { type: String, required: true }
+  },
+  { _id: false }
+);
+
+const MessageSchema = new mongoose.Schema(
+  {
+    senderId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+    senderName: { type: String, required: true },
+    role: { type: String, enum: ["teacher", "student"], required: true },
+    type: {
+      type: String,
+      enum: ["text", "image", "audio", "video", "gif", "meme", "announcement"],
+      required: true
+    },
+    content: { type: String, required: true },
+    fileName: { type: String, default: "" },
+    mimeType: { type: String, default: "" },
+    replyTo: { type: mongoose.Schema.Types.ObjectId, ref: "Message", default: null },
+    reactions: { type: [ReactionSchema], default: [] },
+    editedAt: { type: Date, default: null }
+  },
+  { timestamps: true }
+);
+
+export default mongoose.model("Message", MessageSchema);
