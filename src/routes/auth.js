@@ -9,6 +9,12 @@ import Notification from "../models/Notification.js";
 import cloudinary from "../utils/cloudinary.js";
 import { signToken, requireAuth } from "../utils/auth.js";
 import {
+  loginLimiter,
+  otpRequestLimiter,
+  otpVerifyLimiter,
+  registerLimiter
+} from "../utils/rateLimiters.js";
+import {
   isStrongPassword,
   isValidEmail,
   normalizeEmail,
@@ -39,7 +45,7 @@ const maybeNotifyTeacherForNewStudentLogin = async (user) => {
   });
 };
 
-router.post("/register", upload.single("avatar"), async (req, res) => {
+router.post("/register", registerLimiter, upload.single("avatar"), async (req, res) => {
   const { role, studentId } = req.body;
   const name = sanitizeText(req.body.name, 120);
   const email = normalizeEmail(req.body.email);
@@ -74,6 +80,9 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
   const passwordHash = await bcrypt.hash(password, 10);
   let avatarUrl = "";
   if (req.file) {
+    if (!req.file.mimetype.startsWith("image/")) {
+      return res.status(400).json({ message: "Avatar must be an image file" });
+    }
     try {
       const uploadResult = await new Promise((resolve, reject) => {
         const stream = cloudinary.uploader.upload_stream(
@@ -114,7 +123,7 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
   });
 });
 
-router.post("/login", async (req, res) => {
+router.post("/login", loginLimiter, async (req, res) => {
   const email = normalizeEmail(req.body.email);
   const password = String(req.body.password || "");
   if (!email || !password) {
@@ -143,7 +152,7 @@ router.post("/login", async (req, res) => {
 
 const generateOtp = () => String(Math.floor(100000 + Math.random() * 900000));
 
-router.post("/request-otp", async (req, res) => {
+router.post("/request-otp", otpRequestLimiter, async (req, res) => {
   const channel = sanitizeText(req.body.channel, 10);
   const email = normalizeEmail(req.body.email);
   const phone = normalizePhone(req.body.phone);
@@ -165,7 +174,7 @@ router.post("/request-otp", async (req, res) => {
   return res.json({ message: "If account exists, OTP was sent" });
 });
 
-router.post("/verify-otp", async (req, res) => {
+router.post("/verify-otp", otpVerifyLimiter, async (req, res) => {
   const channel = sanitizeText(req.body.channel, 10);
   const email = normalizeEmail(req.body.email);
   const phone = normalizePhone(req.body.phone);
@@ -198,7 +207,7 @@ router.post("/verify-otp", async (req, res) => {
   });
 });
 
-router.post("/reset-password", async (req, res) => {
+router.post("/reset-password", otpVerifyLimiter, async (req, res) => {
   const channel = sanitizeText(req.body.channel, 10);
   const email = normalizeEmail(req.body.email);
   const phone = normalizePhone(req.body.phone);

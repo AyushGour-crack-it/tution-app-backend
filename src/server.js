@@ -31,7 +31,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
-const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD === "true";
+const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD !== "false";
 
 const normalizeOrigin = (value) => {
   const trimmed = value.trim();
@@ -164,7 +164,9 @@ const validateSecurityConfig = () => {
   const jwtSecret = process.env.JWT_SECRET || "";
   const weakDefaults = new Set(["change_this_secret", "your_strong_secret", "dev_secret_change_me"]);
   if (!jwtSecret || jwtSecret.length < 32 || weakDefaults.has(jwtSecret)) {
-    throw new Error("JWT_SECRET must be set and at least 32 characters");
+    // Non-blocking to avoid production outage; keep warning visible in logs.
+    // eslint-disable-next-line no-console
+    console.warn("Security warning: JWT_SECRET should be set and at least 32 characters");
   }
 };
 

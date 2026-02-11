@@ -5,6 +5,11 @@ import cloudinary from "../utils/cloudinary.js";
 import multer from "multer";
 import { Readable } from "stream";
 import { requireAuth } from "../utils/auth.js";
+import {
+  chatMessageLimiter,
+  chatReactionLimiter,
+  chatUploadLimiter
+} from "../utils/rateLimiters.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
@@ -37,7 +42,7 @@ router.get("/messages", requireAuth, async (req, res) => {
   res.json(items);
 });
 
-router.post("/messages", requireAuth, async (req, res) => {
+router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
   const { type, content, fileName, mimeType, replyTo, recipientStudentId } = req.body;
   if (!type || !content) {
     return res.status(400).json({ message: "Missing message content" });
@@ -112,7 +117,7 @@ router.delete("/messages/:id", requireAuth, async (req, res) => {
   return res.json({ message: "Deleted" });
 });
 
-router.post("/messages/:id/reactions", requireAuth, async (req, res) => {
+router.post("/messages/:id/reactions", requireAuth, chatReactionLimiter, async (req, res) => {
   const { emoji } = req.body;
   if (!emoji) {
     return res.status(400).json({ message: "Missing emoji" });
@@ -143,10 +148,15 @@ router.delete("/messages/clear", requireAuth, async (req, res) => {
   return res.json({ message: "Your messages cleared", deletedCount: deleted.deletedCount || 0 });
 });
 
-router.post("/upload", requireAuth, upload.single("file"), async (req, res) => {
+router.post("/upload", requireAuth, chatUploadLimiter, upload.single("file"), async (req, res) => {
   const file = req.file;
   if (!file) {
     return res.status(400).json({ message: "Missing file" });
+  }
+  const allowedMimePrefixes = ["image/", "video/"];
+  const isAllowedMime = allowedMimePrefixes.some((prefix) => file.mimetype.startsWith(prefix));
+  if (!isAllowedMime) {
+    return res.status(400).json({ message: "Only image and video files are allowed" });
   }
   const resourceType = file.mimetype.startsWith("video") || file.mimetype.startsWith("audio")
     ? "video"

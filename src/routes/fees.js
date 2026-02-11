@@ -4,6 +4,7 @@ import Razorpay from "razorpay";
 import Fee from "../models/Fee.js";
 import Receipt from "../models/Receipt.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { paymentLimiter } from "../utils/rateLimiters.js";
 
 const router = express.Router();
 
@@ -43,7 +44,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   return res.json(updated);
 });
 
-router.post("/:id/payments", requireAuth, requireRole("teacher"), async (req, res) => {
+router.post("/:id/payments", requireAuth, requireRole("teacher"), paymentLimiter, async (req, res) => {
   const { amount, method, reference } = req.body;
   if (!amount) {
     return res.status(400).json({ message: "Amount required" });
@@ -65,7 +66,7 @@ router.post("/:id/payments", requireAuth, requireRole("teacher"), async (req, re
   return res.status(201).json({ fee, receipt });
 });
 
-router.post("/:id/razorpay/order", requireAuth, async (req, res) => {
+router.post("/:id/razorpay/order", requireAuth, paymentLimiter, async (req, res) => {
   const { amount } = req.body;
   if (!amount || Number(amount) <= 0) {
     return res.status(400).json({ message: "Amount required" });
@@ -100,7 +101,7 @@ router.post("/:id/razorpay/order", requireAuth, async (req, res) => {
   });
 });
 
-router.post("/:id/razorpay/verify", requireAuth, async (req, res) => {
+router.post("/:id/razorpay/verify", requireAuth, paymentLimiter, async (req, res) => {
   const { razorpay_order_id, razorpay_payment_id, razorpay_signature, amount } = req.body;
   if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature || !amount) {
     return res.status(400).json({ message: "Missing payment verification fields" });

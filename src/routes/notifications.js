@@ -1,6 +1,7 @@
 import express from "express";
 import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { teacherBroadcastLimiter } from "../utils/rateLimiters.js";
 
 const router = express.Router();
 
@@ -29,7 +30,7 @@ router.get("/", requireAuth, async (req, res) => {
   res.json(items);
 });
 
-router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
+router.post("/", requireAuth, requireRole("teacher"), teacherBroadcastLimiter, async (req, res) => {
   const { title, message, studentId } = req.body;
   if (!title || !message) {
     return res.status(400).json({ message: "Missing title or message" });
