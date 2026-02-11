@@ -13,6 +13,9 @@ const MessageSchema = new mongoose.Schema(
     senderId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     senderName: { type: String, required: true },
     role: { type: String, enum: ["teacher", "student"], required: true },
+    recipientUserId: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null },
+    recipientStudentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student", default: null },
+    recipientName: { type: String, default: "" },
     type: {
       type: String,
       enum: ["text", "image", "audio", "video", "gif", "meme", "announcement"],
