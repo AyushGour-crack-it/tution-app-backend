@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import mongoose from "mongoose";
+import { readFileSync } from "fs";
 
 import studentRoutes from "./routes/students.js";
 import classRoutes from "./routes/classes.js";
@@ -20,6 +21,8 @@ import notificationRoutes from "./routes/notifications.js";
 import invoiceRoutes from "./routes/invoices.js";
 import receiptRoutes from "./routes/receipts.js";
 import leaderboardRoutes from "./routes/leaderboard.js";
+import Notification from "./models/Notification.js";
+import SystemState from "./models/SystemState.js";
 
 dotenv.config();
 
@@ -49,6 +52,38 @@ const isAllowedOrigin = (origin) => {
   // Vercel preview/production domains can change by deployment hash.
   if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(normalized)) return true;
   return false;
+};
+
+const packageVersion = (() => {
+  try {
+    const raw = readFileSync(new URL("../package.json", import.meta.url), "utf-8");
+    return JSON.parse(raw).version || "1.0.0";
+  } catch {
+    return "1.0.0";
+  }
+})();
+
+const notifyFeatureUpdateIfNeeded = async () => {
+  const key = "feature_release_version";
+  const currentVersion = process.env.APP_FEATURE_VERSION || packageVersion;
+  const currentNote =
+    process.env.APP_FEATURE_NOTE ||
+    `New features and improvements are now live (v${currentVersion}).`;
+
+  const state = await SystemState.findOne({ key });
+  if (state?.value === currentVersion) return;
+
+  await Notification.create({
+    title: `New Feature Update v${currentVersion}`,
+    message: currentNote,
+    target: "all"
+  });
+
+  await SystemState.findOneAndUpdate(
+    { key },
+    { value: currentVersion },
+    { upsert: true, new: true, setDefaultsOnInsert: true }
+  );
 };
 
 app.use(
@@ -96,6 +131,7 @@ const start = async () => {
   }
 
   await mongoose.connect(mongoUri);
+  await notifyFeatureUpdateIfNeeded();
   app.listen(port, () => {
     // eslint-disable-next-line no-console
     console.log(`API listening on http://localhost:${port}`);
