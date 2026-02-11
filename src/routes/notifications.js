@@ -51,9 +51,13 @@ router.post("/:id/read", requireAuth, async (req, res) => {
   const already = notification.readBy.some((id) => id.toString() === req.user.sub);
   if (!already) {
     notification.readBy.push(req.user.sub);
-    await notification.save();
   }
-  res.json({ message: "Marked read" });
+  const dismissed = notification.dismissedBy.some((id) => id.toString() === req.user.sub);
+  if (!dismissed) {
+    notification.dismissedBy.push(req.user.sub);
+  }
+  await notification.save();
+  res.json({ message: "Marked read and cleared" });
 });
 
 router.delete("/clear", requireAuth, async (req, res) => {
