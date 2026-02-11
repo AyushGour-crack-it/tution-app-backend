@@ -9,7 +9,8 @@ const UserSchema = new mongoose.Schema(
     role: { type: String, enum: ["teacher", "student"], required: true },
     studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student", default: null },
     avatarUrl: { type: String, default: "" },
-    bio: { type: String, default: "" }
+    bio: { type: String, default: "" },
+    lastLoginAt: { type: Date, default: null }
   },
   { timestamps: true }
 );

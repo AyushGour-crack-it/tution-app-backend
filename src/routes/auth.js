@@ -5,6 +5,7 @@ import { Readable } from "stream";
 import User from "../models/User.js";
 import Student from "../models/Student.js";
 import Otp from "../models/Otp.js";
+import Notification from "../models/Notification.js";
 import cloudinary from "../utils/cloudinary.js";
 import { signToken, requireAuth } from "../utils/auth.js";
 
@@ -21,6 +22,15 @@ const toResponseUser = (user) => ({
   avatarUrl: user.avatarUrl,
   bio: user.bio
 });
+
+const maybeNotifyTeacherForNewStudentLogin = async (user) => {
+  if (user.role !== "student" || user.lastLoginAt) return;
+  await Notification.create({
+    title: "New Student Login",
+    message: `${user.name} just logged in as a student.`,
+    target: "teacher"
+  });
+};
 
 router.post("/register", upload.single("avatar"), async (req, res) => {
   const { name, email, password, role, studentId, phone, bio } = req.body;
@@ -68,6 +78,11 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
     avatarUrl,
     bio: bio || ""
   });
+  if (user.role === "student") {
+    await maybeNotifyTeacherForNewStudentLogin(user);
+    user.lastLoginAt = new Date();
+    await user.save();
+  }
   const token = signToken(user);
   return res.status(201).json({
     token,
@@ -88,6 +103,9 @@ router.post("/login", async (req, res) => {
   if (!ok) {
     return res.status(401).json({ message: "Invalid credentials" });
   }
+  await maybeNotifyTeacherForNewStudentLogin(user);
+  user.lastLoginAt = new Date();
+  await user.save();
   const token = signToken(user);
   return res.json({
     token,
@@ -139,6 +157,9 @@ router.post("/verify-otp", async (req, res) => {
     return res.status(400).json({ message: "OTP expired" });
   }
   await Otp.deleteMany({ userId: user._id, channel });
+  await maybeNotifyTeacherForNewStudentLogin(user);
+  user.lastLoginAt = new Date();
+  await user.save();
   const token = signToken(user);
   return res.json({
     token,

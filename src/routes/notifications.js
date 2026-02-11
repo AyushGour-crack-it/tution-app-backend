@@ -5,10 +5,12 @@ import { requireAuth, requireRole } from "../utils/auth.js";
 const router = express.Router();
 
 router.get("/", requireAuth, async (req, res) => {
-  const query = { target: "all" };
-  if (req.user.role === "student" && req.user.studentId) {
-    query.$or = [{ target: "all" }, { target: "student", studentId: req.user.studentId }];
-  }
+  const query =
+    req.user.role === "teacher"
+      ? { $or: [{ target: "all" }, { target: "teacher" }] }
+      : {
+          $or: [{ target: "all" }, { target: "student", studentId: req.user.studentId || null }]
+        };
   const items = await Notification.find(query).sort({ createdAt: -1 }).limit(50);
   res.json(items);
 });
