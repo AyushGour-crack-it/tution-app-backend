@@ -1,9 +1,20 @@
 import express from "express";
+import crypto from "crypto";
+import Razorpay from "razorpay";
 import Fee from "../models/Fee.js";
 import Receipt from "../models/Receipt.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 
 const router = express.Router();
+
+const getRazorpay = () => {
+  const key_id = process.env.RAZORPAY_KEY_ID;
+  const key_secret = process.env.RAZORPAY_KEY_SECRET;
+  if (!key_id || !key_secret) {
+    return null;
+  }
+  return new Razorpay({ key_id, key_secret });
+};
 
 router.get("/", requireAuth, async (req, res) => {
   const query = {};
@@ -51,6 +62,89 @@ router.post("/:id/payments", requireAuth, requireRole("teacher"), async (req, re
     method: method || "UPI",
     reference: reference || ""
   });
+  return res.status(201).json({ fee, receipt });
+});
+
+router.post("/:id/razorpay/order", requireAuth, async (req, res) => {
+  const { amount } = req.body;
+  if (!amount || Number(amount) <= 0) {
+    return res.status(400).json({ message: "Amount required" });
+  }
+  const fee = await Fee.findById(req.params.id);
+  if (!fee) {
+    return res.status(404).json({ message: "Fee record not found" });
+  }
+  if (req.user.role === "student" && String(fee.studentId) !== String(req.user.studentId || "")) {
+    return res.status(403).json({ message: "Forbidden for this fee record" });
+  }
+
+  const razorpay = getRazorpay();
+  if (!razorpay) {
+    return res.status(500).json({ message: "Razorpay is not configured" });
+  }
+
+  const order = await razorpay.orders.create({
+    amount: Math.round(Number(amount) * 100),
+    currency: "INR",
+    notes: {
+      feeId: String(fee._id),
+      studentId: String(fee.studentId)
+    }
+  });
+
+  return res.json({
+    orderId: order.id,
+    amount: order.amount,
+    currency: order.currency,
+    keyId: process.env.RAZORPAY_KEY_ID
+  });
+});
+
+router.post("/:id/razorpay/verify", requireAuth, async (req, res) => {
+  const { razorpay_order_id, razorpay_payment_id, razorpay_signature, amount } = req.body;
+  if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature || !amount) {
+    return res.status(400).json({ message: "Missing payment verification fields" });
+  }
+  const fee = await Fee.findById(req.params.id);
+  if (!fee) {
+    return res.status(404).json({ message: "Fee record not found" });
+  }
+  if (req.user.role === "student" && String(fee.studentId) !== String(req.user.studentId || "")) {
+    return res.status(403).json({ message: "Forbidden for this fee record" });
+  }
+
+  const keySecret = process.env.RAZORPAY_KEY_SECRET;
+  if (!keySecret) {
+    return res.status(500).json({ message: "Razorpay secret not configured" });
+  }
+
+  const body = `${razorpay_order_id}|${razorpay_payment_id}`;
+  const expected = crypto.createHmac("sha256", keySecret).update(body).digest("hex");
+  if (expected !== razorpay_signature) {
+    return res.status(400).json({ message: "Invalid payment signature" });
+  }
+
+  const numericAmount = Number(amount);
+  if (!Number.isFinite(numericAmount) || numericAmount <= 0) {
+    return res.status(400).json({ message: "Invalid amount" });
+  }
+
+  fee.payments.push({
+    amount: numericAmount,
+    paidOn: new Date(),
+    note: `Razorpay:${razorpay_payment_id}`
+  });
+  await fee.save();
+
+  const receipt = await Receipt.create({
+    studentId: fee.studentId,
+    feeId: fee._id,
+    amount: numericAmount,
+    paidOn: new Date(),
+    method: "Razorpay",
+    reference: razorpay_payment_id
+  });
+
   return res.status(201).json({ fee, receipt });
 });
 

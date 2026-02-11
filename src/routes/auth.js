@@ -11,6 +11,17 @@ import { signToken, requireAuth } from "../utils/auth.js";
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
 
+const toResponseUser = (user) => ({
+  id: user._id,
+  name: user.name,
+  role: user.role,
+  email: user.email,
+  phone: user.phone,
+  studentId: user.studentId,
+  avatarUrl: user.avatarUrl,
+  bio: user.bio
+});
+
 router.post("/register", upload.single("avatar"), async (req, res) => {
   const { name, email, password, role, studentId, phone, bio } = req.body;
   if (!name || !email || !password || !role) {
@@ -60,15 +71,7 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
   const token = signToken(user);
   return res.status(201).json({
     token,
-    user: {
-      id: user._id,
-      name: user.name,
-      role: user.role,
-      email: user.email,
-      studentId: user.studentId,
-      avatarUrl: user.avatarUrl,
-      bio: user.bio
-    }
+    user: toResponseUser(user)
   });
 });
 
@@ -88,15 +91,7 @@ router.post("/login", async (req, res) => {
   const token = signToken(user);
   return res.json({
     token,
-    user: {
-      id: user._id,
-      name: user.name,
-      role: user.role,
-      email: user.email,
-      studentId: user.studentId,
-      avatarUrl: user.avatarUrl,
-      bio: user.bio
-    }
+    user: toResponseUser(user)
   });
 });
 
@@ -147,7 +142,7 @@ router.post("/verify-otp", async (req, res) => {
   const token = signToken(user);
   return res.json({
     token,
-    user: { id: user._id, name: user.name, role: user.role, email: user.email, studentId: user.studentId }
+    user: toResponseUser(user)
   });
 });
 
@@ -224,16 +219,7 @@ router.put(
 
     await user.save();
     return res.json({
-      user: {
-        id: user._id,
-        name: user.name,
-        role: user.role,
-        email: user.email,
-        phone: user.phone,
-        studentId: user.studentId,
-        avatarUrl: user.avatarUrl,
-        bio: user.bio
-      }
+      user: toResponseUser(user)
     });
   }
 );
@@ -262,16 +248,7 @@ router.get("/me", requireAuth, async (req, res) => {
     return res.status(404).json({ message: "User not found" });
   }
   return res.json({
-    user: {
-      id: user._id,
-      name: user.name,
-      role: user.role,
-      email: user.email,
-      phone: user.phone,
-      studentId: user.studentId,
-      avatarUrl: user.avatarUrl,
-      bio: user.bio
-    }
+    user: toResponseUser(user)
   });
 });
 
