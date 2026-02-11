@@ -1,5 +1,6 @@
 import express from "express";
 import Announcement from "../models/Announcement.js";
+import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 
 const router = express.Router();
@@ -18,6 +19,12 @@ router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
     title,
     note: note || "",
     date: date ? new Date(date) : new Date()
+  });
+  const details = [created.title, created.note].filter(Boolean).join(" - ");
+  await Notification.create({
+    title: "New Announcement",
+    message: details,
+    target: "all"
   });
   return res.status(201).json(created);
 });
