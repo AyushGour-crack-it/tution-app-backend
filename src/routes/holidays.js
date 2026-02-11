@@ -1,5 +1,6 @@
 import express from "express";
 import Holiday from "../models/Holiday.js";
+import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 
 const router = express.Router();
@@ -11,6 +12,13 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Holiday.create(req.body);
+  const holidayDate = created.date ? new Date(created.date).toLocaleDateString() : "";
+  const details = [holidayDate, created.note].filter(Boolean).join(" - ");
+  await Notification.create({
+    title: `Holiday: ${created.title}`,
+    message: details || `${created.title} has been added to the holiday calendar.`,
+    target: "all"
+  });
   res.status(201).json(created);
 });
 
