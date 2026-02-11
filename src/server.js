@@ -25,9 +25,32 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const clientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
 
-app.use(cors({ origin: clientOrigin }));
+const normalizeOrigin = (value) => {
+  const trimmed = value.trim();
+  if (!trimmed) return "";
+  if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {
+    return trimmed;
+  }
+  return `https://${trimmed}`;
+};
+
+const allowedOrigins = rawClientOrigin
+  .split(",")
+  .map(normalizeOrigin)
+  .filter(Boolean);
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Allow same-origin/non-browser requests (no Origin header).
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) return callback(null, true);
+      return callback(new Error(`CORS blocked for origin: ${origin}`));
+    }
+  })
+);
 app.use(express.json({ limit: "2mb" }));
 app.use(morgan("dev"));
 
