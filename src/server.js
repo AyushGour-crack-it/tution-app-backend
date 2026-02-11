@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 import mongoose from "mongoose";
 import { readFileSync } from "fs";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
 
 import studentRoutes from "./routes/students.js";
 import classRoutes from "./routes/classes.js";
@@ -29,6 +31,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD === "true";
 
 const normalizeOrigin = (value) => {
   const trimmed = value.trim();
@@ -50,7 +53,7 @@ const isAllowedOrigin = (origin) => {
   if (!normalized) return true;
   if (allowedOrigins.includes(normalized)) return true;
   // Vercel preview/production domains can change by deployment hash.
-  if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(normalized)) return true;
+  if (allowVercelWildcard && /^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(normalized)) return true;
   return false;
 };
 
@@ -101,11 +104,29 @@ app.use(
       if (!origin) return callback(null, true);
       if (isAllowedOrigin(origin)) return callback(null, true);
       return callback(new Error(`CORS blocked for origin: ${origin}`));
-    }
+    },
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    credentials: false
+  })
+);
+app.disable("x-powered-by");
+app.set("trust proxy", 1);
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" }
   })
 );
 app.use(express.json({ limit: "2mb" }));
 app.use(morgan("dev"));
+
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 40,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { message: "Too many auth attempts. Please try again later." }
+});
+app.use("/api/auth", authLimiter);
 
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", time: new Date().toISOString() });
@@ -132,11 +153,27 @@ app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
 });
 
+app.use((error, req, res, next) => {
+  if (error?.message?.startsWith("CORS blocked for origin:")) {
+    return res.status(403).json({ message: "CORS blocked" });
+  }
+  return next(error);
+});
+
+const validateSecurityConfig = () => {
+  const jwtSecret = process.env.JWT_SECRET || "";
+  const weakDefaults = new Set(["change_this_secret", "your_strong_secret", "dev_secret_change_me"]);
+  if (!jwtSecret || jwtSecret.length < 32 || weakDefaults.has(jwtSecret)) {
+    throw new Error("JWT_SECRET must be set and at least 32 characters");
+  }
+};
+
 const start = async () => {
   const mongoUri = process.env.MONGODB_URI;
   if (!mongoUri) {
     throw new Error("MONGODB_URI is required");
   }
+  validateSecurityConfig();
 
   await mongoose.connect(mongoUri);
   await notifyFeatureUpdateIfNeeded();

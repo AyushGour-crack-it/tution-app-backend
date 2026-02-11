@@ -8,6 +8,13 @@ import Otp from "../models/Otp.js";
 import Notification from "../models/Notification.js";
 import cloudinary from "../utils/cloudinary.js";
 import { signToken, requireAuth } from "../utils/auth.js";
+import {
+  isStrongPassword,
+  isValidEmail,
+  normalizeEmail,
+  normalizePhone,
+  sanitizeText
+} from "../utils/validators.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
@@ -33,11 +40,28 @@ const maybeNotifyTeacherForNewStudentLogin = async (user) => {
 };
 
 router.post("/register", upload.single("avatar"), async (req, res) => {
-  const { name, email, password, role, studentId, phone, bio } = req.body;
+  const { role, studentId } = req.body;
+  const name = sanitizeText(req.body.name, 120);
+  const email = normalizeEmail(req.body.email);
+  const password = String(req.body.password || "");
+  const phone = normalizePhone(req.body.phone);
+  const bio = sanitizeText(req.body.bio, 280);
+
   if (!name || !email || !password || !role) {
     return res.status(400).json({ message: "Missing fields" });
   }
-  const existing = await User.findOne({ email: email.toLowerCase() });
+  if (!["teacher", "student"].includes(role)) {
+    return res.status(400).json({ message: "Invalid role" });
+  }
+  if (!isValidEmail(email)) {
+    return res.status(400).json({ message: "Invalid email format" });
+  }
+  if (!isStrongPassword(password)) {
+    return res.status(400).json({
+      message: "Password must be 8+ chars with uppercase, lowercase and number"
+    });
+  }
+  const existing = await User.findOne({ email });
   if (existing) {
     return res.status(409).json({ message: "Email already registered" });
   }
@@ -70,8 +94,8 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
   }
   const user = await User.create({
     name,
-    email: email.toLowerCase(),
-    phone: phone || "",
+    email,
+    phone,
     passwordHash,
     role,
     studentId: role === "student" ? studentId || null : null,
@@ -91,11 +115,15 @@ router.post("/register", upload.single("avatar"), async (req, res) => {
 });
 
 router.post("/login", async (req, res) => {
-  const { email, password } = req.body;
+  const email = normalizeEmail(req.body.email);
+  const password = String(req.body.password || "");
   if (!email || !password) {
     return res.status(400).json({ message: "Missing credentials" });
   }
-  const user = await User.findOne({ email: email.toLowerCase() });
+  if (!isValidEmail(email)) {
+    return res.status(400).json({ message: "Invalid credentials" });
+  }
+  const user = await User.findOne({ email });
   if (!user) {
     return res.status(401).json({ message: "Invalid credentials" });
   }
@@ -116,16 +144,16 @@ router.post("/login", async (req, res) => {
 const generateOtp = () => String(Math.floor(100000 + Math.random() * 900000));
 
 router.post("/request-otp", async (req, res) => {
-  const { channel, email, phone } = req.body;
+  const channel = sanitizeText(req.body.channel, 10);
+  const email = normalizeEmail(req.body.email);
+  const phone = normalizePhone(req.body.phone);
   if (!channel || (channel !== "email" && channel !== "phone")) {
     return res.status(400).json({ message: "Invalid channel" });
   }
   const user = await User.findOne(
-    channel === "email" ? { email: (email || "").toLowerCase() } : { phone }
+    channel === "email" ? { email } : { phone }
   );
-  if (!user) {
-    return res.status(404).json({ message: "User not found" });
-  }
+  if (!user) return res.json({ message: "If account exists, OTP was sent" });
   const code = generateOtp();
   const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
   await Otp.create({ userId: user._id, channel, code, expiresAt });
@@ -134,16 +162,19 @@ router.post("/request-otp", async (req, res) => {
   // eslint-disable-next-line no-console
   console.log(`OTP for ${channel} ${channel === "email" ? user.email : user.phone}: ${code}`);
 
-  return res.json({ message: "OTP sent" });
+  return res.json({ message: "If account exists, OTP was sent" });
 });
 
 router.post("/verify-otp", async (req, res) => {
-  const { channel, email, phone, code } = req.body;
+  const channel = sanitizeText(req.body.channel, 10);
+  const email = normalizeEmail(req.body.email);
+  const phone = normalizePhone(req.body.phone);
+  const code = sanitizeText(req.body.code, 8);
   const user = await User.findOne(
-    channel === "email" ? { email: (email || "").toLowerCase() } : { phone }
+    channel === "email" ? { email } : { phone }
   );
   if (!user) {
-    return res.status(404).json({ message: "User not found" });
+    return res.status(400).json({ message: "Invalid OTP" });
   }
   const record = await Otp.findOne({
     userId: user._id,
@@ -168,15 +199,24 @@ router.post("/verify-otp", async (req, res) => {
 });
 
 router.post("/reset-password", async (req, res) => {
-  const { channel, email, phone, code, newPassword } = req.body;
+  const channel = sanitizeText(req.body.channel, 10);
+  const email = normalizeEmail(req.body.email);
+  const phone = normalizePhone(req.body.phone);
+  const code = sanitizeText(req.body.code, 8);
+  const newPassword = String(req.body.newPassword || "");
   if (!newPassword) {
     return res.status(400).json({ message: "Missing new password" });
   }
+  if (!isStrongPassword(newPassword)) {
+    return res.status(400).json({
+      message: "Password must be 8+ chars with uppercase, lowercase and number"
+    });
+  }
   const user = await User.findOne(
-    channel === "email" ? { email: (email || "").toLowerCase() } : { phone }
+    channel === "email" ? { email } : { phone }
   );
   if (!user) {
-    return res.status(404).json({ message: "User not found" });
+    return res.status(400).json({ message: "Invalid OTP" });
   }
   const record = await Otp.findOne({
     userId: user._id,
@@ -205,9 +245,9 @@ router.put(
       return res.status(404).json({ message: "User not found" });
     }
     const { name, phone, bio } = req.body;
-    if (name) user.name = name;
-    if (phone !== undefined) user.phone = phone;
-    if (bio !== undefined) user.bio = bio;
+    if (name) user.name = sanitizeText(name, 120);
+    if (phone !== undefined) user.phone = normalizePhone(phone);
+    if (bio !== undefined) user.bio = sanitizeText(bio, 280);
 
     if (req.file) {
       const hasCloudinary =
@@ -246,9 +286,15 @@ router.put(
 );
 
 router.put("/me/password", requireAuth, async (req, res) => {
-  const { currentPassword, newPassword } = req.body;
+  const currentPassword = String(req.body.currentPassword || "");
+  const newPassword = String(req.body.newPassword || "");
   if (!currentPassword || !newPassword) {
     return res.status(400).json({ message: "Missing password fields" });
+  }
+  if (!isStrongPassword(newPassword)) {
+    return res.status(400).json({
+      message: "Password must be 8+ chars with uppercase, lowercase and number"
+    });
   }
   const user = await User.findById(req.user.sub);
   if (!user) {

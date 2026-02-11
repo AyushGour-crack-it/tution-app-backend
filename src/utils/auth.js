@@ -1,6 +1,12 @@
 import jwt from "jsonwebtoken";
 
-const jwtSecret = () => process.env.JWT_SECRET || "dev_secret_change_me";
+const jwtSecret = () => {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) {
+    throw new Error("JWT_SECRET is required");
+  }
+  return secret;
+};
 
 export const signToken = (user) =>
   jwt.sign(
