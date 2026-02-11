@@ -63,12 +63,20 @@ const packageVersion = (() => {
   }
 })();
 
+const toSingleLine = (value) =>
+  String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
 const notifyFeatureUpdateIfNeeded = async () => {
   const key = "feature_release_version";
   const currentVersion = process.env.APP_FEATURE_VERSION || packageVersion;
-  const currentNote =
+  const currentFeatureSummary = toSingleLine(
     process.env.APP_FEATURE_NOTE ||
-    `New features and improvements are now live (v${currentVersion}).`;
+      process.env.APP_FEATURE_SUMMARY ||
+      "General performance and stability improvements."
+  );
+  const currentNote = `Added: ${currentFeatureSummary}`;
 
   const state = await SystemState.findOne({ key });
   if (state?.value === currentVersion) return;
