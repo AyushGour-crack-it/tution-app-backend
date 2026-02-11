@@ -30,10 +30,11 @@ const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
 const normalizeOrigin = (value) => {
   const trimmed = value.trim();
   if (!trimmed) return "";
-  if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {
-    return trimmed;
-  }
-  return `https://${trimmed}`;
+  const withProtocol =
+    trimmed.startsWith("http://") || trimmed.startsWith("https://")
+      ? trimmed
+      : `https://${trimmed}`;
+  return withProtocol.replace(/\/+$/, "");
 };
 
 const allowedOrigins = rawClientOrigin
@@ -41,12 +42,21 @@ const allowedOrigins = rawClientOrigin
   .map(normalizeOrigin)
   .filter(Boolean);
 
+const isAllowedOrigin = (origin) => {
+  const normalized = normalizeOrigin(origin);
+  if (!normalized) return true;
+  if (allowedOrigins.includes(normalized)) return true;
+  // Vercel preview/production domains can change by deployment hash.
+  if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(normalized)) return true;
+  return false;
+};
+
 app.use(
   cors({
     origin: (origin, callback) => {
       // Allow same-origin/non-browser requests (no Origin header).
       if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin)) return callback(null, true);
+      if (isAllowedOrigin(origin)) return callback(null, true);
       return callback(new Error(`CORS blocked for origin: ${origin}`));
     }
   })
