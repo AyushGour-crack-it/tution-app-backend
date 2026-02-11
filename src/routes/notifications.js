@@ -4,13 +4,27 @@ import { requireAuth, requireRole } from "../utils/auth.js";
 
 const router = express.Router();
 
+const buildNotificationQuery = (user) => {
+  if (user.role === "teacher") {
+    return {
+      $and: [
+        { $or: [{ target: "all" }, { target: "teacher" }] },
+        { dismissedBy: { $ne: user.sub } }
+      ]
+    };
+  }
+  return {
+    $and: [
+      {
+        $or: [{ target: "all" }, { target: "student", studentId: user.studentId || null }]
+      },
+      { dismissedBy: { $ne: user.sub } }
+    ]
+  };
+};
+
 router.get("/", requireAuth, async (req, res) => {
-  const query =
-    req.user.role === "teacher"
-      ? { $or: [{ target: "all" }, { target: "teacher" }] }
-      : {
-          $or: [{ target: "all" }, { target: "student", studentId: req.user.studentId || null }]
-        };
+  const query = buildNotificationQuery(req.user);
   const items = await Notification.find(query).sort({ createdAt: -1 }).limit(50);
   res.json(items);
 });
@@ -40,6 +54,12 @@ router.post("/:id/read", requireAuth, async (req, res) => {
     await notification.save();
   }
   res.json({ message: "Marked read" });
+});
+
+router.delete("/clear", requireAuth, async (req, res) => {
+  const query = buildNotificationQuery(req.user);
+  await Notification.updateMany(query, { $addToSet: { dismissedBy: req.user.sub } });
+  res.json({ message: "Notifications cleared" });
 });
 
 export default router;

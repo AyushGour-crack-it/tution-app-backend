@@ -134,6 +134,15 @@ router.post("/messages/:id/reactions", requireAuth, async (req, res) => {
   return res.json(message);
 });
 
+router.delete("/messages/clear", requireAuth, async (req, res) => {
+  if (req.user.role === "teacher") {
+    const deleted = await Message.deleteMany({});
+    return res.json({ message: "Chat cleared", deletedCount: deleted.deletedCount || 0 });
+  }
+  const deleted = await Message.deleteMany({ senderId: req.user.sub });
+  return res.json({ message: "Your messages cleared", deletedCount: deleted.deletedCount || 0 });
+});
+
 router.post("/upload", requireAuth, upload.single("file"), async (req, res) => {
   const file = req.file;
   if (!file) {

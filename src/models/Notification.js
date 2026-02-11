@@ -6,7 +6,8 @@ const NotificationSchema = new mongoose.Schema(
     message: { type: String, required: true },
     target: { type: String, enum: ["all", "student", "teacher"], default: "all" },
     studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student", default: null },
-    readBy: { type: [mongoose.Schema.Types.ObjectId], ref: "User", default: [] }
+    readBy: { type: [mongoose.Schema.Types.ObjectId], ref: "User", default: [] },
+    dismissedBy: { type: [mongoose.Schema.Types.ObjectId], ref: "User", default: [] }
   },
   { timestamps: true }
 );
