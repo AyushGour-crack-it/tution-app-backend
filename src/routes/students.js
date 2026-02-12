@@ -78,6 +78,10 @@ router.get("/directory", requireAuth, async (req, res) => {
             rarity: definition?.rarity || badge.raritySnapshot,
             xpValue: badge.xpValueSnapshot || definition?.xpValue || 0
           };
+        }).sort((a, b) => {
+          const xpDelta = (Number(a?.xpValue) || 0) - (Number(b?.xpValue) || 0);
+          if (xpDelta !== 0) return xpDelta;
+          return String(a?.title || "").localeCompare(String(b?.title || ""));
         })
       };
     })

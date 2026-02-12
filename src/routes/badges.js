@@ -74,7 +74,11 @@ router.get("/me", requireAuth, requireRole("student"), async (req, res) => {
         awardedAt: entry.awardedAt
       };
     })
-    .sort((a, b) => new Date(b.awardedAt) - new Date(a.awardedAt));
+    .sort((a, b) => {
+      const xpDelta = (Number(a?.xpValue) || 0) - (Number(b?.xpValue) || 0);
+      if (xpDelta !== 0) return xpDelta;
+      return String(a?.title || "").localeCompare(String(b?.title || ""));
+    });
 
   const pending = await BadgeRequest.find({
     studentUserId,
