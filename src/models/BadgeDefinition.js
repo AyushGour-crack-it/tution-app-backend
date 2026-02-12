@@ -27,6 +27,10 @@ const BadgeDefinitionSchema = new mongoose.Schema(
 );
 
 BadgeDefinitionSchema.pre("validate", function syncXpValue(next) {
+  if (this.category === "fun_event") {
+    this.xpValue = 0;
+    return next();
+  }
   if (!this.xpValue) {
     this.xpValue = xpForRarity(this.rarity);
   }

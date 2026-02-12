@@ -62,11 +62,11 @@ export const badgeCatalogSeed = [
   // Fun & Event (1)
   {
     key: "holi_2026",
-    title: "Holi 2026 Splash Master",
+    title: "Holi26",
     description: "Special event badge for Holi 2026 participation.",
     category: "fun_event",
     rarity: "rare",
-    xpValue: 120,
+    xpValue: 0,
     hidden: false,
     imageUrl: "/badges/holi-2026.svg"
   }

@@ -83,6 +83,7 @@ router.get("/directory", requireAuth, async (req, res) => {
           return {
             key: badge.badgeKey,
             title: definition?.title || badge.titleSnapshot,
+            category: definition?.category || "",
             rarity: definition?.rarity || badge.raritySnapshot,
             xpValue: badge.xpValueSnapshot || definition?.xpValue || 0,
             imageUrl: definition?.imageUrl || ""
