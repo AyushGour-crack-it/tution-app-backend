@@ -23,8 +23,12 @@ import notificationRoutes from "./routes/notifications.js";
 import invoiceRoutes from "./routes/invoices.js";
 import receiptRoutes from "./routes/receipts.js";
 import leaderboardRoutes from "./routes/leaderboard.js";
+import badgeRoutes from "./routes/badges.js";
 import Notification from "./models/Notification.js";
 import SystemState from "./models/SystemState.js";
+import BadgeDefinition from "./models/BadgeDefinition.js";
+import { badgeCatalogSeed } from "./data/badgeCatalog.js";
+import { xpForRarity } from "./utils/gamification.js";
 
 dotenv.config();
 
@@ -97,6 +101,21 @@ const notifyFeatureUpdateIfNeeded = async () => {
   );
 };
 
+const ensureBadgeCatalog = async () => {
+  for (let index = 0; index < badgeCatalogSeed.length; index += 1) {
+    const item = badgeCatalogSeed[index];
+    await BadgeDefinition.findOneAndUpdate(
+      { key: item.key },
+      {
+        ...item,
+        xpValue: item.xpValue || xpForRarity(item.rarity),
+        sortOrder: index + 1
+      },
+      { upsert: true, new: true, setDefaultsOnInsert: true }
+    );
+  }
+};
+
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -148,6 +167,7 @@ app.use("/api/notifications", notificationRoutes);
 app.use("/api/invoices", invoiceRoutes);
 app.use("/api/receipts", receiptRoutes);
 app.use("/api/leaderboard", leaderboardRoutes);
+app.use("/api/badges", badgeRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
@@ -178,6 +198,7 @@ const start = async () => {
   validateSecurityConfig();
 
   await mongoose.connect(mongoUri);
+  await ensureBadgeCatalog();
   await notifyFeatureUpdateIfNeeded();
   app.listen(port, () => {
     // eslint-disable-next-line no-console
