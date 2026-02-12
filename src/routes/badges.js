@@ -202,6 +202,20 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
   await request.save();
 
   if (action === "approve") {
+    if (badge.annualCap && badge.annualCap > 0) {
+      const yearStart = new Date(new Date().getFullYear(), 0, 1);
+      const yearEnd = new Date(new Date().getFullYear() + 1, 0, 1);
+      const thisYearCount = await StudentBadge.countDocuments({
+        badgeKey: badge.key,
+        awardedAt: { $gte: yearStart, $lt: yearEnd }
+      });
+      if (thisYearCount >= badge.annualCap) {
+        return res
+          .status(400)
+          .json({ message: `Annual cap reached for "${badge.title}" (${badge.annualCap}/year)` });
+      }
+    }
+
     const existing = await StudentBadge.findOne({
       studentUserId: request.studentUserId,
       badgeKey: request.badgeKey
@@ -223,6 +237,13 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
       target: "student",
       studentId: studentUser.studentId || null
     });
+    if (badge.xpValue >= 1000) {
+      await Notification.create({
+        title: "Ultra Badge Unlocked",
+        message: `${studentUser.name} unlocked "${badge.title}"!`,
+        target: "all"
+      });
+    }
   } else {
     await Notification.create({
       title: "Badge Request Rejected",

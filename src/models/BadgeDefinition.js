@@ -17,6 +17,7 @@ const BadgeDefinitionSchema = new mongoose.Schema(
       required: true
     },
     xpValue: { type: Number, required: true },
+    annualCap: { type: Number, default: null },
     hidden: { type: Boolean, default: false },
     active: { type: Boolean, default: true },
     sortOrder: { type: Number, default: 0 }
