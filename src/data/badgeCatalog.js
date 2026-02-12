@@ -1,4 +1,41 @@
 export const badgeCatalogSeed = [
+  // Academic - Easy (20/30/50 XP)
+  {
+    key: "warmup_warrior",
+    title: "Warmup Warrior",
+    description: "Complete your first full week of study tasks.",
+    category: "academic",
+    rarity: "common",
+    xpValue: 20,
+    hidden: false
+  },
+  {
+    key: "practice_pack_1",
+    title: "Practice Pack 1",
+    description: "Complete 3 practice sets in a week.",
+    category: "academic",
+    rarity: "common",
+    xpValue: 30,
+    hidden: false
+  },
+  {
+    key: "quick_reviewer",
+    title: "Quick Reviewer",
+    description: "Revise notes for 5 sessions in 10 days.",
+    category: "academic",
+    rarity: "common",
+    xpValue: 30,
+    hidden: false
+  },
+  {
+    key: "note_ninja",
+    title: "Note Ninja",
+    description: "Submit neat and complete notes for 2 weeks.",
+    category: "academic",
+    rarity: "common",
+    xpValue: 50,
+    hidden: false
+  },
   {
     key: "homework_hero",
     title: "Homework Hero",
@@ -13,6 +50,15 @@ export const badgeCatalogSeed = [
     description: "Ask 10 meaningful doubts in class.",
     category: "academic",
     rarity: "common",
+    hidden: false
+  },
+  {
+    key: "eighty_achiever",
+    title: "80% Achiever",
+    description: "Score 80% or more in a class test.",
+    category: "academic",
+    rarity: "common",
+    xpValue: 50,
     hidden: false
   },
   {
@@ -40,6 +86,51 @@ export const badgeCatalogSeed = [
     hidden: false
   },
   {
+    key: "untouchable",
+    title: "The Untouchable",
+    description: "Maintain 95%+ scores for 6 months.",
+    category: "academic",
+    rarity: "legendary",
+    hidden: false
+  },
+  {
+    key: "grandmaster_scholar",
+    title: "Grandmaster Scholar",
+    description: "Maintain 90%+ for a full year.",
+    category: "academic",
+    rarity: "legendary",
+    hidden: false
+  },
+
+  // Consistency - Easy (20/30/50 XP)
+  {
+    key: "week_starter",
+    title: "Week Starter",
+    description: "Attend all planned classes in one week.",
+    category: "consistency",
+    rarity: "common",
+    xpValue: 20,
+    hidden: false
+  },
+  {
+    key: "punctual_week",
+    title: "Punctual Week",
+    description: "No late arrivals for 7 days.",
+    category: "consistency",
+    rarity: "common",
+    xpValue: 30,
+    hidden: false
+  },
+  {
+    key: "focus_fortnight",
+    title: "Focus Fortnight",
+    description: "Stay consistent for 14 days.",
+    category: "consistency",
+    rarity: "common",
+    xpValue: 50,
+    hidden: false
+  },
+  {
     key: "streak_7",
     title: "7 Day Streak",
     description: "Stay consistent for 7 straight study days.",
@@ -64,6 +155,14 @@ export const badgeCatalogSeed = [
     hidden: false
   },
   {
+    key: "fee_discipline_pro",
+    title: "Fee Discipline Pro",
+    description: "Pay fees on time for 6 months.",
+    category: "consistency",
+    rarity: "epic",
+    hidden: false
+  },
+  {
     key: "iron_will",
     title: "Iron Will",
     description: "Complete one full year of consistency.",
@@ -79,6 +178,26 @@ export const badgeCatalogSeed = [
     rarity: "legendary",
     hidden: false
   },
+
+  // Personality - Easy (20/30/50 XP)
+  {
+    key: "respectful_voice",
+    title: "Respectful Voice",
+    description: "Maintain respectful class behavior for 1 week.",
+    category: "personality",
+    rarity: "common",
+    xpValue: 20,
+    hidden: false
+  },
+  {
+    key: "positive_participant",
+    title: "Positive Participant",
+    description: "Participate positively in discussions for 10 days.",
+    category: "personality",
+    rarity: "common",
+    xpValue: 30,
+    hidden: false
+  },
   {
     key: "helpful_friend",
     title: "Helpful Friend",
@@ -88,9 +207,26 @@ export const badgeCatalogSeed = [
     hidden: false
   },
   {
+    key: "class_helper_plus",
+    title: "Class Helper Plus",
+    description: "Consistently support classmates for 2 weeks.",
+    category: "personality",
+    rarity: "common",
+    xpValue: 50,
+    hidden: false
+  },
+  {
     key: "confident_speaker",
     title: "Confident Speaker",
     description: "Speak confidently in class discussions.",
+    category: "personality",
+    rarity: "rare",
+    hidden: false
+  },
+  {
+    key: "positive_aura",
+    title: "Positive Aura",
+    description: "Bring consistent positive energy to class.",
     category: "personality",
     rarity: "rare",
     hidden: false
@@ -104,11 +240,39 @@ export const badgeCatalogSeed = [
     hidden: false
   },
   {
+    key: "motivator",
+    title: "Motivator",
+    description: "Inspire classmates through attitude and effort.",
+    category: "personality",
+    rarity: "epic",
+    hidden: false
+  },
+  {
     key: "golden_presence",
     title: "Golden Presence",
     description: "Recognized by teacher for elite class presence.",
     category: "personality",
     rarity: "legendary",
+    hidden: false
+  },
+
+  // Inspired / Theme badges
+  {
+    key: "rookie_detective",
+    title: "Rookie Detective",
+    description: "Show sharp observation in class tasks.",
+    category: "inspired",
+    rarity: "common",
+    xpValue: 30,
+    hidden: false
+  },
+  {
+    key: "strategy_spark",
+    title: "Strategy Spark",
+    description: "Solve tricky questions with clever planning.",
+    category: "inspired",
+    rarity: "common",
+    xpValue: 50,
     hidden: false
   },
   {
@@ -136,6 +300,14 @@ export const badgeCatalogSeed = [
     hidden: false
   },
   {
+    key: "discipline_captain",
+    title: "Discipline Captain",
+    description: "Show elite discipline in academics and behavior.",
+    category: "inspired",
+    rarity: "legendary",
+    hidden: false
+  },
+  {
     key: "never_give_up_spirit",
     title: "Never Give Up Spirit",
     description: "Massive comeback through persistence.",
@@ -143,6 +315,8 @@ export const badgeCatalogSeed = [
     rarity: "legendary",
     hidden: false
   },
+
+  // Secret / Unlockable
   {
     key: "hidden_potential",
     title: "Hidden Potential",
@@ -152,9 +326,25 @@ export const badgeCatalogSeed = [
     hidden: true
   },
   {
+    key: "sniper_focus",
+    title: "Sniper Focus",
+    description: "No distraction for 10 class sessions.",
+    category: "secret",
+    rarity: "epic",
+    hidden: true
+  },
+  {
     key: "ice_mind",
     title: "Ice Mind",
     description: "Top performance under pressure.",
+    category: "secret",
+    rarity: "legendary",
+    hidden: true
+  },
+  {
+    key: "the_anomaly",
+    title: "The Anomaly",
+    description: "Break previous performance records.",
     category: "secret",
     rarity: "legendary",
     hidden: true
