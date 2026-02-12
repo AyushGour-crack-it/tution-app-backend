@@ -33,7 +33,8 @@ const toResponseUser = (user) => ({
   phone: user.phone,
   studentId: user.studentId,
   avatarUrl: user.avatarUrl,
-  bio: user.bio
+  bio: user.bio,
+  likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0
 });
 
 const maybeNotifyTeacherForNewStudentLogin = async (user) => {
