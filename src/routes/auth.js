@@ -48,6 +48,7 @@ const maybeNotifyTeacherForNewStudentLogin = async (user) => {
 
 router.post("/register", registerLimiter, upload.single("avatar"), async (req, res) => {
   const { role, studentId } = req.body;
+  const teacherAccessId = sanitizeText(req.body.teacherAccessId, 120);
   const name = sanitizeText(req.body.name, 120);
   const email = normalizeEmail(req.body.email);
   const password = String(req.body.password || "");
@@ -59,6 +60,12 @@ router.post("/register", registerLimiter, upload.single("avatar"), async (req, r
   }
   if (!["teacher", "student"].includes(role)) {
     return res.status(400).json({ message: "Invalid role" });
+  }
+  if (role === "teacher") {
+    const expectedTeacherAccessId = process.env.TEACHER_ACCESS_ID || "Ayush@8090";
+    if (!teacherAccessId || teacherAccessId !== expectedTeacherAccessId) {
+      return res.status(403).json({ message: "Invalid Teacher ID" });
+    }
   }
   if (!isValidEmail(email)) {
     return res.status(400).json({ message: "Invalid email format" });
