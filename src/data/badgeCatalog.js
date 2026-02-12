@@ -57,5 +57,17 @@ export const badgeCatalogSeed = [
   { key: "hidden_potential", title: "Hidden Potential", description: "Sudden major uplift.", category: "secret", rarity: "epic", xpValue: 200, hidden: true },
   { key: "the_anomaly", title: "The Anomaly", description: "Breaks expected pattern.", category: "secret", rarity: "legendary", xpValue: 450, hidden: true },
   { key: "calm_under_pressure", title: "Calm Under Pressure", description: "3 surprise tests with high score.", category: "secret", rarity: "epic", xpValue: 200, hidden: true },
-  { key: "the_immortal", title: "The Immortal", description: "Own 3+ legendary-level badges.", category: "secret", rarity: "mythic", xpValue: 1000, annualCap: 2, hidden: true }
+  { key: "the_immortal", title: "The Immortal", description: "Own 3+ legendary-level badges.", category: "secret", rarity: "mythic", xpValue: 1000, annualCap: 2, hidden: true },
+
+  // Fun & Event (1)
+  {
+    key: "holi_2026",
+    title: "Holi 2026 Splash Master",
+    description: "Special event badge for Holi 2026 participation.",
+    category: "fun_event",
+    rarity: "rare",
+    xpValue: 120,
+    hidden: false,
+    imageUrl: "/badges/holi-2026.svg"
+  }
 ];

@@ -8,7 +8,7 @@ const BadgeDefinitionSchema = new mongoose.Schema(
     description: { type: String, required: true },
     category: {
       type: String,
-      enum: ["academic", "consistency", "personality", "inspired", "secret"],
+      enum: ["academic", "consistency", "personality", "inspired", "secret", "fun_event"],
       required: true
     },
     rarity: {
@@ -18,6 +18,7 @@ const BadgeDefinitionSchema = new mongoose.Schema(
     },
     xpValue: { type: Number, required: true },
     annualCap: { type: Number, default: null },
+    imageUrl: { type: String, default: "" },
     hidden: { type: Boolean, default: false },
     active: { type: Boolean, default: true },
     sortOrder: { type: Number, default: 0 }

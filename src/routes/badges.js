@@ -20,6 +20,7 @@ const toPublicBadgeCard = (badge, unlocked) => {
       category: badge.category,
       rarity: badge.rarity,
       xpValue: badge.xpValue,
+      imageUrl: badge.imageUrl || "",
       hidden: true,
       unlocked: false
     };
@@ -31,6 +32,7 @@ const toPublicBadgeCard = (badge, unlocked) => {
     category: badge.category,
     rarity: badge.rarity,
     xpValue: badge.xpValue,
+    imageUrl: badge.imageUrl || "",
     hidden: Boolean(badge.hidden),
     unlocked
   };
@@ -71,6 +73,7 @@ router.get("/me", requireAuth, requireRole("student"), async (req, res) => {
         category: source?.category || "academic",
         rarity: source?.rarity || entry.raritySnapshot,
         xpValue: entry.xpValueSnapshot || source?.xpValue || 0,
+        imageUrl: source?.imageUrl || "",
         awardedAt: entry.awardedAt
       };
     })

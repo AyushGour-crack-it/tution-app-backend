@@ -84,7 +84,8 @@ router.get("/directory", requireAuth, async (req, res) => {
             key: badge.badgeKey,
             title: definition?.title || badge.titleSnapshot,
             rarity: definition?.rarity || badge.raritySnapshot,
-            xpValue: badge.xpValueSnapshot || definition?.xpValue || 0
+            xpValue: badge.xpValueSnapshot || definition?.xpValue || 0,
+            imageUrl: definition?.imageUrl || ""
           };
         }).sort((a, b) => {
           const xpDelta = (Number(a?.xpValue) || 0) - (Number(b?.xpValue) || 0);
