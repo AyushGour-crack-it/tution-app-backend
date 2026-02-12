@@ -7,6 +7,7 @@ import Student from "../models/Student.js";
 import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { paymentLimiter } from "../utils/rateLimiters.js";
+import { emitFeeUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -45,6 +46,7 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Fee.create(req.body);
+  emitFeeUpdated({ fee: created, action: "created" });
   res.status(201).json(created);
 });
 
@@ -53,6 +55,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Fee record not found" });
   }
+  emitFeeUpdated({ fee: updated, action: "updated" });
   return res.json(updated);
 });
 
@@ -67,6 +70,7 @@ router.post("/:id/payments", requireAuth, requireRole("teacher"), paymentLimiter
   }
   fee.payments.push({ amount, paidOn: new Date(), note: reference || "" });
   await fee.save();
+  emitFeeUpdated({ fee, action: "payment_added" });
   const receipt = await Receipt.create({
     studentId: fee.studentId,
     feeId: fee._id,
@@ -149,6 +153,7 @@ router.post("/:id/razorpay/verify", requireAuth, paymentLimiter, async (req, res
     note: `Razorpay:${razorpay_payment_id}`
   });
   await fee.save();
+  emitFeeUpdated({ fee, action: "payment_added" });
 
   const receipt = await Receipt.create({
     studentId: fee.studentId,
@@ -168,6 +173,7 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Fee record not found" });
   }
+  emitFeeUpdated({ fee: deleted, action: "deleted" });
   return res.json({ message: "Fee record deleted" });
 });
 

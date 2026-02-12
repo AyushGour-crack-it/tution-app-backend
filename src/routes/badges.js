@@ -8,6 +8,7 @@ import User from "../models/User.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { calculateLevelProgress } from "../utils/gamification.js";
 import { sanitizeText } from "../utils/validators.js";
+import { emitBadgeAwarded, emitBadgeRequestUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -139,6 +140,7 @@ router.post("/requests", requireAuth, requireRole("student"), async (req, res) =
     badgeKey,
     requestMessage
   });
+  emitBadgeRequestUpdated({ request: created, studentUserId: req.user.sub, status: "pending" });
 
   await Notification.create({
     title: "New Badge Request",
@@ -223,6 +225,11 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
   request.reviewedBy = new mongoose.Types.ObjectId(req.user.sub);
   request.reviewedAt = new Date();
   await request.save();
+  emitBadgeRequestUpdated({
+    request,
+    studentUserId: request.studentUserId,
+    status: request.status
+  });
 
   if (action === "approve") {
     const existing = await StudentBadge.findOne({
@@ -239,6 +246,7 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
         awardedBy: req.user.sub,
         awardedAt: new Date()
       });
+      emitBadgeAwarded({ studentUserId: request.studentUserId, badgeKey: request.badgeKey });
     }
     await Notification.create({
       title: "Badge Approved",

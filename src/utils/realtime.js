@@ -49,3 +49,35 @@ export const emitNotificationCreated = (notification) => {
   emitToRoom("role:teacher", "notification:new", payload);
   emitToRoom("role:student", "notification:new", payload);
 };
+
+export const emitFeeUpdated = ({ fee, studentId, action = "updated" }) => {
+  if (!ioInstance || !fee) return;
+  const payload = {
+    action,
+    studentId: studentId ? String(studentId) : (fee.studentId ? String(fee.studentId) : ""),
+    fee: fee.toObject ? fee.toObject() : fee
+  };
+  emitToRoom("role:teacher", "fee:updated", payload);
+  if (payload.studentId) {
+    emitToRoom(`student:${payload.studentId}`, "fee:updated", payload);
+  } else {
+    emitToRoom("role:student", "fee:updated", payload);
+  }
+};
+
+export const emitBadgeRequestUpdated = ({ request, studentUserId, status = "pending" }) => {
+  if (!ioInstance || !request) return;
+  const payload = {
+    status,
+    request: request.toObject ? request.toObject() : request
+  };
+  emitToRoom("role:teacher", "badge:request-updated", payload);
+  if (studentUserId) {
+    emitToRoom(`user:${String(studentUserId)}`, "badge:request-updated", payload);
+  }
+};
+
+export const emitBadgeAwarded = ({ studentUserId, badgeKey }) => {
+  if (!ioInstance || !studentUserId) return;
+  emitToRoom(`user:${String(studentUserId)}`, "badge:awarded", { badgeKey: String(badgeKey || "") });
+};
