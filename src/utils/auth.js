@@ -1,4 +1,5 @@
 import jwt from "jsonwebtoken";
+import User from "../models/User.js";
 
 const jwtSecret = () => {
   const secret = process.env.JWT_SECRET;
@@ -20,7 +21,7 @@ export const signToken = (user) =>
     { expiresIn: "7d" }
   );
 
-export const requireAuth = (req, res, next) => {
+export const requireAuth = async (req, res, next) => {
   const header = req.headers.authorization || "";
   const token = header.startsWith("Bearer ") ? header.slice(7) : null;
   if (!token) {
@@ -28,7 +29,18 @@ export const requireAuth = (req, res, next) => {
   }
   try {
     const payload = jwt.verify(token, jwtSecret());
-    req.user = payload;
+    const user = await User.findById(payload.sub)
+      .select("_id role name studentId")
+      .lean();
+    if (!user) {
+      return res.status(401).json({ message: "Session expired" });
+    }
+    req.user = {
+      sub: user._id.toString(),
+      role: user.role,
+      name: user.name,
+      studentId: user.studentId ? user.studentId.toString() : null
+    };
     return next();
   } catch (error) {
     return res.status(401).json({ message: "Invalid token" });

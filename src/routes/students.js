@@ -2,7 +2,15 @@ import express from "express";
 import Student from "../models/Student.js";
 import User from "../models/User.js";
 import StudentBadge from "../models/StudentBadge.js";
+import BadgeRequest from "../models/BadgeRequest.js";
 import BadgeDefinition from "../models/BadgeDefinition.js";
+import Attendance from "../models/Attendance.js";
+import Mark from "../models/Mark.js";
+import Fee from "../models/Fee.js";
+import Receipt from "../models/Receipt.js";
+import Invoice from "../models/Invoice.js";
+import Notification from "../models/Notification.js";
+import Message from "../models/Message.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { calculateLevelProgress } from "../utils/gamification.js";
 
@@ -158,10 +166,51 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
 });
 
 router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
-  const deleted = await Student.findByIdAndDelete(req.params.id);
+  const deleted = await Student.findById(req.params.id);
   if (!deleted) {
     return res.status(404).json({ message: "Student not found" });
   }
+
+  const linkedUsers = await User.find({
+    role: "student",
+    studentId: deleted._id
+  })
+    .select("_id")
+    .lean();
+  const linkedUserIds = linkedUsers.map((item) => item._id);
+
+  await Promise.all([
+    Student.findByIdAndDelete(deleted._id),
+    User.deleteMany({ _id: { $in: linkedUserIds } }),
+    User.updateMany(
+      { profileLikedBy: { $in: linkedUserIds } },
+      { $pull: { profileLikedBy: { $in: linkedUserIds } } }
+    ),
+    StudentBadge.deleteMany({ studentUserId: { $in: linkedUserIds } }),
+    BadgeRequest.deleteMany({ studentUserId: { $in: linkedUserIds } }),
+    Attendance.deleteMany({ studentId: deleted._id }),
+    Mark.deleteMany({ studentId: deleted._id }),
+    Fee.deleteMany({ studentId: deleted._id }),
+    Receipt.deleteMany({ studentId: deleted._id }),
+    Invoice.deleteMany({ studentId: deleted._id }),
+    Notification.deleteMany({ studentId: deleted._id }),
+    Notification.updateMany(
+      { readBy: { $in: linkedUserIds } },
+      { $pull: { readBy: { $in: linkedUserIds } } }
+    ),
+    Notification.updateMany(
+      { dismissedBy: { $in: linkedUserIds } },
+      { $pull: { dismissedBy: { $in: linkedUserIds } } }
+    ),
+    Message.deleteMany({
+      $or: [
+        { senderId: { $in: linkedUserIds } },
+        { recipientUserId: { $in: linkedUserIds } },
+        { recipientStudentId: deleted._id }
+      ]
+    })
+  ]);
+
   return res.json({ message: "Student deleted" });
 });
 
