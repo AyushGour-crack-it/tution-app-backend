@@ -3,6 +3,8 @@ import crypto from "crypto";
 import Razorpay from "razorpay";
 import Fee from "../models/Fee.js";
 import Receipt from "../models/Receipt.js";
+import Student from "../models/Student.js";
+import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { paymentLimiter } from "../utils/rateLimiters.js";
 
@@ -15,6 +17,16 @@ const getRazorpay = () => {
     return null;
   }
   return new Razorpay({ key_id, key_secret });
+};
+
+const notifyTeacherPayment = async ({ fee, amount, method }) => {
+  const student = await Student.findById(fee.studentId).select("name studentId").lean();
+  const studentName = student?.name || student?.studentId || "A student";
+  await Notification.create({
+    title: "Fee Received",
+    message: `${studentName} paid ₹${Number(amount || 0)} via ${method || "UPI"}.`,
+    target: "teacher"
+  });
 };
 
 router.get("/", requireAuth, async (req, res) => {
@@ -63,6 +75,7 @@ router.post("/:id/payments", requireAuth, requireRole("teacher"), paymentLimiter
     method: method || "UPI",
     reference: reference || ""
   });
+  await notifyTeacherPayment({ fee, amount, method: method || "UPI" });
   return res.status(201).json({ fee, receipt });
 });
 
@@ -145,6 +158,7 @@ router.post("/:id/razorpay/verify", requireAuth, paymentLimiter, async (req, res
     method: "Razorpay",
     reference: razorpay_payment_id
   });
+  await notifyTeacherPayment({ fee, amount: numericAmount, method: "Razorpay" });
 
   return res.status(201).json({ fee, receipt });
 });

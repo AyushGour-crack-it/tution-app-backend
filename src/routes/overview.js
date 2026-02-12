@@ -2,6 +2,7 @@ import express from "express";
 import Student from "../models/Student.js";
 import Homework from "../models/Homework.js";
 import Fee from "../models/Fee.js";
+import Receipt from "../models/Receipt.js";
 import SyllabusItem from "../models/SyllabusItem.js";
 import Holiday from "../models/Holiday.js";
 import Announcement from "../models/Announcement.js";
@@ -15,8 +16,19 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const now = new Date();
   const weekEnd = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
   const upcomingEnd = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+  const monthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+  const monthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 1);
 
-  const [studentCount, homeworkDueCount, fees, focusItems, homeworkUpcoming, holidays, announcements] =
+  const [
+    studentCount,
+    homeworkDueCount,
+    fees,
+    focusItems,
+    homeworkUpcoming,
+    holidays,
+    announcements,
+    recentReceipts
+  ] =
     await Promise.all([
       Student.countDocuments(),
       Homework.countDocuments({ dueDate: { $gte: startOfDay(now), $lte: upcomingEnd } }),
@@ -30,10 +42,50 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
       Holiday.find({ date: { $gte: startOfDay(now), $lte: upcomingEnd } })
         .sort({ date: 1 })
         .limit(5),
-      Announcement.find().sort({ date: -1 }).limit(5)
+      Announcement.find().sort({ date: -1 }).limit(5),
+      Receipt.find()
+        .sort({ paidOn: -1, createdAt: -1 })
+        .limit(8)
+        .populate("studentId", "name studentId")
+        .lean()
     ]);
 
-  const feesPendingTotal = fees.reduce((sum, item) => {
+  const feeTotals = fees.reduce(
+    (acc, item) => {
+      const expected = Number(item.total || 0);
+      const paid = (item.payments || []).reduce((p, pay) => p + Number(pay.amount || 0), 0);
+      const due = Math.max(expected - paid, 0);
+      acc.expected += expected;
+      acc.collected += paid;
+      acc.pending += due;
+      if (due > 0) acc.studentsWithPending += 1;
+      acc.thisMonth += (item.payments || []).reduce((monthSum, payment) => {
+        const paidOn = payment?.paidOn ? new Date(payment.paidOn) : null;
+        if (!paidOn) return monthSum;
+        if (paidOn >= monthStart && paidOn < monthEnd) {
+          return monthSum + Number(payment.amount || 0);
+        }
+        return monthSum;
+      }, 0);
+      return acc;
+    },
+    { expected: 0, collected: 0, pending: 0, thisMonth: 0, studentsWithPending: 0 }
+  );
+
+  const feesCollectedTotal = feeTotals.collected;
+  const collectionRate = feeTotals.expected
+    ? Math.round((feeTotals.collected / feeTotals.expected) * 100)
+    : 0;
+
+  const recentPayments = recentReceipts.map((receipt) => ({
+    id: receipt._id,
+    studentName: receipt?.studentId?.name || receipt?.studentId?.studentId || "Student",
+    amount: Number(receipt.amount || 0),
+    method: receipt.method || "UPI",
+    paidOn: receipt.paidOn || receipt.createdAt
+  }));
+
+  const feesPendingTotalLegacy = fees.reduce((sum, item) => {
     const paid = (item.payments || []).reduce((p, pay) => p + pay.amount, 0);
     return sum + Math.max(item.total - paid, 0);
   }, 0);
@@ -57,7 +109,17 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
     stats: {
       students: studentCount,
       homeworkDue: homeworkDueCount,
-      feesPendingTotal
+      feesPendingTotal: feesPendingTotalLegacy,
+      feesCollectedTotal
+    },
+    feesOverview: {
+      expectedTotal: feeTotals.expected,
+      collectedTotal: feeTotals.collected,
+      pendingTotal: feeTotals.pending,
+      collectedThisMonth: feeTotals.thisMonth,
+      collectionRate,
+      studentsWithPending: feeTotals.studentsWithPending,
+      recentPayments
     },
     focus: focusItems.map((item) => ({
       subject: item.subject,
