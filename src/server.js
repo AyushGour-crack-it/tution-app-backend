@@ -9,6 +9,8 @@ import { readFileSync } from "fs";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import { Server } from "socket.io";
+import { createAdapter } from "@socket.io/redis-adapter";
+import { createClient } from "redis";
 
 import studentRoutes from "./routes/students.js";
 import classRoutes from "./routes/classes.js";
@@ -196,7 +198,7 @@ const validateSecurityConfig = () => {
   }
 };
 
-const buildSocketServer = () => {
+const buildSocketServer = async () => {
   const io = new Server(httpServer, {
     cors: {
       origin: (origin, callback) => {
@@ -241,6 +243,21 @@ const buildSocketServer = () => {
     }
   });
 
+  const redisUrl = process.env.REDIS_URL || "";
+  if (redisUrl) {
+    try {
+      const pubClient = createClient({ url: redisUrl });
+      const subClient = pubClient.duplicate();
+      await Promise.all([pubClient.connect(), subClient.connect()]);
+      io.adapter(createAdapter(pubClient, subClient));
+      // eslint-disable-next-line no-console
+      console.log("Socket.IO Redis adapter enabled");
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.warn("Socket.IO Redis adapter init failed, falling back to in-memory adapter");
+    }
+  }
+
   setRealtimeServer(io);
 };
 
@@ -252,7 +269,7 @@ const start = async () => {
   validateSecurityConfig();
 
   await mongoose.connect(mongoUri);
-  buildSocketServer();
+  await buildSocketServer();
   await ensureBadgeCatalog();
   await notifyFeatureUpdateIfNeeded();
   httpServer.listen(port, () => {
