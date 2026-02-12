@@ -2,6 +2,8 @@ import express from "express";
 import bcrypt from "bcryptjs";
 import multer from "multer";
 import { Readable } from "stream";
+import { randomUUID } from "crypto";
+import { OAuth2Client } from "google-auth-library";
 import User from "../models/User.js";
 import Student from "../models/Student.js";
 import Otp from "../models/Otp.js";
@@ -24,6 +26,7 @@ import {
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } });
+const googleClient = new OAuth2Client();
 
 const toResponseUser = (user) => ({
   id: user._id,
@@ -44,6 +47,26 @@ const maybeNotifyTeacherForNewStudentLogin = async (user) => {
     message: `${user.name} just logged in as a student.`,
     target: "teacher"
   });
+};
+
+const verifyGoogleCredential = async (credential) => {
+  const clientId = process.env.GOOGLE_CLIENT_ID;
+  if (!clientId) {
+    throw new Error("Google auth is not configured");
+  }
+  const ticket = await googleClient.verifyIdToken({
+    idToken: credential,
+    audience: clientId
+  });
+  const payload = ticket.getPayload();
+  if (!payload || !payload.email || !payload.email_verified) {
+    throw new Error("Google account email is not verified");
+  }
+  return {
+    email: normalizeEmail(payload.email),
+    name: sanitizeText(payload.name, 120),
+    avatarUrl: payload.picture || ""
+  };
 };
 
 router.post("/register", registerLimiter, upload.single("avatar"), async (req, res) => {
@@ -153,6 +176,95 @@ router.post("/login", loginLimiter, async (req, res) => {
   await user.save();
   const token = signToken(user);
   return res.json({
+    token,
+    user: toResponseUser(user)
+  });
+});
+
+router.post("/google", loginLimiter, async (req, res) => {
+  const credential = sanitizeText(req.body.credential, 4000);
+  const mode = sanitizeText(req.body.mode, 16) || "login";
+  const role = sanitizeText(req.body.role, 20);
+  const teacherAccessId = sanitizeText(req.body.teacherAccessId, 120);
+  const studentId = sanitizeText(req.body.studentId, 120);
+  const phone = normalizePhone(req.body.phone);
+  const bio = sanitizeText(req.body.bio, 280);
+  const providedName = sanitizeText(req.body.name, 120);
+
+  if (!credential) {
+    return res.status(400).json({ message: "Missing Google credential" });
+  }
+  if (!["login", "register"].includes(mode)) {
+    return res.status(400).json({ message: "Invalid Google auth mode" });
+  }
+
+  let googleProfile;
+  try {
+    googleProfile = await verifyGoogleCredential(credential);
+  } catch (error) {
+    return res.status(401).json({ message: error.message || "Invalid Google sign-in" });
+  }
+
+  const existingUser = await User.findOne({ email: googleProfile.email });
+
+  if (mode === "login") {
+    if (!existingUser) {
+      return res.status(404).json({ message: "No account found for this Google email. Register first." });
+    }
+    if (!existingUser.avatarUrl && googleProfile.avatarUrl) {
+      existingUser.avatarUrl = googleProfile.avatarUrl;
+    }
+    await maybeNotifyTeacherForNewStudentLogin(existingUser);
+    existingUser.lastLoginAt = new Date();
+    await existingUser.save();
+    const token = signToken(existingUser);
+    return res.json({
+      token,
+      user: toResponseUser(existingUser)
+    });
+  }
+
+  if (existingUser) {
+    return res.status(409).json({ message: "Email already registered. Use Sign In with Google." });
+  }
+  if (!["teacher", "student"].includes(role)) {
+    return res.status(400).json({ message: "Choose role before Google signup" });
+  }
+  if (role === "teacher") {
+    const expectedTeacherAccessId = process.env.TEACHER_ACCESS_ID || "Ayush@8090";
+    if (!teacherAccessId || teacherAccessId !== expectedTeacherAccessId) {
+      return res.status(403).json({ message: "Invalid Teacher ID" });
+    }
+  }
+  if (role === "student" && !studentId) {
+    return res.status(400).json({ message: "Student profile ID is required" });
+  }
+  if (role === "student") {
+    const student = await Student.findById(studentId);
+    if (!student) {
+      return res.status(400).json({ message: "Invalid studentId" });
+    }
+  }
+
+  const passwordHash = await bcrypt.hash(randomUUID(), 10);
+  const user = await User.create({
+    name: providedName || googleProfile.name || googleProfile.email.split("@")[0],
+    email: googleProfile.email,
+    phone,
+    passwordHash,
+    role,
+    studentId: role === "student" ? studentId : null,
+    avatarUrl: googleProfile.avatarUrl,
+    bio: bio || ""
+  });
+
+  if (user.role === "student") {
+    await maybeNotifyTeacherForNewStudentLogin(user);
+    user.lastLoginAt = new Date();
+    await user.save();
+  }
+  const token = signToken(user);
+  return res.status(201).json({
     token,
     user: toResponseUser(user)
   });
