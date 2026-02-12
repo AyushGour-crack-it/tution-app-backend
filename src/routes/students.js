@@ -16,6 +16,49 @@ import { calculateLevelProgress } from "../utils/gamification.js";
 
 const router = express.Router();
 
+const mapDirectoryItem = ({
+  user,
+  profile,
+  earned,
+  definitionMap,
+  viewerUserId
+}) => {
+  const totalXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
+  const level = calculateLevelProgress(totalXp);
+  return {
+    userId: user._id.toString(),
+    name: user.name || "",
+    avatarUrl: user.avatarUrl || "",
+    bio: user.bio || "",
+    studentProfileId: user.studentId ? user.studentId.toString() : "",
+    rollNumber: profile?.rollNumber || "",
+    grade: profile?.grade || "",
+    level,
+    totalXp,
+    likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0,
+    likedByMe: Array.isArray(user.profileLikedBy)
+      ? user.profileLikedBy.some((likedUserId) => likedUserId.toString() === viewerUserId)
+      : false,
+    badges: earned
+      .map((badge) => {
+        const definition = definitionMap[badge.badgeKey];
+        return {
+          key: badge.badgeKey,
+          title: definition?.title || badge.titleSnapshot,
+          category: definition?.category || "",
+          rarity: definition?.rarity || badge.raritySnapshot,
+          xpValue: badge.xpValueSnapshot || definition?.xpValue || 0,
+          imageUrl: definition?.imageUrl || ""
+        };
+      })
+      .sort((a, b) => {
+        const xpDelta = (Number(a?.xpValue) || 0) - (Number(b?.xpValue) || 0);
+        if (xpDelta !== 0) return xpDelta;
+        return String(a?.title || "").localeCompare(String(b?.title || ""));
+      })
+  };
+};
+
 router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const items = await Student.find().sort({ createdAt: -1 });
   res.json(items);
@@ -62,42 +105,45 @@ router.get("/directory", requireAuth, async (req, res) => {
       const profileId = user.studentId ? user.studentId.toString() : "";
       const profile = profileLookup[profileId] || null;
       const earned = earnedByUserId[user._id.toString()] || [];
-      const totalXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
-      const level = calculateLevelProgress(totalXp);
-      return {
-        userId: user._id.toString(),
-        name: user.name || "",
-        avatarUrl: user.avatarUrl || "",
-        bio: user.bio || "",
-        studentProfileId: profileId,
-        rollNumber: profile?.rollNumber || "",
-        grade: profile?.grade || "",
-        level,
-        totalXp,
-        likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0,
-        likedByMe: Array.isArray(user.profileLikedBy)
-          ? user.profileLikedBy.some((likedUserId) => likedUserId.toString() === req.user.sub)
-          : false,
-        badges: earned.map((badge) => {
-          const definition = definitionMap[badge.badgeKey];
-          return {
-            key: badge.badgeKey,
-            title: definition?.title || badge.titleSnapshot,
-            category: definition?.category || "",
-            rarity: definition?.rarity || badge.raritySnapshot,
-            xpValue: badge.xpValueSnapshot || definition?.xpValue || 0,
-            imageUrl: definition?.imageUrl || ""
-          };
-        }).sort((a, b) => {
-          const xpDelta = (Number(a?.xpValue) || 0) - (Number(b?.xpValue) || 0);
-          if (xpDelta !== 0) return xpDelta;
-          return String(a?.title || "").localeCompare(String(b?.title || ""));
-        })
-      };
+      return mapDirectoryItem({
+        user,
+        profile,
+        earned,
+        definitionMap,
+        viewerUserId: req.user.sub
+      });
     })
     .sort((a, b) => a.name.localeCompare(b.name));
 
   res.json(directory);
+});
+
+router.get("/directory/:userId", requireAuth, async (req, res) => {
+  const targetUser = await User.findOne({ _id: req.params.userId, role: "student" })
+    .select("name avatarUrl bio studentId profileLikedBy")
+    .lean();
+  if (!targetUser) {
+    return res.status(404).json({ message: "Student not found" });
+  }
+
+  const [profile, earned, badgeDefinitions] = await Promise.all([
+    targetUser.studentId ? Student.findById(targetUser.studentId).select("rollNumber grade").lean() : null,
+    StudentBadge.find({ studentUserId: targetUser._id }).lean(),
+    BadgeDefinition.find({ active: true }).lean()
+  ]);
+
+  const definitionMap = Object.fromEntries(
+    badgeDefinitions.map((definition) => [definition.key, definition])
+  );
+
+  const item = mapDirectoryItem({
+    user: targetUser,
+    profile,
+    earned,
+    definitionMap,
+    viewerUserId: req.user.sub
+  });
+  return res.json(item);
 });
 
 router.post("/:userId/like", requireAuth, requireRole("student"), async (req, res) => {
