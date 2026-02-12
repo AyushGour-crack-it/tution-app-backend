@@ -195,12 +195,6 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
     return res.status(400).json({ message: "Rejection reason is required" });
   }
 
-  request.status = action === "approve" ? "approved" : "rejected";
-  request.teacherMessage = teacherMessage;
-  request.reviewedBy = new mongoose.Types.ObjectId(req.user.sub);
-  request.reviewedAt = new Date();
-  await request.save();
-
   if (action === "approve") {
     if (badge.annualCap && badge.annualCap > 0) {
       const yearStart = new Date(new Date().getFullYear(), 0, 1);
@@ -215,7 +209,15 @@ router.post("/requests/:id/review", requireAuth, requireRole("teacher"), async (
           .json({ message: `Annual cap reached for "${badge.title}" (${badge.annualCap}/year)` });
       }
     }
+  }
 
+  request.status = action === "approve" ? "approved" : "rejected";
+  request.teacherMessage = teacherMessage;
+  request.reviewedBy = new mongoose.Types.ObjectId(req.user.sub);
+  request.reviewedAt = new Date();
+  await request.save();
+
+  if (action === "approve") {
     const existing = await StudentBadge.findOne({
       studentUserId: request.studentUserId,
       badgeKey: request.badgeKey
