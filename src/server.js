@@ -3,9 +3,12 @@ import cors from "cors";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import mongoose from "mongoose";
+import jwt from "jsonwebtoken";
+import { createServer } from "http";
 import { readFileSync } from "fs";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
+import { Server } from "socket.io";
 
 import studentRoutes from "./routes/students.js";
 import classRoutes from "./routes/classes.js";
@@ -27,12 +30,15 @@ import badgeRoutes from "./routes/badges.js";
 import Notification from "./models/Notification.js";
 import SystemState from "./models/SystemState.js";
 import BadgeDefinition from "./models/BadgeDefinition.js";
+import User from "./models/User.js";
 import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
+import { setRealtimeServer } from "./utils/realtime.js";
 
 dotenv.config();
 
 const app = express();
+const httpServer = createServer(app);
 const port = process.env.PORT || 5000;
 const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
 const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD !== "false";
@@ -190,6 +196,54 @@ const validateSecurityConfig = () => {
   }
 };
 
+const buildSocketServer = () => {
+  const io = new Server(httpServer, {
+    cors: {
+      origin: (origin, callback) => {
+        if (!origin) return callback(null, true);
+        if (isAllowedOrigin(origin)) return callback(null, true);
+        return callback(new Error(`CORS blocked for origin: ${origin}`));
+      },
+      methods: ["GET", "POST"]
+    }
+  });
+
+  io.use(async (socket, next) => {
+    try {
+      const authToken = socket.handshake?.auth?.token || "";
+      const header = socket.handshake?.headers?.authorization || "";
+      const tokenFromHeader = header.startsWith("Bearer ") ? header.slice(7) : "";
+      const token = authToken || tokenFromHeader;
+      if (!token) return next(new Error("Missing token"));
+      const secret = process.env.JWT_SECRET;
+      if (!secret) return next(new Error("JWT secret missing"));
+      const payload = jwt.verify(token, secret);
+      const user = await User.findById(payload.sub).select("_id role studentId").lean();
+      if (!user) return next(new Error("Session expired"));
+      socket.data.user = {
+        id: user._id.toString(),
+        role: user.role,
+        studentId: user.studentId ? user.studentId.toString() : null
+      };
+      return next();
+    } catch {
+      return next(new Error("Invalid token"));
+    }
+  });
+
+  io.on("connection", (socket) => {
+    const user = socket.data.user;
+    if (!user?.id) return;
+    socket.join(`user:${user.id}`);
+    socket.join(`role:${user.role}`);
+    if (user.studentId) {
+      socket.join(`student:${user.studentId}`);
+    }
+  });
+
+  setRealtimeServer(io);
+};
+
 const start = async () => {
   const mongoUri = process.env.MONGODB_URI;
   if (!mongoUri) {
@@ -198,9 +252,10 @@ const start = async () => {
   validateSecurityConfig();
 
   await mongoose.connect(mongoUri);
+  buildSocketServer();
   await ensureBadgeCatalog();
   await notifyFeatureUpdateIfNeeded();
-  app.listen(port, () => {
+  httpServer.listen(port, () => {
     // eslint-disable-next-line no-console
     console.log(`API listening on http://localhost:${port}`);
   });

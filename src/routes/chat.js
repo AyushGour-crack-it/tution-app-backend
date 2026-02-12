@@ -10,6 +10,7 @@ import {
   chatReactionLimiter,
   chatUploadLimiter
 } from "../utils/rateLimiters.js";
+import { emitChatMessageCreated } from "../utils/realtime.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
@@ -79,6 +80,7 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     replyTo: replyTo || null,
     readBy: [req.user.sub]
   });
+  emitChatMessageCreated(created);
   return res.status(201).json(created);
 });
 

@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { emitNotificationCreated } from "../utils/realtime.js";
 
 const NotificationSchema = new mongoose.Schema(
   {
@@ -11,5 +12,16 @@ const NotificationSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
+NotificationSchema.pre("save", function markIfNew(next) {
+  this.$locals = this.$locals || {};
+  this.$locals.wasNew = this.isNew;
+  next();
+});
+
+NotificationSchema.post("save", function emitOnCreate(doc) {
+  if (!doc?.$locals?.wasNew) return;
+  emitNotificationCreated(doc);
+});
 
 export default mongoose.model("Notification", NotificationSchema);
