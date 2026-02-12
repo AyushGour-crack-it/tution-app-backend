@@ -26,6 +26,7 @@ const MessageSchema = new mongoose.Schema(
     mimeType: { type: String, default: "" },
     replyTo: { type: mongoose.Schema.Types.ObjectId, ref: "Message", default: null },
     reactions: { type: [ReactionSchema], default: [] },
+    readBy: { type: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }], default: [] },
     editedAt: { type: Date, default: null }
   },
   { timestamps: true }

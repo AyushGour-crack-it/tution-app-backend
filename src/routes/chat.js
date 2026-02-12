@@ -76,9 +76,33 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     content,
     fileName: fileName || "",
     mimeType: mimeType || "",
-    replyTo: replyTo || null
+    replyTo: replyTo || null,
+    readBy: [req.user.sub]
   });
   return res.status(201).json(created);
+});
+
+router.post("/messages/read", requireAuth, async (req, res) => {
+  const userId = req.user.sub;
+  const visibilityQuery =
+    req.user.role === "teacher"
+      ? {}
+      : {
+          $or: [{ recipientUserId: null }, { recipientUserId: userId }]
+        };
+
+  const updated = await Message.updateMany(
+    {
+      ...visibilityQuery,
+      senderId: { $ne: userId },
+      readBy: { $ne: userId }
+    },
+    { $addToSet: { readBy: userId } }
+  );
+
+  return res.json({
+    updatedCount: updated.modifiedCount || 0
+  });
 });
 
 router.put("/messages/:id", requireAuth, async (req, res) => {
