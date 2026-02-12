@@ -1,6 +1,7 @@
 import express from "express";
 import Mark from "../models/Mark.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { emitLeaderboardUpdated, emitMarksUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -18,6 +19,8 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Mark.create(req.body);
+  emitMarksUpdated({ action: "created", markId: created._id?.toString() || "" });
+  emitLeaderboardUpdated({ source: "marks" });
   res.status(201).json(created);
 });
 
@@ -26,6 +29,8 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Mark not found" });
   }
+  emitMarksUpdated({ action: "updated", markId: updated._id?.toString() || "" });
+  emitLeaderboardUpdated({ source: "marks" });
   return res.json(updated);
 });
 
@@ -34,6 +39,8 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Mark not found" });
   }
+  emitMarksUpdated({ action: "deleted", markId: deleted._id?.toString() || "" });
+  emitLeaderboardUpdated({ source: "marks" });
   return res.json({ message: "Mark deleted" });
 });
 

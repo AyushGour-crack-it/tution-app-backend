@@ -1,6 +1,7 @@
 import express from "express";
 import Homework from "../models/Homework.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { emitHomeworkUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -11,6 +12,7 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Homework.create(req.body);
+  emitHomeworkUpdated({ action: "created", homeworkId: created._id?.toString() || "" });
   res.status(201).json(created);
 });
 
@@ -19,6 +21,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Homework not found" });
   }
+  emitHomeworkUpdated({ action: "updated", homeworkId: updated._id?.toString() || "" });
   return res.json(updated);
 });
 
@@ -27,6 +30,7 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Homework not found" });
   }
+  emitHomeworkUpdated({ action: "deleted", homeworkId: deleted._id?.toString() || "" });
   return res.json({ message: "Homework deleted" });
 });
 

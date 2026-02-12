@@ -81,3 +81,33 @@ export const emitBadgeAwarded = ({ studentUserId, badgeKey }) => {
   if (!ioInstance || !studentUserId) return;
   emitToRoom(`user:${String(studentUserId)}`, "badge:awarded", { badgeKey: String(badgeKey || "") });
 };
+
+export const emitMarksUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "marks:updated", payload);
+  emitToRoom("role:student", "marks:updated", payload);
+};
+
+export const emitAttendanceUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "attendance:updated", payload);
+  emitToRoom("role:student", "attendance:updated", payload);
+};
+
+export const emitHomeworkUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "homework:updated", payload);
+  emitToRoom("role:student", "homework:updated", payload);
+};
+
+export const emitLeaderboardUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "leaderboard:updated", payload);
+  emitToRoom("role:student", "leaderboard:updated", payload);
+};
+
+export const emitStudentsUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "students:updated", payload);
+  emitToRoom("role:student", "students:updated", payload);
+};
+
+export const emitBadgesUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "badges:updated", payload);
+  emitToRoom("role:student", "badges:updated", payload);
+};

@@ -13,6 +13,7 @@ import Notification from "../models/Notification.js";
 import Message from "../models/Message.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { calculateLevelProgress } from "../utils/gamification.js";
+import { emitLeaderboardUpdated, emitStudentsUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -66,6 +67,7 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Student.create(req.body);
+  emitStudentsUpdated({ action: "created", studentId: created._id?.toString() || "" });
   res.status(201).json(created);
 });
 
@@ -180,6 +182,7 @@ router.post("/:userId/like", requireAuth, requireRole("student"), async (req, re
 
   const updated = await User.findById(targetUserId).select("profileLikedBy").lean();
   const likesCount = Array.isArray(updated?.profileLikedBy) ? updated.profileLikedBy.length : 0;
+  emitStudentsUpdated({ action: "liked", userId: targetUserId });
   return res.json({
     liked: !currentlyLiked,
     likesCount
@@ -210,6 +213,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Student not found" });
   }
+  emitStudentsUpdated({ action: "updated", studentId: updated._id?.toString() || "" });
   return res.json(updated);
 });
 
@@ -258,6 +262,9 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
       ]
     })
   ]);
+
+  emitStudentsUpdated({ action: "deleted", studentId: deleted._id?.toString() || "" });
+  emitLeaderboardUpdated({ source: "students" });
 
   return res.json({ message: "Student deleted" });
 });
