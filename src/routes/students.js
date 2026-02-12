@@ -1,5 +1,6 @@
 import express from "express";
 import Student from "../models/Student.js";
+import User from "../models/User.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 
 const router = express.Router();
@@ -12,6 +13,42 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Student.create(req.body);
   res.status(201).json(created);
+});
+
+router.get("/directory", requireAuth, async (req, res) => {
+  const users = await User.find({ role: "student" })
+    .select("name avatarUrl bio studentId")
+    .lean();
+
+  const studentIds = users
+    .map((user) => user.studentId)
+    .filter(Boolean);
+
+  const studentProfiles = await Student.find({ _id: { $in: studentIds } })
+    .select("rollNumber grade")
+    .lean();
+
+  const profileLookup = Object.fromEntries(
+    studentProfiles.map((profile) => [profile._id.toString(), profile])
+  );
+
+  const directory = users
+    .map((user) => {
+      const profileId = user.studentId ? user.studentId.toString() : "";
+      const profile = profileLookup[profileId] || null;
+      return {
+        userId: user._id.toString(),
+        name: user.name || "",
+        avatarUrl: user.avatarUrl || "",
+        bio: user.bio || "",
+        studentProfileId: profileId,
+        rollNumber: profile?.rollNumber || "",
+        grade: profile?.grade || ""
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  res.json(directory);
 });
 
 router.get("/me", requireAuth, requireRole("student"), async (req, res) => {
