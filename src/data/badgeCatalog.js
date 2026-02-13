@@ -89,5 +89,15 @@ export const badgeCatalogSeed = [
     xpValue: 0,
     hidden: false,
     imageUrl: "/badges/kira.png"
+  },
+  {
+    key: "nico_robin_3sunday",
+    title: "NICO ROBIN",
+    description: "Study 3 hours on Sundays for 3 consecutive Sundays. Parent approval required.",
+    category: "fun_event",
+    rarity: "legendary",
+    xpValue: 0,
+    hidden: false,
+    imageUrl: "/badges/nico-robin.png"
   }
 ];
