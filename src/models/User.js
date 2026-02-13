@@ -10,6 +10,7 @@ const UserSchema = new mongoose.Schema(
     studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student", default: null },
     avatarUrl: { type: String, default: "" },
     bio: { type: String, default: "" },
+    fcmTokens: { type: [String], default: [] },
     profileLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     lastLoginAt: { type: Date, default: null }
   },

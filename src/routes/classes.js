@@ -1,6 +1,7 @@
 import express from "express";
 import ClassModel from "../models/Class.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { emitClassesUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -11,6 +12,7 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await ClassModel.create(req.body);
+  emitClassesUpdated({ action: "created", classId: created._id?.toString() || "" });
   res.status(201).json(created);
 });
 
@@ -27,6 +29,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Class not found" });
   }
+  emitClassesUpdated({ action: "updated", classId: updated._id?.toString() || "" });
   return res.json(updated);
 });
 
@@ -35,6 +38,7 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Class not found" });
   }
+  emitClassesUpdated({ action: "deleted", classId: deleted._id?.toString() || "" });
   return res.json({ message: "Class deleted" });
 });
 

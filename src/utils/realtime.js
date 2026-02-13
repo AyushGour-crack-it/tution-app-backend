@@ -111,3 +111,23 @@ export const emitBadgesUpdated = (payload = {}) => {
   emitToRoom("role:teacher", "badges:updated", payload);
   emitToRoom("role:student", "badges:updated", payload);
 };
+
+export const emitClassesUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "classes:updated", payload);
+  emitToRoom("role:student", "classes:updated", payload);
+};
+
+export const emitSyllabusUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "syllabus:updated", payload);
+  emitToRoom("role:student", "syllabus:updated", payload);
+};
+
+export const emitHolidaysUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "holidays:updated", payload);
+  emitToRoom("role:student", "holidays:updated", payload);
+};
+
+export const emitInvoicesUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "invoices:updated", payload);
+  emitToRoom("role:student", "invoices:updated", payload);
+};

@@ -2,6 +2,7 @@ import express from "express";
 import Holiday from "../models/Holiday.js";
 import Notification from "../models/Notification.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { emitHolidaysUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -12,6 +13,7 @@ router.get("/", requireAuth, async (req, res) => {
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
   const created = await Holiday.create(req.body);
+  emitHolidaysUpdated({ action: "created", holidayId: created._id?.toString() || "" });
   const holidayDate = created.date ? new Date(created.date).toLocaleDateString() : "";
   const details = [holidayDate, created.note].filter(Boolean).join(" - ");
   await Notification.create({
@@ -27,6 +29,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Holiday not found" });
   }
+  emitHolidaysUpdated({ action: "updated", holidayId: updated._id?.toString() || "" });
   return res.json(updated);
 });
 
@@ -35,6 +38,7 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Holiday not found" });
   }
+  emitHolidaysUpdated({ action: "deleted", holidayId: deleted._id?.toString() || "" });
   return res.json({ message: "Holiday deleted" });
 });
 

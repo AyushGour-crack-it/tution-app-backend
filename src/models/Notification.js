@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { emitNotificationCreated } from "../utils/realtime.js";
+import { sendPushByTarget } from "../utils/pushNotifications.js";
 
 const NotificationSchema = new mongoose.Schema(
   {
@@ -22,6 +23,16 @@ NotificationSchema.pre("save", function markIfNew(next) {
 NotificationSchema.post("save", function emitOnCreate(doc) {
   if (!doc?.$locals?.wasNew) return;
   emitNotificationCreated(doc);
+  sendPushByTarget({
+    target: doc.target,
+    studentId: doc.studentId,
+    title: doc.title,
+    body: doc.message,
+    data: {
+      type: "notification",
+      notificationId: doc._id?.toString() || ""
+    }
+  });
 });
 
 export default mongoose.model("Notification", NotificationSchema);

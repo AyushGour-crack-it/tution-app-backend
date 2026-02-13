@@ -1,6 +1,7 @@
 import express from "express";
 import Invoice from "../models/Invoice.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
+import { emitInvoicesUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
@@ -29,6 +30,7 @@ router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
     items: items || [],
     total
   });
+  emitInvoicesUpdated({ action: "created", invoiceId: created._id?.toString() || "" });
   res.status(201).json(created);
 });
 
@@ -37,6 +39,7 @@ router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!updated) {
     return res.status(404).json({ message: "Invoice not found" });
   }
+  emitInvoicesUpdated({ action: "updated", invoiceId: updated._id?.toString() || "" });
   res.json(updated);
 });
 
@@ -45,6 +48,7 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ message: "Invoice not found" });
   }
+  emitInvoicesUpdated({ action: "deleted", invoiceId: deleted._id?.toString() || "" });
   res.json({ message: "Invoice deleted" });
 });
 
