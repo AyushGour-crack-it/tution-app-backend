@@ -69,5 +69,15 @@ export const badgeCatalogSeed = [
     xpValue: 0,
     hidden: false,
     imageUrl: "/badges/holi-2026.svg"
+  },
+  {
+    key: "tanjiro_3x3",
+    title: "Tanjiro 3x3",
+    description: "Study 3 hours at home for 3 continuous days.",
+    category: "fun_event",
+    rarity: "epic",
+    xpValue: 0,
+    hidden: false,
+    imageUrl: "/badges/tanjiro-3x3.svg"
   }
 ];
