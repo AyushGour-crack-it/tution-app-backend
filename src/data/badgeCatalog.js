@@ -73,11 +73,21 @@ export const badgeCatalogSeed = [
   {
     key: "tanjiro_3x3",
     title: "Tanjiro 3x3",
-    description: "Study 3 hours at home for 3 continuous days.",
+    description: "Study 3 hours at home for 3 continuous days. Parent approval required.",
     category: "fun_event",
     rarity: "epic",
     xpValue: 0,
     hidden: false,
     imageUrl: "/badges/tanjirocard.png"
+  },
+  {
+    key: "kira_2h_7d",
+    title: "KIRA",
+    description: "Study 2 hours daily at home for 7 continuous days. Parent approval required.",
+    category: "fun_event",
+    rarity: "legendary",
+    xpValue: 0,
+    hidden: false,
+    imageUrl: "/badges/kira.png"
   }
 ];
