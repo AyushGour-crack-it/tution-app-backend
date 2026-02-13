@@ -99,5 +99,15 @@ export const badgeCatalogSeed = [
     xpValue: 0,
     hidden: false,
     imageUrl: "/badges/nico-robin.png"
+  },
+  {
+    key: "goku_5h_sunday",
+    title: "GOKU",
+    description: "Study 5 hours in a single Sunday. Parent approval required.",
+    category: "fun_event",
+    rarity: "legendary",
+    xpValue: 0,
+    hidden: false,
+    imageUrl: "/badges/goku.png"
   }
 ];
