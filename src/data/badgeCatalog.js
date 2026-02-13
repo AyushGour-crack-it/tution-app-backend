@@ -78,6 +78,6 @@ export const badgeCatalogSeed = [
     rarity: "epic",
     xpValue: 0,
     hidden: false,
-    imageUrl: "/badges/tanjirocard.jpeg"
+    imageUrl: "/badges/tanjirocard.png"
   }
 ];
