@@ -68,7 +68,8 @@ export const badgeCatalogSeed = [
     rarity: "rare",
     xpValue: 0,
     hidden: false,
-    imageUrl: "/badges/holi-2026.svg"
+    imageUrl: "/badges/holi-2026.svg",
+    active: false
   },
   {
     key: "tanjiro_3x3",
