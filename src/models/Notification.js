@@ -30,7 +30,8 @@ NotificationSchema.post("save", function emitOnCreate(doc) {
     body: doc.message,
     data: {
       type: "notification",
-      notificationId: doc._id?.toString() || ""
+      notificationId: doc._id?.toString() || "",
+      clickAction: "/notifications"
     }
   });
 });

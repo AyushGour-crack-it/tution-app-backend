@@ -37,6 +37,7 @@ import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
 import { setRealtimeServer } from "./utils/realtime.js";
 
+
 dotenv.config();
 
 const app = express();
