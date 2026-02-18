@@ -13,6 +13,19 @@ const UserSchema = new mongoose.Schema(
     fcmTokens: { type: [String], default: [] },
     bonusXp: { type: Number, default: 0 },
     lastDailyXpAt: { type: Date, default: null },
+    streakCount: { type: Number, default: 0 },
+    lastActiveDate: { type: Date, default: null },
+    totalXP: { type: Number, default: 0 },
+    subjectXP: {
+      type: Map,
+      of: Number,
+      default: {}
+    },
+    subjectLevel: {
+      type: Map,
+      of: Number,
+      default: {}
+    },
     studentApprovalStatus: {
       type: String,
       enum: ["approved", "pending", "rejected"],

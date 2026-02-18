@@ -29,6 +29,7 @@ import invoiceRoutes from "./routes/invoices.js";
 import receiptRoutes from "./routes/receipts.js";
 import leaderboardRoutes from "./routes/leaderboard.js";
 import badgeRoutes from "./routes/badges.js";
+import quizRoutes from "./routes/quizRoutes.js";
 import Notification from "./models/Notification.js";
 import SystemState from "./models/SystemState.js";
 import BadgeDefinition from "./models/BadgeDefinition.js";
@@ -177,6 +178,7 @@ app.use("/api/invoices", invoiceRoutes);
 app.use("/api/receipts", receiptRoutes);
 app.use("/api/leaderboard", leaderboardRoutes);
 app.use("/api/badges", badgeRoutes);
+app.use("/api/quiz", quizRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
