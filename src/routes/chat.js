@@ -206,7 +206,7 @@ router.post("/messages/read", requireAuth, async (req, res) => {
   });
 });
 
-router.put("/messages/:id", requireAuth, async (req, res) => {
+router.put("/messages/:id([0-9a-fA-F]{24})", requireAuth, async (req, res) => {
   const { content } = req.body;
   const message = await Message.findById(req.params.id);
   if (!message) {
@@ -228,7 +228,7 @@ router.put("/messages/:id", requireAuth, async (req, res) => {
   return res.json(message);
 });
 
-router.delete("/messages/:id", requireAuth, async (req, res) => {
+router.delete("/messages/:id([0-9a-fA-F]{24})", requireAuth, async (req, res) => {
   const message = await Message.findById(req.params.id);
   if (!message) {
     return res.status(404).json({ message: "Message not found" });
@@ -247,7 +247,7 @@ router.delete("/messages/:id", requireAuth, async (req, res) => {
   return res.json({ message: "Deleted" });
 });
 
-router.post("/messages/:id/reactions", requireAuth, chatReactionLimiter, async (req, res) => {
+router.post("/messages/:id([0-9a-fA-F]{24})/reactions", requireAuth, chatReactionLimiter, async (req, res) => {
   const { emoji } = req.body;
   if (!emoji) {
     return res.status(400).json({ message: "Missing emoji" });
