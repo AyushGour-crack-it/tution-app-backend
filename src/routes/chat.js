@@ -11,6 +11,7 @@ import {
   chatUploadLimiter
 } from "../utils/rateLimiters.js";
 import { emitChatMessageCreated } from "../utils/realtime.js";
+import { sendPushToUsers } from "../utils/pushNotifications.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
@@ -23,6 +24,52 @@ const canAccessMessage = (message, user) => {
     String(message.senderId) === me ||
     String(message.recipientUserId) === me
   );
+};
+
+const toPushBody = (message) => {
+  const content = String(message?.content || "").trim();
+  if (!content) return "New message";
+  return content.length > 120 ? `${content.slice(0, 117)}...` : content;
+};
+
+const sendChatPush = async ({ created, senderRole, senderId }) => {
+  const senderUserId = String(senderId || "");
+  const recipientUserId = created?.recipientUserId ? String(created.recipientUserId) : "";
+  const senderName = String(created?.senderName || "Someone");
+  const title = `New message from ${senderName}`;
+  const body = toPushBody(created);
+
+  if (recipientUserId) {
+    await sendPushToUsers({
+      userIds: [recipientUserId],
+      title,
+      body,
+      data: {
+        type: "chat",
+        messageId: String(created?._id || ""),
+        clickAction: "/chat"
+      }
+    });
+    return;
+  }
+
+  const targetRole = senderRole === "teacher" ? "student" : "teacher";
+  const recipients = await User.find({ role: targetRole }).select("_id").lean();
+  const recipientIds = recipients
+    .map((user) => String(user?._id || ""))
+    .filter((id) => id && id !== senderUserId);
+
+  if (!recipientIds.length) return;
+  await sendPushToUsers({
+    userIds: recipientIds,
+    title,
+    body,
+    data: {
+      type: "chat",
+      messageId: String(created?._id || ""),
+      clickAction: "/chat"
+    }
+  });
 };
 
 router.get("/messages", requireAuth, async (req, res) => {
@@ -81,6 +128,7 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     readBy: [req.user.sub]
   });
   emitChatMessageCreated(created);
+  sendChatPush({ created, senderRole: req.user.role, senderId: req.user.sub }).catch(() => {});
   return res.status(201).json(created);
 });
 
