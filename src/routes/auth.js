@@ -9,7 +9,7 @@ import Student from "../models/Student.js";
 import Otp from "../models/Otp.js";
 import Notification from "../models/Notification.js";
 import cloudinary from "../utils/cloudinary.js";
-import { signToken, requireAuth } from "../utils/auth.js";
+import { signToken, requireAuth, requireRole } from "../utils/auth.js";
 import {
   loginLimiter,
   otpRequestLimiter,
@@ -37,8 +37,11 @@ const toResponseUser = (user) => ({
   studentId: user.studentId,
   avatarUrl: user.avatarUrl,
   bio: user.bio,
+  bonusXp: Number(user.bonusXp || 0),
   likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0
 });
+
+const startOfDay = (date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
 
 const maybeNotifyTeacherForNewStudentLogin = async (user) => {
   if (user.role !== "student" || user.lastLoginAt) return;
@@ -445,6 +448,43 @@ router.get("/me", requireAuth, async (req, res) => {
   }
   return res.json({
     user: toResponseUser(user)
+  });
+});
+
+router.post("/daily-xp", requireAuth, requireRole("student"), async (req, res) => {
+  const user = await User.findById(req.user.sub);
+  if (!user) {
+    return res.status(404).json({ message: "User not found" });
+  }
+
+  const now = new Date();
+  const todayStart = startOfDay(now);
+  const alreadyClaimedToday = user.lastDailyXpAt && user.lastDailyXpAt >= todayStart;
+  if (alreadyClaimedToday) {
+    return res.json({
+      awarded: false,
+      amount: 0,
+      totalBonusXp: Number(user.bonusXp || 0),
+      claimedAt: user.lastDailyXpAt
+    });
+  }
+
+  user.bonusXp = Number(user.bonusXp || 0) + 25;
+  user.lastDailyXpAt = now;
+  await user.save();
+
+  await Notification.create({
+    title: "Daily XP Bonus",
+    message: "You earned +25 XP for showing up today. Keep the streak alive!",
+    target: "student",
+    studentId: user.studentId || null
+  });
+
+  return res.json({
+    awarded: true,
+    amount: 25,
+    totalBonusXp: Number(user.bonusXp || 0),
+    claimedAt: now
   });
 });
 

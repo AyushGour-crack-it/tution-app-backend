@@ -45,8 +45,8 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
       Announcement.find().sort({ date: -1 }).limit(5),
       Receipt.find()
         .sort({ paidOn: -1, createdAt: -1 })
-        .limit(8)
-        .populate("studentId", "name studentId")
+        .limit(120)
+        .populate("studentId", "name studentId phone guardian")
         .lean()
     ]);
 
@@ -77,13 +77,35 @@ router.get("/", requireAuth, requireRole("teacher"), async (req, res) => {
     ? Math.round((feeTotals.collected / feeTotals.expected) * 100)
     : 0;
 
-  const recentPayments = recentReceipts.map((receipt) => ({
-    id: receipt._id,
-    studentName: receipt?.studentId?.name || receipt?.studentId?.studentId || "Student",
-    amount: Number(receipt.amount || 0),
-    method: receipt.method || "UPI",
-    paidOn: receipt.paidOn || receipt.createdAt
-  }));
+  const recentByStudent = new Map();
+  recentReceipts.forEach((receipt) => {
+    const key = String(receipt?.studentId?._id || "");
+    if (!key) return;
+    if (!recentByStudent.has(key)) recentByStudent.set(key, []);
+    recentByStudent.get(key).push(receipt);
+  });
+
+  const recentPayments = recentReceipts.slice(0, 8).map((receipt) => {
+    const key = String(receipt?.studentId?._id || "");
+    const history = recentByStudent.get(key) || [];
+    const index = history.findIndex((item) => String(item?._id || "") === String(receipt?._id || ""));
+    const previous = index >= 0 ? history[index + 1] : null;
+    const currentPaidOn = receipt?.paidOn ? new Date(receipt.paidOn) : new Date(receipt.createdAt);
+    const previousPaidOn = previous?.paidOn ? new Date(previous.paidOn) : previous?.createdAt ? new Date(previous.createdAt) : null;
+    const daysSincePrevious = previousPaidOn
+      ? Math.max(0, Math.floor((currentPaidOn.getTime() - previousPaidOn.getTime()) / (1000 * 60 * 60 * 24)))
+      : null;
+
+    return {
+      id: receipt._id,
+      studentName: receipt?.studentId?.name || receipt?.studentId?.studentId || "Student",
+      studentPhone: receipt?.studentId?.phone || receipt?.studentId?.guardian?.phone || "",
+      amount: Number(receipt.amount || 0),
+      method: receipt.method || "UPI",
+      paidOn: receipt.paidOn || receipt.createdAt,
+      daysSincePrevious
+    };
+  });
 
   const feesPendingTotalLegacy = fees.reduce((sum, item) => {
     const paid = (item.payments || []).reduce((p, pay) => p + pay.amount, 0);

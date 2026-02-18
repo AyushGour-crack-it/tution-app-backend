@@ -40,9 +40,14 @@ const toPublicBadgeCard = (badge, unlocked) => {
 };
 
 const loadStudentXp = async (studentUserId) => {
-  const earned = await StudentBadge.find({ studentUserId }).lean();
-  const totalXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
-  return { earned, totalXp, levelProgress: calculateLevelProgress(totalXp) };
+  const [earned, user] = await Promise.all([
+    StudentBadge.find({ studentUserId }).lean(),
+    User.findById(studentUserId).select("bonusXp").lean()
+  ]);
+  const badgeXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
+  const bonusXp = Number(user?.bonusXp || 0);
+  const totalXp = badgeXp + bonusXp;
+  return { earned, totalXp, bonusXp, levelProgress: calculateLevelProgress(totalXp) };
 };
 
 router.get("/catalog", requireAuth, async (req, res) => {
@@ -60,7 +65,7 @@ router.get("/catalog", requireAuth, async (req, res) => {
 
 router.get("/me", requireAuth, requireRole("student"), async (req, res) => {
   const studentUserId = req.user.sub;
-  const { earned, totalXp, levelProgress } = await loadStudentXp(studentUserId);
+  const { earned, totalXp, bonusXp, levelProgress } = await loadStudentXp(studentUserId);
   const badgeCatalog = await BadgeDefinition.find({ active: true }).lean();
   const catalogByKey = Object.fromEntries(badgeCatalog.map((badge) => [badge.key, badge]));
 
@@ -96,6 +101,7 @@ router.get("/me", requireAuth, requireRole("student"), async (req, res) => {
   return res.json({
     level: levelProgress,
     totalXp,
+    bonusXp,
     earned: earnedWithMeta,
     pendingBadgeKeys: [...pendingSet]
   });

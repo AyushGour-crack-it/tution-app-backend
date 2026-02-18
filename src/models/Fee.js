@@ -4,7 +4,10 @@ const PaymentSchema = new mongoose.Schema(
   {
     amount: { type: Number, required: true },
     paidOn: { type: Date, default: Date.now },
-    note: { type: String, default: "" }
+    note: { type: String, default: "" },
+    method: { type: String, default: "UPI" },
+    reference: { type: String, default: "" },
+    source: { type: String, enum: ["online", "offline", "manual"], default: "manual" }
   },
   { _id: false }
 );

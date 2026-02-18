@@ -11,6 +11,8 @@ const UserSchema = new mongoose.Schema(
     avatarUrl: { type: String, default: "" },
     bio: { type: String, default: "" },
     fcmTokens: { type: [String], default: [] },
+    bonusXp: { type: Number, default: 0 },
+    lastDailyXpAt: { type: Date, default: null },
     profileLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     lastLoginAt: { type: Date, default: null }
   },
