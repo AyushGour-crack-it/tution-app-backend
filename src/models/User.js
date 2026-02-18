@@ -13,6 +13,22 @@ const UserSchema = new mongoose.Schema(
     fcmTokens: { type: [String], default: [] },
     bonusXp: { type: Number, default: 0 },
     lastDailyXpAt: { type: Date, default: null },
+    studentApprovalStatus: {
+      type: String,
+      enum: ["approved", "pending", "rejected"],
+      default: "approved"
+    },
+    studentReviewMessage: { type: String, default: "" },
+    pendingStudentProfile: {
+      dateOfBirth: { type: Date, default: null },
+      schoolName: { type: String, default: "" },
+      grade: { type: String, default: "" },
+      address: { type: String, default: "" },
+      guardianName: { type: String, default: "" },
+      guardianPhone: { type: String, default: "" },
+      guardianRelation: { type: String, default: "" },
+      emergencyContact: { type: String, default: "" }
+    },
     profileLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     lastLoginAt: { type: Date, default: null }
   },

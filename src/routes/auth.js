@@ -38,18 +38,44 @@ const toResponseUser = (user) => ({
   avatarUrl: user.avatarUrl,
   bio: user.bio,
   bonusXp: Number(user.bonusXp || 0),
+  studentApprovalStatus: user.studentApprovalStatus || "approved",
+  studentReviewMessage: user.studentReviewMessage || "",
+  pendingStudentProfile: user.pendingStudentProfile || null,
   likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0
 });
 
 const startOfDay = (date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
 
 const maybeNotifyTeacherForNewStudentLogin = async (user) => {
-  if (user.role !== "student" || user.lastLoginAt) return;
+  if (user.role !== "student" || user.studentApprovalStatus !== "approved" || user.lastLoginAt) return;
   await Notification.create({
     title: "New Student Login",
     message: `${user.name} just logged in as a student.`,
     target: "teacher"
   });
+};
+
+const parseDateSafe = (value) => {
+  if (!value) return null;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+};
+
+const sanitizePendingStudentProfile = (body = {}) => ({
+  dateOfBirth: parseDateSafe(body.dateOfBirth),
+  schoolName: sanitizeText(body.schoolName, 120),
+  grade: sanitizeText(body.grade, 60),
+  address: sanitizeText(body.address, 240),
+  guardianName: sanitizeText(body.guardianName, 120),
+  guardianPhone: normalizePhone(body.guardianPhone),
+  guardianRelation: sanitizeText(body.guardianRelation, 80),
+  emergencyContact: normalizePhone(body.emergencyContact)
+});
+
+const generateRollNumber = () => {
+  const seed = Date.now().toString(36).slice(-6).toUpperCase();
+  const random = Math.random().toString(36).slice(2, 5).toUpperCase();
+  return `STD-${seed}${random}`;
 };
 
 const verifyGoogleCredential = async (credential) => {
@@ -73,7 +99,7 @@ const verifyGoogleCredential = async (credential) => {
 };
 
 router.post("/register", registerLimiter, upload.single("avatar"), async (req, res) => {
-  const { role, studentId } = req.body;
+  const { role } = req.body;
   const teacherAccessId = sanitizeText(req.body.teacherAccessId, 120);
   const name = sanitizeText(req.body.name, 120);
   const email = normalizeEmail(req.body.email);
@@ -105,12 +131,7 @@ router.post("/register", registerLimiter, upload.single("avatar"), async (req, r
   if (existing) {
     return res.status(409).json({ message: "Email already registered" });
   }
-  if (role === "student" && studentId) {
-    const student = await Student.findById(studentId);
-    if (!student) {
-      return res.status(400).json({ message: "Invalid studentId" });
-    }
-  }
+  const pendingStudentProfile = sanitizePendingStudentProfile(req.body);
   const passwordHash = await bcrypt.hash(password, 10);
   let avatarUrl = "";
   if (req.file) {
@@ -141,14 +162,25 @@ router.post("/register", registerLimiter, upload.single("avatar"), async (req, r
     phone,
     passwordHash,
     role,
-    studentId: role === "student" ? studentId || null : null,
+    studentId: null,
     avatarUrl,
-    bio: bio || ""
+    bio: bio || "",
+    studentApprovalStatus: role === "student" ? "pending" : "approved",
+    pendingStudentProfile: role === "student" ? pendingStudentProfile : undefined
   });
   if (user.role === "student") {
-    await maybeNotifyTeacherForNewStudentLogin(user);
-    user.lastLoginAt = new Date();
-    await user.save();
+    const details = [
+      `Name: ${user.name}`,
+      pendingStudentProfile.grade ? `Class: ${pendingStudentProfile.grade}` : "",
+      pendingStudentProfile.guardianPhone ? `Guardian: ${pendingStudentProfile.guardianPhone}` : ""
+    ]
+      .filter(Boolean)
+      .join(" | ");
+    await Notification.create({
+      title: "Student Registration Request",
+      message: details || `${user.name} requested student access.`,
+      target: "teacher"
+    });
   }
   const token = signToken(user);
   return res.status(201).json({
@@ -189,10 +221,10 @@ router.post("/google", loginLimiter, async (req, res) => {
   const mode = sanitizeText(req.body.mode, 16) || "login";
   const role = sanitizeText(req.body.role, 20);
   const teacherAccessId = sanitizeText(req.body.teacherAccessId, 120);
-  const studentId = sanitizeText(req.body.studentId, 120);
   const phone = normalizePhone(req.body.phone);
   const bio = sanitizeText(req.body.bio, 280);
   const providedName = sanitizeText(req.body.name, 120);
+  const pendingStudentProfile = sanitizePendingStudentProfile(req.body);
 
   if (!credential) {
     return res.status(400).json({ message: "Missing Google credential" });
@@ -239,16 +271,6 @@ router.post("/google", loginLimiter, async (req, res) => {
       return res.status(403).json({ message: "Invalid Teacher ID" });
     }
   }
-  if (role === "student" && !studentId) {
-    return res.status(400).json({ message: "Student profile ID is required" });
-  }
-  if (role === "student") {
-    const student = await Student.findById(studentId);
-    if (!student) {
-      return res.status(400).json({ message: "Invalid studentId" });
-    }
-  }
-
   const passwordHash = await bcrypt.hash(randomUUID(), 10);
   const user = await User.create({
     name: providedName || googleProfile.name || googleProfile.email.split("@")[0],
@@ -256,15 +278,26 @@ router.post("/google", loginLimiter, async (req, res) => {
     phone,
     passwordHash,
     role,
-    studentId: role === "student" ? studentId : null,
+    studentId: null,
     avatarUrl: googleProfile.avatarUrl,
-    bio: bio || ""
+    bio: bio || "",
+    studentApprovalStatus: role === "student" ? "pending" : "approved",
+    pendingStudentProfile: role === "student" ? pendingStudentProfile : undefined
   });
 
   if (user.role === "student") {
-    await maybeNotifyTeacherForNewStudentLogin(user);
-    user.lastLoginAt = new Date();
-    await user.save();
+    const details = [
+      `Name: ${user.name}`,
+      pendingStudentProfile.grade ? `Class: ${pendingStudentProfile.grade}` : "",
+      pendingStudentProfile.guardianPhone ? `Guardian: ${pendingStudentProfile.guardianPhone}` : ""
+    ]
+      .filter(Boolean)
+      .join(" | ");
+    await Notification.create({
+      title: "Student Registration Request",
+      message: details || `${user.name} requested student access.`,
+      target: "teacher"
+    });
   }
   const token = signToken(user);
   return res.status(201).json({
@@ -451,10 +484,88 @@ router.get("/me", requireAuth, async (req, res) => {
   });
 });
 
+router.get("/student-requests", requireAuth, requireRole("teacher"), async (req, res) => {
+  const status = sanitizeText(req.query.status, 20);
+  const query = { role: "student" };
+  if (status && ["pending", "approved", "rejected"].includes(status)) {
+    query.studentApprovalStatus = status;
+  }
+  const items = await User.find(query)
+    .select("name email phone avatarUrl createdAt studentApprovalStatus studentReviewMessage pendingStudentProfile")
+    .sort({ createdAt: -1 })
+    .limit(200)
+    .lean();
+  res.json(items);
+});
+
+router.post("/student-requests/:id/review", requireAuth, requireRole("teacher"), async (req, res) => {
+  const action = sanitizeText(req.body.action, 20);
+  const message = sanitizeText(req.body.message, 300);
+  if (!["approve", "reject"].includes(action)) {
+    return res.status(400).json({ message: "action must be approve or reject" });
+  }
+
+  const user = await User.findOne({ _id: req.params.id, role: "student" });
+  if (!user) {
+    return res.status(404).json({ message: "Student request not found" });
+  }
+  if (user.studentApprovalStatus !== "pending") {
+    return res.status(400).json({ message: "Request already reviewed" });
+  }
+
+  if (action === "approve") {
+    const profile = user.pendingStudentProfile || {};
+    const createdStudent = await Student.create({
+      name: user.name,
+      rollNumber: profile.rollNumber || generateRollNumber(),
+      grade: sanitizeText(profile.grade, 60),
+      guardian: {
+        name: sanitizeText(profile.guardianName, 120),
+        phone: normalizePhone(profile.guardianPhone)
+      },
+      dateOfBirth: profile.dateOfBirth || null,
+      schoolName: sanitizeText(profile.schoolName, 120),
+      emergencyContact: normalizePhone(profile.emergencyContact),
+      email: user.email,
+      phone: user.phone || normalizePhone(profile.guardianPhone),
+      address: sanitizeText(profile.address, 240)
+    });
+
+    user.studentId = createdStudent._id;
+    user.studentApprovalStatus = "approved";
+    user.studentReviewMessage = message || "Your registration is approved.";
+    user.pendingStudentProfile = undefined;
+    await user.save();
+
+    await Notification.create({
+      title: "Registration Approved",
+      message: user.studentReviewMessage,
+      target: "student",
+      studentId: createdStudent._id
+    });
+
+    return res.json({ message: "Student request approved" });
+  }
+
+  user.studentApprovalStatus = "rejected";
+  user.studentReviewMessage = message || "Registration request was declined.";
+  await user.save();
+
+  return res.json({ message: "Student request rejected" });
+});
+
 router.post("/daily-xp", requireAuth, requireRole("student"), async (req, res) => {
   const user = await User.findById(req.user.sub);
   if (!user) {
     return res.status(404).json({ message: "User not found" });
+  }
+  if (user.studentApprovalStatus !== "approved" || !user.studentId) {
+    return res.json({
+      awarded: false,
+      amount: 0,
+      totalBonusXp: Number(user.bonusXp || 0),
+      claimedAt: null
+    });
   }
 
   const now = new Date();

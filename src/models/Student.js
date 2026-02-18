@@ -13,7 +13,8 @@ const GuardianSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
     phone: { type: String, default: "" },
-    email: { type: String, default: "" }
+    email: { type: String, default: "" },
+    relation: { type: String, default: "" }
   },
   { _id: false }
 );
@@ -25,6 +26,9 @@ const StudentSchema = new mongoose.Schema(
     grade: { type: String, default: "" },
     subjects: { type: [String], default: [] },
     guardian: { type: GuardianSchema, default: () => ({}) },
+    dateOfBirth: { type: Date, default: null },
+    schoolName: { type: String, default: "" },
+    emergencyContact: { type: String, default: "" },
     email: { type: String, default: "" },
     phone: { type: String, default: "" },
     address: { type: String, default: "" },
