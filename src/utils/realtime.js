@@ -69,13 +69,8 @@ export const emitChatTyping = ({ senderId, senderName, senderRole, recipientUser
     return;
   }
 
-  if (senderRole === "teacher") {
-    emitToRoom("role:student", "chat:typing", payload);
-    return;
-  }
-  if (senderRole === "student") {
-    emitToRoom("role:teacher", "chat:typing", payload);
-  }
+  emitToRoom("role:teacher", "chat:typing", payload);
+  emitToRoom("role:student", "chat:typing", payload);
 };
 
 export const emitNotificationCreated = (notification) => {

@@ -30,7 +30,7 @@ export const requireAuth = async (req, res, next) => {
   try {
     const payload = jwt.verify(token, jwtSecret());
     const user = await User.findById(payload.sub)
-      .select("_id role name studentId")
+      .select("_id role name studentId avatarUrl")
       .lean();
     if (!user) {
       return res.status(401).json({ message: "Session expired" });
@@ -39,6 +39,7 @@ export const requireAuth = async (req, res, next) => {
       sub: user._id.toString(),
       role: user.role,
       name: user.name,
+      avatarUrl: user.avatarUrl || "",
       studentId: user.studentId ? user.studentId.toString() : null
     };
     return next();

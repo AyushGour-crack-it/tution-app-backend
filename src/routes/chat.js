@@ -21,7 +21,6 @@ const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
 
 const canAccessMessage = (message, user) => {
-  if (user.role === "teacher") return true;
   const me = String(user.sub);
   return (
     !message.recipientUserId ||
@@ -36,7 +35,7 @@ const toPushBody = (message) => {
   return content.length > 120 ? `${content.slice(0, 117)}...` : content;
 };
 
-const sendChatPush = async ({ created, senderRole, senderId }) => {
+const sendChatPush = async ({ created, senderId }) => {
   const senderUserId = String(senderId || "");
   const recipientUserId = created?.recipientUserId ? String(created.recipientUserId) : "";
   const senderName = String(created?.senderName || "Someone");
@@ -57,8 +56,11 @@ const sendChatPush = async ({ created, senderRole, senderId }) => {
     return;
   }
 
-  const targetRole = senderRole === "teacher" ? "student" : "teacher";
-  const recipients = await User.find({ role: targetRole }).select("_id").lean();
+  const recipients = await User.find({
+    $or: [{ role: "teacher" }, { role: "student", studentApprovalStatus: "approved" }]
+  })
+    .select("_id")
+    .lean();
   const recipientIds = recipients
     .map((user) => String(user?._id || ""))
     .filter((id) => id && id !== senderUserId);
@@ -77,16 +79,13 @@ const sendChatPush = async ({ created, senderRole, senderId }) => {
 };
 
 router.get("/messages", requireAuth, async (req, res) => {
-  const query =
-    req.user.role === "teacher"
-      ? {}
-      : {
-          $or: [
-            { recipientUserId: null },
-            { senderId: req.user.sub },
-            { recipientUserId: req.user.sub }
-          ]
-        };
+  const query = {
+    $or: [
+      { recipientUserId: null },
+      { senderId: req.user.sub },
+      { recipientUserId: req.user.sub }
+    ]
+  };
   const items = await Message.find(query)
     .sort({ createdAt: 1 })
     .limit(500)
@@ -94,9 +93,22 @@ router.get("/messages", requireAuth, async (req, res) => {
   res.json(items);
 });
 
+router.get("/users", requireAuth, async (req, res) => {
+  const users = await User.find({
+    $or: [{ role: "teacher" }, { role: "student", studentApprovalStatus: "approved" }]
+  })
+    .select("_id name role avatarUrl")
+    .sort({ role: 1, name: 1 })
+    .lean();
+
+  res.json(users);
+});
+
 router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
-  const { type, content, fileName, mimeType, replyTo, recipientStudentId } = req.body;
+  const { type, content, fileName, mimeType, replyTo } = req.body;
   const clientMessageId = String(req.body.clientMessageId || "").trim().slice(0, 80);
+  const incomingRecipientUserId = String(req.body.recipientUserId || "").trim();
+  const recipientStudentId = String(req.body.recipientStudentId || "").trim();
   if (!type || !content) {
     return res.status(400).json({ message: "Missing message content" });
   }
@@ -106,13 +118,31 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
   let recipientUserId = null;
   let resolvedRecipientStudentId = null;
   let recipientName = "";
-  if (recipientStudentId) {
-    if (req.user.role !== "teacher") {
-      return res.status(403).json({ message: "Only teachers can message specific students" });
+
+  if (incomingRecipientUserId) {
+    const targetUser = await User.findById(incomingRecipientUserId)
+      .select("_id role name studentId studentApprovalStatus")
+      .lean();
+    if (!targetUser) {
+      return res.status(400).json({ message: "Recipient account not found" });
     }
-    const studentUser = await User.findOne({ role: "student", studentId: recipientStudentId });
+    if (String(targetUser._id) === String(req.user.sub)) {
+      return res.status(400).json({ message: "Cannot message yourself" });
+    }
+    if (targetUser.role === "student" && targetUser.studentApprovalStatus !== "approved") {
+      return res.status(400).json({ message: "Recipient account is not approved yet" });
+    }
+    recipientUserId = targetUser._id;
+    resolvedRecipientStudentId = targetUser.studentId || null;
+    recipientName = targetUser.name || "";
+  } else if (recipientStudentId) {
+    const studentUser = await User.findOne({
+      role: "student",
+      studentId: recipientStudentId,
+      studentApprovalStatus: "approved"
+    });
     if (!studentUser) {
-      return res.status(400).json({ message: "Student account not found for selected student" });
+      return res.status(400).json({ message: "Recipient account not found" });
     }
     recipientUserId = studentUser._id;
     resolvedRecipientStudentId = studentUser.studentId;
@@ -121,6 +151,7 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
   const created = await Message.create({
     senderId: req.user.sub,
     senderName: req.user.name,
+    senderAvatar: req.user.avatarUrl || "",
     role: req.user.role,
     clientMessageId,
     recipientUserId,
@@ -134,25 +165,26 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     readBy: [req.user.sub]
   });
   emitChatMessageCreated(created);
-  sendChatPush({ created, senderRole: req.user.role, senderId: req.user.sub }).catch(() => {});
+  sendChatPush({ created, senderId: req.user.sub }).catch(() => {});
   return res.status(201).json(created);
 });
 
 router.post("/messages/read", requireAuth, async (req, res) => {
   const userId = req.user.sub;
-  const visibilityQuery =
-    req.user.role === "teacher"
-      ? {}
-      : {
-          $or: [{ recipientUserId: null }, { recipientUserId: userId }]
-        };
+  const visibilityQuery = {
+    $or: [
+      { recipientUserId: null },
+      { recipientUserId: userId },
+      { senderId: userId }
+    ]
+  };
 
   const unread = await Message.find({
     ...visibilityQuery,
     senderId: { $ne: userId },
     readBy: { $ne: userId }
   })
-    .select("_id senderId senderName role clientMessageId recipientUserId recipientStudentId recipientName type content fileName mimeType replyTo reactions readBy editedAt createdAt updatedAt")
+    .select("_id senderId senderName senderAvatar role clientMessageId recipientUserId recipientStudentId recipientName type content fileName mimeType replyTo reactions readBy editedAt createdAt updatedAt")
     .lean();
 
   if (unread.length) {

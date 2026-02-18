@@ -298,17 +298,10 @@ const buildSocketServer = async () => {
         const sender = socket.data.user;
         if (!sender?.id) return;
         let recipientUserId = "";
-        if (sender.role === "teacher") {
-          const recipientStudentId = String(payload?.recipientStudentId || "").trim();
-          if (recipientStudentId) {
-            const studentUser = await User.findOne({
-              role: "student",
-              studentId: recipientStudentId
-            })
-              .select("_id")
-              .lean();
-            recipientUserId = studentUser?._id ? String(studentUser._id) : "";
-          }
+        const requestedUserId = String(payload?.recipientUserId || "").trim();
+        if (requestedUserId && requestedUserId !== sender.id) {
+          const targetUser = await User.findById(requestedUserId).select("_id").lean();
+          recipientUserId = targetUser?._id ? String(targetUser._id) : "";
         }
         emitChatTyping({
           senderId: sender.id,
