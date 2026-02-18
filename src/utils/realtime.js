@@ -27,6 +27,57 @@ export const emitChatMessageCreated = (message) => {
   emitToRoom("role:student", "chat:new", payload);
 };
 
+const emitChatEvent = ({ event, payload }) => {
+  if (!ioInstance || !payload || !event) return;
+  const senderId = payload.senderId ? String(payload.senderId) : "";
+  const recipientUserId = payload.recipientUserId ? String(payload.recipientUserId) : "";
+
+  if (recipientUserId) {
+    emitToRoom(`user:${senderId}`, event, payload);
+    emitToRoom(`user:${recipientUserId}`, event, payload);
+    return;
+  }
+
+  emitToRoom("role:teacher", event, payload);
+  emitToRoom("role:student", event, payload);
+};
+
+export const emitChatMessageUpdated = (message) => {
+  const payload = message?.toObject ? message.toObject() : message;
+  emitChatEvent({ event: "chat:updated", payload });
+};
+
+export const emitChatMessageDeleted = ({ messageId, senderId, recipientUserId }) => {
+  const payload = {
+    messageId: String(messageId || ""),
+    senderId: String(senderId || ""),
+    recipientUserId: recipientUserId ? String(recipientUserId) : ""
+  };
+  emitChatEvent({ event: "chat:deleted", payload });
+};
+
+export const emitChatTyping = ({ senderId, senderName, senderRole, recipientUserId }) => {
+  if (!ioInstance || !senderId) return;
+  const payload = {
+    senderId: String(senderId),
+    senderName: String(senderName || "Someone"),
+    senderRole: String(senderRole || "")
+  };
+
+  if (recipientUserId) {
+    emitToRoom(`user:${String(recipientUserId)}`, "chat:typing", payload);
+    return;
+  }
+
+  if (senderRole === "teacher") {
+    emitToRoom("role:student", "chat:typing", payload);
+    return;
+  }
+  if (senderRole === "student") {
+    emitToRoom("role:teacher", "chat:typing", payload);
+  }
+};
+
 export const emitNotificationCreated = (notification) => {
   if (!ioInstance || !notification) return;
   const payload = notification.toObject ? notification.toObject() : notification;

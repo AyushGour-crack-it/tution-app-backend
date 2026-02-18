@@ -38,7 +38,7 @@ import User from "./models/User.js";
 import Question from "./models/Question.js";
 import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
-import { setRealtimeServer } from "./utils/realtime.js";
+import { emitChatTyping, setRealtimeServer } from "./utils/realtime.js";
 
 
 dotenv.config();
@@ -270,11 +270,12 @@ const buildSocketServer = async () => {
       const secret = process.env.JWT_SECRET;
       if (!secret) return next(new Error("JWT secret missing"));
       const payload = jwt.verify(token, secret);
-      const user = await User.findById(payload.sub).select("_id role studentId").lean();
+      const user = await User.findById(payload.sub).select("_id role studentId name").lean();
       if (!user) return next(new Error("Session expired"));
       socket.data.user = {
         id: user._id.toString(),
         role: user.role,
+        name: user.name || "",
         studentId: user.studentId ? user.studentId.toString() : null
       };
       return next();
@@ -291,6 +292,34 @@ const buildSocketServer = async () => {
     if (user.studentId) {
       socket.join(`student:${user.studentId}`);
     }
+
+    socket.on("chat:typing", async (payload = {}) => {
+      try {
+        const sender = socket.data.user;
+        if (!sender?.id) return;
+        let recipientUserId = "";
+        if (sender.role === "teacher") {
+          const recipientStudentId = String(payload?.recipientStudentId || "").trim();
+          if (recipientStudentId) {
+            const studentUser = await User.findOne({
+              role: "student",
+              studentId: recipientStudentId
+            })
+              .select("_id")
+              .lean();
+            recipientUserId = studentUser?._id ? String(studentUser._id) : "";
+          }
+        }
+        emitChatTyping({
+          senderId: sender.id,
+          senderName: sender.name || (sender.role === "teacher" ? "Teacher" : "Student"),
+          senderRole: sender.role,
+          recipientUserId
+        });
+      } catch {
+        // typing indicator is best-effort
+      }
+    });
   });
 
   const redisUrl = process.env.REDIS_URL || "";

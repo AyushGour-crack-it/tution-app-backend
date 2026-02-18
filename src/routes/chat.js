@@ -10,7 +10,11 @@ import {
   chatReactionLimiter,
   chatUploadLimiter
 } from "../utils/rateLimiters.js";
-import { emitChatMessageCreated } from "../utils/realtime.js";
+import {
+  emitChatMessageCreated,
+  emitChatMessageDeleted,
+  emitChatMessageUpdated
+} from "../utils/realtime.js";
 import { sendPushToUsers } from "../utils/pushNotifications.js";
 
 const router = express.Router();
@@ -92,6 +96,7 @@ router.get("/messages", requireAuth, async (req, res) => {
 
 router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
   const { type, content, fileName, mimeType, replyTo, recipientStudentId } = req.body;
+  const clientMessageId = String(req.body.clientMessageId || "").trim().slice(0, 80);
   if (!type || !content) {
     return res.status(400).json({ message: "Missing message content" });
   }
@@ -117,6 +122,7 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     senderId: req.user.sub,
     senderName: req.user.name,
     role: req.user.role,
+    clientMessageId,
     recipientUserId,
     recipientStudentId: resolvedRecipientStudentId,
     recipientName,
@@ -141,17 +147,30 @@ router.post("/messages/read", requireAuth, async (req, res) => {
           $or: [{ recipientUserId: null }, { recipientUserId: userId }]
         };
 
-  const updated = await Message.updateMany(
-    {
-      ...visibilityQuery,
-      senderId: { $ne: userId },
-      readBy: { $ne: userId }
-    },
-    { $addToSet: { readBy: userId } }
-  );
+  const unread = await Message.find({
+    ...visibilityQuery,
+    senderId: { $ne: userId },
+    readBy: { $ne: userId }
+  })
+    .select("_id senderId senderName role clientMessageId recipientUserId recipientStudentId recipientName type content fileName mimeType replyTo reactions readBy editedAt createdAt updatedAt")
+    .lean();
+
+  if (unread.length) {
+    const ids = unread.map((item) => item._id);
+    await Message.updateMany(
+      { _id: { $in: ids } },
+      { $addToSet: { readBy: userId } }
+    );
+    unread.forEach((item) => {
+      emitChatMessageUpdated({
+        ...item,
+        readBy: [...(Array.isArray(item.readBy) ? item.readBy : []), userId]
+      });
+    });
+  }
 
   return res.json({
-    updatedCount: updated.modifiedCount || 0
+    updatedCount: unread.length
   });
 });
 
@@ -173,6 +192,7 @@ router.put("/messages/:id", requireAuth, async (req, res) => {
   message.content = content || message.content;
   message.editedAt = new Date();
   await message.save();
+  emitChatMessageUpdated(message);
   return res.json(message);
 });
 
@@ -187,7 +207,11 @@ router.delete("/messages/:id", requireAuth, async (req, res) => {
   if (message.senderId.toString() !== req.user.sub) {
     return res.status(403).json({ message: "Can only delete your own message" });
   }
+  const senderId = message.senderId ? String(message.senderId) : "";
+  const recipientUserId = message.recipientUserId ? String(message.recipientUserId) : "";
+  const messageId = String(message._id || "");
   await message.deleteOne();
+  emitChatMessageDeleted({ messageId, senderId, recipientUserId });
   return res.json({ message: "Deleted" });
 });
 
@@ -210,6 +234,7 @@ router.post("/messages/:id/reactions", requireAuth, chatReactionLimiter, async (
     message.reactions.push({ userId: req.user.sub, emoji });
   }
   await message.save();
+  emitChatMessageUpdated(message);
   return res.json(message);
 });
 
