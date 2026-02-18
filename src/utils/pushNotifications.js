@@ -3,6 +3,7 @@ import User from "../models/User.js";
 
 let firebaseReady = false;
 let firebaseInitAttempted = false;
+let firebaseLogPrinted = false;
 
 const decodePrivateKey = (value) => String(value || "").replace(/\\n/g, "\n");
 
@@ -22,6 +23,11 @@ const initFirebase = () => {
 
     if (!projectId || !clientEmail || !privateKeyRaw) {
       firebaseReady = false;
+      if (!firebaseLogPrinted) {
+        firebaseLogPrinted = true;
+        // eslint-disable-next-line no-console
+        console.warn("Push disabled: missing Firebase Admin env vars");
+      }
       return false;
     }
 
@@ -33,9 +39,19 @@ const initFirebase = () => {
       })
     });
     firebaseReady = true;
+    if (!firebaseLogPrinted) {
+      firebaseLogPrinted = true;
+      // eslint-disable-next-line no-console
+      console.log("Push enabled: Firebase Admin initialized");
+    }
     return true;
-  } catch {
+  } catch (error) {
     firebaseReady = false;
+    if (!firebaseLogPrinted) {
+      firebaseLogPrinted = true;
+      // eslint-disable-next-line no-console
+      console.warn("Push disabled: Firebase Admin init failed", error?.message || error);
+    }
     return false;
   }
 };
@@ -105,8 +121,9 @@ export const sendPushToUsers = async ({ userIds = [], title, body, data = {} }) 
         )
       );
     }
-  } catch {
-    // fail silently to avoid blocking core API actions
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.warn("Push send failed:", error?.message || error);
   }
 };
 
