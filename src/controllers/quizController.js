@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { readFile } from "fs/promises";
 import Question from "../models/Question.js";
 import User from "../models/User.js";
 import UserQuestionProgress from "../models/UserQuestionProgress.js";
@@ -15,6 +16,32 @@ const shuffle = (items = []) => {
 
 const startOfDay = (date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
 const toObject = (value) => (value instanceof Map ? Object.fromEntries(value.entries()) : (value || {}));
+const quizFiles = [
+  "class6/physics.json",
+  "class6/chemistry.json",
+  "class6/biology.json",
+  "class6/english.json",
+  "class6/french.json",
+  "class6/history.json",
+  "class6/geography.json",
+  "class6/civics.json",
+  "class7/physics.json",
+  "class7/chemistry.json",
+  "class7/biology.json",
+  "class7/english.json",
+  "class7/french.json",
+  "class7/history.json",
+  "class7/geography.json",
+  "class7/civics.json",
+  "class8/physics.json",
+  "class8/chemistry.json",
+  "class8/biology.json",
+  "class8/english.json",
+  "class8/french.json",
+  "class8/history.json",
+  "class8/geography.json",
+  "class8/civics.json"
+];
 
 export const getQuizStats = async (req, res) => {
   const user = await User.findById(req.user.sub).select("streakCount totalXP subjectXP subjectLevel").lean();
@@ -27,6 +54,56 @@ export const getQuizStats = async (req, res) => {
     overallLevel: overallLevelFromXp(totalXP),
     subjectXP: toObject(user.subjectXP),
     subjectLevel: toObject(user.subjectLevel)
+  });
+};
+
+export const getQuizMeta = async (req, res) => {
+  const [subjects, classLevels] = await Promise.all([
+    Question.distinct("subject"),
+    Question.distinct("classLevel")
+  ]);
+  res.json({
+    subjects: subjects.sort((a, b) => String(a).localeCompare(String(b))),
+    classLevels: classLevels.sort((a, b) => Number(a) - Number(b))
+  });
+};
+
+export const seedQuizBank = async (req, res) => {
+  const totalExisting = await Question.estimatedDocumentCount();
+  if (totalExisting > 0 && req.query.force !== "1") {
+    return res.json({
+      message: "Quiz bank already exists. Use ?force=1 to reseed.",
+      inserted: 0,
+      total: totalExisting
+    });
+  }
+
+  if (req.query.force === "1") {
+    await Question.deleteMany({});
+    await UserQuestionProgress.deleteMany({});
+  }
+
+  let batch = [];
+  for (let i = 0; i < quizFiles.length; i += 1) {
+    const rel = quizFiles[i];
+    const fileUrl = new URL(`../../data/${rel}`, import.meta.url);
+    const raw = await readFile(fileUrl, "utf-8");
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      batch = batch.concat(parsed);
+    }
+  }
+
+  if (!batch.length) {
+    return res.status(400).json({ message: "No quiz data found to seed" });
+  }
+
+  await Question.insertMany(batch, { ordered: false });
+  const total = await Question.estimatedDocumentCount();
+  return res.json({
+    message: "Quiz bank seeded",
+    inserted: batch.length,
+    total
   });
 };
 

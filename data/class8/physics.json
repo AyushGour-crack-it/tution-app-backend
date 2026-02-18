@@ -1,0 +1,1922 @@
+[
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Force and Pressure'?",
+    "options": [
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Force and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Friction'?",
+    "options": [
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Friction' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Sound'. Which option fits this topic correctly?",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Chemical Effects of Electric Current'?",
+    "options": [
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Chemical Effects of Electric Current' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Some Natural Phenomena'?",
+    "options": [
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Some Natural Phenomena' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Light'. Which option fits this topic correctly?",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Stars and the Solar System'?",
+    "options": [
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Stars and the Solar System' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Energy and Work'?",
+    "options": [
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "A student is revising 'Speed and Motion Graphs'. Which option fits this topic correctly?",
+    "options": [
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Speed and Motion Graphs' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Electric Circuits and Safety'?",
+    "options": [
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Circuits and Safety' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Refraction Basics'?",
+    "options": [
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Refraction Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Sustainable Energy'. Which option fits this topic correctly?",
+    "options": [
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sustainable Energy' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Force and Pressure'? [Scenario 13]",
+    "options": [
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Force and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Friction'? [Scenario 14]",
+    "options": [
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Friction' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Sound'. Which option fits this topic correctly? [Scenario 15]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Chemical Effects of Electric Current'? [Scenario 16]",
+    "options": [
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Chemical Effects of Electric Current' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Some Natural Phenomena'? [Scenario 17]",
+    "options": [
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Some Natural Phenomena' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A student is revising 'Light'. Which option fits this topic correctly? [Scenario 18]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Stars and the Solar System'? [Scenario 19]",
+    "options": [
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Stars and the Solar System' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Energy and Work'? [Scenario 20]",
+    "options": [
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Speed and Motion Graphs'. Which option fits this topic correctly? [Scenario 21]",
+    "options": [
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Speed and Motion Graphs' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Electric Circuits and Safety'? [Scenario 22]",
+    "options": [
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Circuits and Safety' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Refraction Basics'? [Scenario 23]",
+    "options": [
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Refraction Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Sustainable Energy'. Which option fits this topic correctly? [Scenario 24]",
+    "options": [
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sustainable Energy' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Force and Pressure'? [Scenario 25]",
+    "options": [
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Force and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Friction'? [Scenario 26]",
+    "options": [
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Friction' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Sound'. Which option fits this topic correctly? [Scenario 27]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Chemical Effects of Electric Current'? [Scenario 28]",
+    "options": [
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Chemical Effects of Electric Current' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Some Natural Phenomena'? [Scenario 29]",
+    "options": [
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Some Natural Phenomena' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Light'. Which option fits this topic correctly? [Scenario 30]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Stars and the Solar System'? [Scenario 31]",
+    "options": [
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Stars and the Solar System' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Energy and Work'? [Scenario 32]",
+    "options": [
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Speed and Motion Graphs'. Which option fits this topic correctly? [Scenario 33]",
+    "options": [
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Speed and Motion Graphs' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Electric Circuits and Safety'? [Scenario 34]",
+    "options": [
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Circuits and Safety' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Refraction Basics'? [Scenario 35]",
+    "options": [
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Refraction Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Sustainable Energy'. Which option fits this topic correctly? [Scenario 36]",
+    "options": [
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sustainable Energy' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Force and Pressure'? [Scenario 37]",
+    "options": [
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Force and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Friction'? [Scenario 38]",
+    "options": [
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Friction' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Sound'. Which option fits this topic correctly? [Scenario 39]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Chemical Effects of Electric Current'? [Scenario 40]",
+    "options": [
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Chemical Effects of Electric Current' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Some Natural Phenomena'? [Scenario 41]",
+    "options": [
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Some Natural Phenomena' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Light'. Which option fits this topic correctly? [Scenario 42]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Stars and the Solar System'? [Scenario 43]",
+    "options": [
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Stars and the Solar System' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Energy and Work'? [Scenario 44]",
+    "options": [
+      "Energy and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Speed and Motion Graphs'. Which option fits this topic correctly? [Scenario 45]",
+    "options": [
+      "Speed and Motion Graphs in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Speed and Motion Graphs' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Class 8 Physics: Which statement best matches the topic 'Electric Circuits and Safety'? [Scenario 46]",
+    "options": [
+      "Electric Circuits and Safety in Physics helps students understand core ideas, examples, and practical applications.",
+      "Force and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Circuits and Safety' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 8 Physics, what is the most accurate focus of 'Refraction Basics'? [Scenario 47]",
+    "options": [
+      "Refraction Basics in Physics helps students understand core ideas, examples, and practical applications.",
+      "Friction in Physics helps students understand core ideas, examples, and practical applications.",
+      "Chemical Effects of Electric Current in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Refraction Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "A student is revising 'Sustainable Energy'. Which option fits this topic correctly? [Scenario 48]",
+    "options": [
+      "Sustainable Energy in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Some Natural Phenomena in Physics helps students understand core ideas, examples, and practical applications.",
+      "Stars and the Solar System in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sustainable Energy' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Force and Pressure' in Class 8 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Force and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "During revision, which activity is most directly linked to 'Friction'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Friction' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Sound' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Chemical Effects of Electric Current' in Class 8 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Chemical Effects of Electric Current' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "During revision, which activity is most directly linked to 'Some Natural Phenomena'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Some Natural Phenomena' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "In a subject integration exercise, which choice best applies 'Light' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Stars and the Solar System' in Class 8 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Friction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Stars and the Solar System' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "During revision, which activity is most directly linked to 'Energy and Work'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "In a subject integration exercise, which choice best applies 'Speed and Motion Graphs' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Speed and Motion Graphs' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Electric Circuits and Safety' in Class 8 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Circuits and Safety' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "During revision, which activity is most directly linked to 'Refraction Basics'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Refraction Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "In a subject integration exercise, which choice best applies 'Sustainable Energy' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sustainable Energy' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Force and Pressure' in Class 8 Physics? [Scenario 61]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Force and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "During revision, which activity is most directly linked to 'Friction'? [Scenario 62]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Friction' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Sound' concepts? [Scenario 63]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Chemical Effects of Electric Current' in Class 8 Physics? [Scenario 64]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Chemical Effects of Electric Current' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Some Natural Phenomena'? [Scenario 65]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Some Natural Phenomena' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "In a subject integration exercise, which choice best applies 'Light' concepts? [Scenario 66]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Stars and the Solar System' in Class 8 Physics? [Scenario 67]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Friction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Stars and the Solar System' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "During revision, which activity is most directly linked to 'Energy and Work'? [Scenario 68]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "In a subject integration exercise, which choice best applies 'Speed and Motion Graphs' concepts? [Scenario 69]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Speed and Motion Graphs' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Electric Circuits and Safety' in Class 8 Physics? [Scenario 70]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Circuits and Safety' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "During revision, which activity is most directly linked to 'Refraction Basics'? [Scenario 71]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Refraction Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "In a subject integration exercise, which choice best applies 'Sustainable Energy' concepts? [Scenario 72]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sustainable Energy' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Force and Pressure' in Class 8 Physics? [Scenario 73]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Force and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Friction'? [Scenario 74]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Friction' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "In a subject integration exercise, which choice best applies 'Sound' concepts? [Scenario 75]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Chemical Effects of Electric Current' in Class 8 Physics? [Scenario 76]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Chemical Effects of Electric Current' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "During revision, which activity is most directly linked to 'Some Natural Phenomena'? [Scenario 77]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Some Natural Phenomena' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Light' concepts? [Scenario 78]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Stars and the Solar System' in Class 8 Physics? [Scenario 79]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Friction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Stars and the Solar System' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Energy and Work'? [Scenario 80]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "In a subject integration exercise, which choice best applies 'Speed and Motion Graphs' concepts? [Scenario 81]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Speed and Motion Graphs' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Electric Circuits and Safety' in Class 8 Physics? [Scenario 82]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Circuits and Safety' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Refraction Basics'? [Scenario 83]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Refraction Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "In a subject integration exercise, which choice best applies 'Sustainable Energy' concepts? [Scenario 84]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sustainable Energy' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Force and Pressure' in Class 8 Physics? [Scenario 85]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Force and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "During revision, which activity is most directly linked to 'Friction'? [Scenario 86]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Friction' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Sound' concepts? [Scenario 87]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Chemical Effects of Electric Current' in Class 8 Physics? [Scenario 88]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Chemical Effects of Electric Current' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Some Natural Phenomena'? [Scenario 89]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Some Natural Phenomena' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "In a subject integration exercise, which choice best applies 'Light' concepts? [Scenario 90]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Stars and the Solar System' in Class 8 Physics? [Scenario 91]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Friction."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Stars and the Solar System' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "During revision, which activity is most directly linked to 'Energy and Work'? [Scenario 92]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "In a subject integration exercise, which choice best applies 'Speed and Motion Graphs' concepts? [Scenario 93]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Speed and Motion Graphs.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Speed and Motion Graphs' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Electric Circuits and Safety' in Class 8 Physics? [Scenario 94]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Circuits and Safety.",
+      "Identifying key principles and applying them in a short classroom problem on Force and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Circuits and Safety' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "During revision, which activity is most directly linked to 'Refraction Basics'? [Scenario 95]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Chemical Effects of Electric Current.",
+      "Identifying key principles and applying them in a short classroom problem on Refraction Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Friction.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Refraction Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "In a subject integration exercise, which choice best applies 'Sustainable Energy' concepts? [Scenario 96]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Some Natural Phenomena.",
+      "Identifying key principles and applying them in a short classroom problem on Sustainable Energy.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Stars and the Solar System."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sustainable Energy' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 120,
+    "question": "A student confuses 'Force and Pressure' with 'Chemical Effects of Electric Current' and 'Light'. Which choice correctly separates 'Force and Pressure' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Force and Pressure'.",
+      "Use only memorized definitions from 'Light' and ignore context.",
+      "Apply the defining principle of 'Force and Pressure', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Force and Pressure' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 82,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Friction'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Friction'.",
+      "Use only memorized definitions from 'Stars and the Solar System' and ignore context.",
+      "Apply the defining principle of 'Friction', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Friction' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 72,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Sound'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sound'.",
+      "Use only memorized definitions from 'Energy and Work' and ignore context.",
+      "Apply the defining principle of 'Sound', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sound' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 90,
+    "question": "A student confuses 'Chemical Effects of Electric Current' with 'Stars and the Solar System' and 'Speed and Motion Graphs'. Which choice correctly separates 'Chemical Effects of Electric Current' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Chemical Effects of Electric Current'.",
+      "Use only memorized definitions from 'Speed and Motion Graphs' and ignore context.",
+      "Apply the defining principle of 'Chemical Effects of Electric Current', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Chemical Effects of Electric Current' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 89,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Some Natural Phenomena'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Some Natural Phenomena'.",
+      "Use only memorized definitions from 'Electric Circuits and Safety' and ignore context.",
+      "Apply the defining principle of 'Some Natural Phenomena', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Some Natural Phenomena' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 102,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Light'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light'.",
+      "Use only memorized definitions from 'Refraction Basics' and ignore context.",
+      "Apply the defining principle of 'Light', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 95,
+    "question": "A student confuses 'Stars and the Solar System' with 'Electric Circuits and Safety' and 'Sustainable Energy'. Which choice correctly separates 'Stars and the Solar System' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Stars and the Solar System'.",
+      "Use only memorized definitions from 'Sustainable Energy' and ignore context.",
+      "Apply the defining principle of 'Stars and the Solar System', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Stars and the Solar System' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 104,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Energy and Work'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Energy and Work'.",
+      "Use only memorized definitions from 'Force and Pressure' and ignore context.",
+      "Apply the defining principle of 'Energy and Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Energy and Work' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 100,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Speed and Motion Graphs'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Speed and Motion Graphs'.",
+      "Use only memorized definitions from 'Friction' and ignore context.",
+      "Apply the defining principle of 'Speed and Motion Graphs', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Speed and Motion Graphs' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 86,
+    "question": "A student confuses 'Electric Circuits and Safety' with 'Force and Pressure' and 'Sound'. Which choice correctly separates 'Electric Circuits and Safety' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electric Circuits and Safety'.",
+      "Use only memorized definitions from 'Sound' and ignore context.",
+      "Apply the defining principle of 'Electric Circuits and Safety', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electric Circuits and Safety' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 72,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Refraction Basics'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Refraction Basics'.",
+      "Use only memorized definitions from 'Chemical Effects of Electric Current' and ignore context.",
+      "Apply the defining principle of 'Refraction Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Refraction Basics' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 118,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Sustainable Energy'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sustainable Energy'.",
+      "Use only memorized definitions from 'Some Natural Phenomena' and ignore context.",
+      "Apply the defining principle of 'Sustainable Energy', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sustainable Energy' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Force and Pressure",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "A student confuses 'Force and Pressure' with 'Chemical Effects of Electric Current' and 'Light'. Which choice correctly separates 'Force and Pressure' from the others? [Scenario 109]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Force and Pressure'.",
+      "Use only memorized definitions from 'Light' and ignore context.",
+      "Apply the defining principle of 'Force and Pressure', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Force and Pressure' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Friction",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 82,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Friction'? [Scenario 110]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Friction'.",
+      "Use only memorized definitions from 'Stars and the Solar System' and ignore context.",
+      "Apply the defining principle of 'Friction', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Friction' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 88,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Sound'? [Scenario 111]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sound'.",
+      "Use only memorized definitions from 'Energy and Work' and ignore context.",
+      "Apply the defining principle of 'Sound', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sound' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Chemical Effects of Electric Current",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 92,
+    "question": "A student confuses 'Chemical Effects of Electric Current' with 'Stars and the Solar System' and 'Speed and Motion Graphs'. Which choice correctly separates 'Chemical Effects of Electric Current' from the others? [Scenario 112]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Chemical Effects of Electric Current'.",
+      "Use only memorized definitions from 'Speed and Motion Graphs' and ignore context.",
+      "Apply the defining principle of 'Chemical Effects of Electric Current', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Chemical Effects of Electric Current' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Some Natural Phenomena",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 119,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Some Natural Phenomena'? [Scenario 113]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Some Natural Phenomena'.",
+      "Use only memorized definitions from 'Electric Circuits and Safety' and ignore context.",
+      "Apply the defining principle of 'Some Natural Phenomena', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Some Natural Phenomena' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 73,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Light'? [Scenario 114]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light'.",
+      "Use only memorized definitions from 'Refraction Basics' and ignore context.",
+      "Apply the defining principle of 'Light', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Stars and the Solar System",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "A student confuses 'Stars and the Solar System' with 'Electric Circuits and Safety' and 'Sustainable Energy'. Which choice correctly separates 'Stars and the Solar System' from the others? [Scenario 115]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Stars and the Solar System'.",
+      "Use only memorized definitions from 'Sustainable Energy' and ignore context.",
+      "Apply the defining principle of 'Stars and the Solar System', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Stars and the Solar System' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 91,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Energy and Work'? [Scenario 116]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Energy and Work'.",
+      "Use only memorized definitions from 'Force and Pressure' and ignore context.",
+      "Apply the defining principle of 'Energy and Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Energy and Work' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Speed and Motion Graphs",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 87,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Speed and Motion Graphs'? [Scenario 117]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Speed and Motion Graphs'.",
+      "Use only memorized definitions from 'Friction' and ignore context.",
+      "Apply the defining principle of 'Speed and Motion Graphs', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Speed and Motion Graphs' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Electric Circuits and Safety",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 77,
+    "question": "A student confuses 'Electric Circuits and Safety' with 'Force and Pressure' and 'Sound'. Which choice correctly separates 'Electric Circuits and Safety' from the others? [Scenario 118]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electric Circuits and Safety'.",
+      "Use only memorized definitions from 'Sound' and ignore context.",
+      "Apply the defining principle of 'Electric Circuits and Safety', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electric Circuits and Safety' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Refraction Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 93,
+    "question": "For a high-order Class 8 Physics question, which response shows the strongest conceptual grasp of 'Refraction Basics'? [Scenario 119]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Refraction Basics'.",
+      "Use only memorized definitions from 'Chemical Effects of Electric Current' and ignore context.",
+      "Apply the defining principle of 'Refraction Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Refraction Basics' and validate with context."
+  },
+  {
+    "classLevel": 8,
+    "subject": "Physics",
+    "topic": "Sustainable Energy",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 97,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Sustainable Energy'? [Scenario 120]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sustainable Energy'.",
+      "Use only memorized definitions from 'Some Natural Phenomena' and ignore context.",
+      "Apply the defining principle of 'Sustainable Energy', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sustainable Energy' and validate with context."
+  }
+]

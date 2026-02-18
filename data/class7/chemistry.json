@@ -1,0 +1,1922 @@
+[
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Acids, Bases and Salts'?",
+    "options": [
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Acids, Bases and Salts' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Physical and Chemical Changes'?",
+    "options": [
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Physical and Chemical Changes' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Fibre to Fabric'. Which option fits this topic correctly?",
+    "options": [
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fibre to Fabric' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Materials and Their Properties'?",
+    "options": [
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Materials and Their Properties' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Separation Techniques'?",
+    "options": [
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation Techniques' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Solutions and Concentration'. Which option fits this topic correctly?",
+    "options": [
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Solutions and Concentration' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Water: A Precious Resource'?",
+    "options": [
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water: A Precious Resource' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Air Composition and Pollution'?",
+    "options": [
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Composition and Pollution' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Metals and Non-metals'. Which option fits this topic correctly?",
+    "options": [
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Metals and Non-metals' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Laboratory Apparatus and Symbols'?",
+    "options": [
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Laboratory Apparatus and Symbols' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Indicators and Neutralization'?",
+    "options": [
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Indicators and Neutralization' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Waste Management Basics'. Which option fits this topic correctly?",
+    "options": [
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Waste Management Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Acids, Bases and Salts'? [Scenario 13]",
+    "options": [
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Acids, Bases and Salts' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Physical and Chemical Changes'? [Scenario 14]",
+    "options": [
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Physical and Chemical Changes' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Fibre to Fabric'. Which option fits this topic correctly? [Scenario 15]",
+    "options": [
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fibre to Fabric' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Materials and Their Properties'? [Scenario 16]",
+    "options": [
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Materials and Their Properties' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Separation Techniques'? [Scenario 17]",
+    "options": [
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation Techniques' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Solutions and Concentration'. Which option fits this topic correctly? [Scenario 18]",
+    "options": [
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Solutions and Concentration' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Water: A Precious Resource'? [Scenario 19]",
+    "options": [
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water: A Precious Resource' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Air Composition and Pollution'? [Scenario 20]",
+    "options": [
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Composition and Pollution' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Metals and Non-metals'. Which option fits this topic correctly? [Scenario 21]",
+    "options": [
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Metals and Non-metals' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Laboratory Apparatus and Symbols'? [Scenario 22]",
+    "options": [
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Laboratory Apparatus and Symbols' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Indicators and Neutralization'? [Scenario 23]",
+    "options": [
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Indicators and Neutralization' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Waste Management Basics'. Which option fits this topic correctly? [Scenario 24]",
+    "options": [
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Waste Management Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Acids, Bases and Salts'? [Scenario 25]",
+    "options": [
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Acids, Bases and Salts' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Physical and Chemical Changes'? [Scenario 26]",
+    "options": [
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Physical and Chemical Changes' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "A student is revising 'Fibre to Fabric'. Which option fits this topic correctly? [Scenario 27]",
+    "options": [
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fibre to Fabric' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Materials and Their Properties'? [Scenario 28]",
+    "options": [
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Materials and Their Properties' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Separation Techniques'? [Scenario 29]",
+    "options": [
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation Techniques' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Solutions and Concentration'. Which option fits this topic correctly? [Scenario 30]",
+    "options": [
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Solutions and Concentration' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Water: A Precious Resource'? [Scenario 31]",
+    "options": [
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water: A Precious Resource' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Air Composition and Pollution'? [Scenario 32]",
+    "options": [
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Composition and Pollution' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Metals and Non-metals'. Which option fits this topic correctly? [Scenario 33]",
+    "options": [
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Metals and Non-metals' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Laboratory Apparatus and Symbols'? [Scenario 34]",
+    "options": [
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Laboratory Apparatus and Symbols' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Indicators and Neutralization'? [Scenario 35]",
+    "options": [
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Indicators and Neutralization' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "A student is revising 'Waste Management Basics'. Which option fits this topic correctly? [Scenario 36]",
+    "options": [
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Waste Management Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Acids, Bases and Salts'? [Scenario 37]",
+    "options": [
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Acids, Bases and Salts' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Physical and Chemical Changes'? [Scenario 38]",
+    "options": [
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Physical and Chemical Changes' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A student is revising 'Fibre to Fabric'. Which option fits this topic correctly? [Scenario 39]",
+    "options": [
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fibre to Fabric' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Materials and Their Properties'? [Scenario 40]",
+    "options": [
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Materials and Their Properties' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Separation Techniques'? [Scenario 41]",
+    "options": [
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation Techniques' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "A student is revising 'Solutions and Concentration'. Which option fits this topic correctly? [Scenario 42]",
+    "options": [
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Solutions and Concentration' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Water: A Precious Resource'? [Scenario 43]",
+    "options": [
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water: A Precious Resource' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Air Composition and Pollution'? [Scenario 44]",
+    "options": [
+      "Air Composition and Pollution in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Composition and Pollution' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Metals and Non-metals'. Which option fits this topic correctly? [Scenario 45]",
+    "options": [
+      "Metals and Non-metals in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Metals and Non-metals' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Chemistry: Which statement best matches the topic 'Laboratory Apparatus and Symbols'? [Scenario 46]",
+    "options": [
+      "Laboratory Apparatus and Symbols in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Acids, Bases and Salts in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Laboratory Apparatus and Symbols' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 7 Chemistry, what is the most accurate focus of 'Indicators and Neutralization'? [Scenario 47]",
+    "options": [
+      "Indicators and Neutralization in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Physical and Chemical Changes in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Materials and Their Properties in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Solutions and Concentration in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Indicators and Neutralization' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Waste Management Basics'. Which option fits this topic correctly? [Scenario 48]",
+    "options": [
+      "Waste Management Basics in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Fibre to Fabric in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Separation Techniques in Chemistry helps students understand core ideas, examples, and practical applications.",
+      "Water: A Precious Resource in Chemistry helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Waste Management Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Acids, Bases and Salts' in Class 7 Chemistry?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Acids, Bases and Salts' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "During revision, which activity is most directly linked to 'Physical and Chemical Changes'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Physical and Chemical Changes' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Fibre to Fabric' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fibre to Fabric' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Materials and Their Properties' in Class 7 Chemistry?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Materials and Their Properties' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "During revision, which activity is most directly linked to 'Separation Techniques'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation Techniques' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "In a subject integration exercise, which choice best applies 'Solutions and Concentration' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Solutions and Concentration' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Water: A Precious Resource' in Class 7 Chemistry?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water: A Precious Resource' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "During revision, which activity is most directly linked to 'Air Composition and Pollution'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Composition and Pollution' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Metals and Non-metals' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Metals and Non-metals' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Laboratory Apparatus and Symbols' in Class 7 Chemistry?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Laboratory Apparatus and Symbols' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Indicators and Neutralization'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Indicators and Neutralization' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "In a subject integration exercise, which choice best applies 'Waste Management Basics' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Waste Management Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Acids, Bases and Salts' in Class 7 Chemistry? [Scenario 61]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Acids, Bases and Salts' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Physical and Chemical Changes'? [Scenario 62]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Physical and Chemical Changes' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "In a subject integration exercise, which choice best applies 'Fibre to Fabric' concepts? [Scenario 63]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fibre to Fabric' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Materials and Their Properties' in Class 7 Chemistry? [Scenario 64]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Materials and Their Properties' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "During revision, which activity is most directly linked to 'Separation Techniques'? [Scenario 65]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation Techniques' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Solutions and Concentration' concepts? [Scenario 66]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Solutions and Concentration' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Water: A Precious Resource' in Class 7 Chemistry? [Scenario 67]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water: A Precious Resource' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "During revision, which activity is most directly linked to 'Air Composition and Pollution'? [Scenario 68]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Composition and Pollution' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "In a subject integration exercise, which choice best applies 'Metals and Non-metals' concepts? [Scenario 69]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Metals and Non-metals' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Laboratory Apparatus and Symbols' in Class 7 Chemistry? [Scenario 70]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Laboratory Apparatus and Symbols' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "During revision, which activity is most directly linked to 'Indicators and Neutralization'? [Scenario 71]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Indicators and Neutralization' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "In a subject integration exercise, which choice best applies 'Waste Management Basics' concepts? [Scenario 72]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Waste Management Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Acids, Bases and Salts' in Class 7 Chemistry? [Scenario 73]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Acids, Bases and Salts' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "During revision, which activity is most directly linked to 'Physical and Chemical Changes'? [Scenario 74]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Physical and Chemical Changes' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "In a subject integration exercise, which choice best applies 'Fibre to Fabric' concepts? [Scenario 75]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fibre to Fabric' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Materials and Their Properties' in Class 7 Chemistry? [Scenario 76]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Materials and Their Properties' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "During revision, which activity is most directly linked to 'Separation Techniques'? [Scenario 77]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation Techniques' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Solutions and Concentration' concepts? [Scenario 78]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Solutions and Concentration' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Water: A Precious Resource' in Class 7 Chemistry? [Scenario 79]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water: A Precious Resource' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Air Composition and Pollution'? [Scenario 80]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Composition and Pollution' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "In a subject integration exercise, which choice best applies 'Metals and Non-metals' concepts? [Scenario 81]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Metals and Non-metals' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Laboratory Apparatus and Symbols' in Class 7 Chemistry? [Scenario 82]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Laboratory Apparatus and Symbols' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Indicators and Neutralization'? [Scenario 83]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Indicators and Neutralization' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "In a subject integration exercise, which choice best applies 'Waste Management Basics' concepts? [Scenario 84]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Waste Management Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Acids, Bases and Salts' in Class 7 Chemistry? [Scenario 85]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Acids, Bases and Salts' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Physical and Chemical Changes'? [Scenario 86]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Physical and Chemical Changes' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Fibre to Fabric' concepts? [Scenario 87]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fibre to Fabric' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Materials and Their Properties' in Class 7 Chemistry? [Scenario 88]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Materials and Their Properties' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Separation Techniques'? [Scenario 89]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation Techniques' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Solutions and Concentration' concepts? [Scenario 90]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Solutions and Concentration' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Water: A Precious Resource' in Class 7 Chemistry? [Scenario 91]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water: A Precious Resource' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Air Composition and Pollution'? [Scenario 92]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Air Composition and Pollution.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Composition and Pollution' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "In a subject integration exercise, which choice best applies 'Metals and Non-metals' concepts? [Scenario 93]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Metals and Non-metals.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Metals and Non-metals' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Laboratory Apparatus and Symbols' in Class 7 Chemistry? [Scenario 94]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Laboratory Apparatus and Symbols.",
+      "Identifying key principles and applying them in a short classroom problem on Acids, Bases and Salts.",
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Laboratory Apparatus and Symbols' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Indicators and Neutralization'? [Scenario 95]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Materials and Their Properties.",
+      "Identifying key principles and applying them in a short classroom problem on Indicators and Neutralization.",
+      "Identifying key principles and applying them in a short classroom problem on Physical and Chemical Changes.",
+      "Identifying key principles and applying them in a short classroom problem on Solutions and Concentration."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Indicators and Neutralization' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "In a subject integration exercise, which choice best applies 'Waste Management Basics' concepts? [Scenario 96]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation Techniques.",
+      "Identifying key principles and applying them in a short classroom problem on Waste Management Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Fibre to Fabric.",
+      "Identifying key principles and applying them in a short classroom problem on Water: A Precious Resource."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Waste Management Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 113,
+    "question": "A student confuses 'Acids, Bases and Salts' with 'Materials and Their Properties' and 'Solutions and Concentration'. Which choice correctly separates 'Acids, Bases and Salts' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Acids, Bases and Salts'.",
+      "Use only memorized definitions from 'Solutions and Concentration' and ignore context.",
+      "Apply the defining principle of 'Acids, Bases and Salts', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Acids, Bases and Salts' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 88,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Physical and Chemical Changes'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Physical and Chemical Changes'.",
+      "Use only memorized definitions from 'Water: A Precious Resource' and ignore context.",
+      "Apply the defining principle of 'Physical and Chemical Changes', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Physical and Chemical Changes' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 84,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Fibre to Fabric'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Fibre to Fabric'.",
+      "Use only memorized definitions from 'Air Composition and Pollution' and ignore context.",
+      "Apply the defining principle of 'Fibre to Fabric', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Fibre to Fabric' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 117,
+    "question": "A student confuses 'Materials and Their Properties' with 'Water: A Precious Resource' and 'Metals and Non-metals'. Which choice correctly separates 'Materials and Their Properties' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Materials and Their Properties'.",
+      "Use only memorized definitions from 'Metals and Non-metals' and ignore context.",
+      "Apply the defining principle of 'Materials and Their Properties', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Materials and Their Properties' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 75,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Separation Techniques'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Separation Techniques'.",
+      "Use only memorized definitions from 'Laboratory Apparatus and Symbols' and ignore context.",
+      "Apply the defining principle of 'Separation Techniques', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Separation Techniques' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 97,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Solutions and Concentration'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Solutions and Concentration'.",
+      "Use only memorized definitions from 'Indicators and Neutralization' and ignore context.",
+      "Apply the defining principle of 'Solutions and Concentration', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Solutions and Concentration' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 76,
+    "question": "A student confuses 'Water: A Precious Resource' with 'Laboratory Apparatus and Symbols' and 'Waste Management Basics'. Which choice correctly separates 'Water: A Precious Resource' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Water: A Precious Resource'.",
+      "Use only memorized definitions from 'Waste Management Basics' and ignore context.",
+      "Apply the defining principle of 'Water: A Precious Resource', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Water: A Precious Resource' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 118,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Air Composition and Pollution'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Air Composition and Pollution'.",
+      "Use only memorized definitions from 'Acids, Bases and Salts' and ignore context.",
+      "Apply the defining principle of 'Air Composition and Pollution', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Air Composition and Pollution' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 110,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Metals and Non-metals'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Metals and Non-metals'.",
+      "Use only memorized definitions from 'Physical and Chemical Changes' and ignore context.",
+      "Apply the defining principle of 'Metals and Non-metals', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Metals and Non-metals' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 115,
+    "question": "A student confuses 'Laboratory Apparatus and Symbols' with 'Acids, Bases and Salts' and 'Fibre to Fabric'. Which choice correctly separates 'Laboratory Apparatus and Symbols' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Laboratory Apparatus and Symbols'.",
+      "Use only memorized definitions from 'Fibre to Fabric' and ignore context.",
+      "Apply the defining principle of 'Laboratory Apparatus and Symbols', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Laboratory Apparatus and Symbols' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 76,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Indicators and Neutralization'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Indicators and Neutralization'.",
+      "Use only memorized definitions from 'Materials and Their Properties' and ignore context.",
+      "Apply the defining principle of 'Indicators and Neutralization', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Indicators and Neutralization' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 98,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Waste Management Basics'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Waste Management Basics'.",
+      "Use only memorized definitions from 'Separation Techniques' and ignore context.",
+      "Apply the defining principle of 'Waste Management Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Waste Management Basics' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 80,
+    "question": "A student confuses 'Acids, Bases and Salts' with 'Materials and Their Properties' and 'Solutions and Concentration'. Which choice correctly separates 'Acids, Bases and Salts' from the others? [Scenario 109]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Acids, Bases and Salts'.",
+      "Use only memorized definitions from 'Solutions and Concentration' and ignore context.",
+      "Apply the defining principle of 'Acids, Bases and Salts', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Acids, Bases and Salts' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 114,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Physical and Chemical Changes'? [Scenario 110]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Physical and Chemical Changes'.",
+      "Use only memorized definitions from 'Water: A Precious Resource' and ignore context.",
+      "Apply the defining principle of 'Physical and Chemical Changes', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Physical and Chemical Changes' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Fibre to Fabric",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 89,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Fibre to Fabric'? [Scenario 111]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Fibre to Fabric'.",
+      "Use only memorized definitions from 'Air Composition and Pollution' and ignore context.",
+      "Apply the defining principle of 'Fibre to Fabric', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Fibre to Fabric' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Materials and Their Properties",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 71,
+    "question": "A student confuses 'Materials and Their Properties' with 'Water: A Precious Resource' and 'Metals and Non-metals'. Which choice correctly separates 'Materials and Their Properties' from the others? [Scenario 112]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Materials and Their Properties'.",
+      "Use only memorized definitions from 'Metals and Non-metals' and ignore context.",
+      "Apply the defining principle of 'Materials and Their Properties', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Materials and Their Properties' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Separation Techniques",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 72,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Separation Techniques'? [Scenario 113]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Separation Techniques'.",
+      "Use only memorized definitions from 'Laboratory Apparatus and Symbols' and ignore context.",
+      "Apply the defining principle of 'Separation Techniques', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Separation Techniques' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Solutions and Concentration",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 90,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Solutions and Concentration'? [Scenario 114]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Solutions and Concentration'.",
+      "Use only memorized definitions from 'Indicators and Neutralization' and ignore context.",
+      "Apply the defining principle of 'Solutions and Concentration', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Solutions and Concentration' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Water: A Precious Resource",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 120,
+    "question": "A student confuses 'Water: A Precious Resource' with 'Laboratory Apparatus and Symbols' and 'Waste Management Basics'. Which choice correctly separates 'Water: A Precious Resource' from the others? [Scenario 115]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Water: A Precious Resource'.",
+      "Use only memorized definitions from 'Waste Management Basics' and ignore context.",
+      "Apply the defining principle of 'Water: A Precious Resource', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Water: A Precious Resource' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Air Composition and Pollution",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 73,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Air Composition and Pollution'? [Scenario 116]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Air Composition and Pollution'.",
+      "Use only memorized definitions from 'Acids, Bases and Salts' and ignore context.",
+      "Apply the defining principle of 'Air Composition and Pollution', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Air Composition and Pollution' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 88,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Metals and Non-metals'? [Scenario 117]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Metals and Non-metals'.",
+      "Use only memorized definitions from 'Physical and Chemical Changes' and ignore context.",
+      "Apply the defining principle of 'Metals and Non-metals', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Metals and Non-metals' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Laboratory Apparatus and Symbols",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 92,
+    "question": "A student confuses 'Laboratory Apparatus and Symbols' with 'Acids, Bases and Salts' and 'Fibre to Fabric'. Which choice correctly separates 'Laboratory Apparatus and Symbols' from the others? [Scenario 118]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Laboratory Apparatus and Symbols'.",
+      "Use only memorized definitions from 'Fibre to Fabric' and ignore context.",
+      "Apply the defining principle of 'Laboratory Apparatus and Symbols', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Laboratory Apparatus and Symbols' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Indicators and Neutralization",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 93,
+    "question": "For a high-order Class 7 Chemistry question, which response shows the strongest conceptual grasp of 'Indicators and Neutralization'? [Scenario 119]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Indicators and Neutralization'.",
+      "Use only memorized definitions from 'Materials and Their Properties' and ignore context.",
+      "Apply the defining principle of 'Indicators and Neutralization', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Indicators and Neutralization' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Chemistry",
+    "topic": "Waste Management Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 97,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Waste Management Basics'? [Scenario 120]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Waste Management Basics'.",
+      "Use only memorized definitions from 'Separation Techniques' and ignore context.",
+      "Apply the defining principle of 'Waste Management Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Waste Management Basics' and validate with context."
+  }
+]

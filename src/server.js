@@ -6,6 +6,7 @@ import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import { createServer } from "http";
 import { readFileSync } from "fs";
+import { readFile } from "fs/promises";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import { Server } from "socket.io";
@@ -34,6 +35,7 @@ import Notification from "./models/Notification.js";
 import SystemState from "./models/SystemState.js";
 import BadgeDefinition from "./models/BadgeDefinition.js";
 import User from "./models/User.js";
+import Question from "./models/Question.js";
 import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
 import { setRealtimeServer } from "./utils/realtime.js";
@@ -124,6 +126,51 @@ const ensureBadgeCatalog = async () => {
       { upsert: true, new: true, setDefaultsOnInsert: true }
     );
   }
+};
+
+const quizFiles = [
+  "class6/physics.json",
+  "class6/chemistry.json",
+  "class6/biology.json",
+  "class6/english.json",
+  "class6/french.json",
+  "class6/history.json",
+  "class6/geography.json",
+  "class6/civics.json",
+  "class7/physics.json",
+  "class7/chemistry.json",
+  "class7/biology.json",
+  "class7/english.json",
+  "class7/french.json",
+  "class7/history.json",
+  "class7/geography.json",
+  "class7/civics.json",
+  "class8/physics.json",
+  "class8/chemistry.json",
+  "class8/biology.json",
+  "class8/english.json",
+  "class8/french.json",
+  "class8/history.json",
+  "class8/geography.json",
+  "class8/civics.json"
+];
+
+const ensureQuizBank = async () => {
+  const count = await Question.estimatedDocumentCount();
+  if (count > 0) return;
+
+  let batch = [];
+  for (let i = 0; i < quizFiles.length; i += 1) {
+    const rel = quizFiles[i];
+    const fileUrl = new URL(`../data/${rel}`, import.meta.url);
+    const raw = await readFile(fileUrl, "utf-8");
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) batch = batch.concat(parsed);
+  }
+  if (!batch.length) return;
+  await Question.insertMany(batch, { ordered: false });
+  // eslint-disable-next-line no-console
+  console.log(`Quiz bank seeded with ${batch.length} questions`);
 };
 
 app.use(
@@ -274,6 +321,7 @@ const start = async () => {
   await mongoose.connect(mongoUri);
   await buildSocketServer();
   await ensureBadgeCatalog();
+  await ensureQuizBank();
   await notifyFeatureUpdateIfNeeded();
   httpServer.listen(port, () => {
     // eslint-disable-next-line no-console

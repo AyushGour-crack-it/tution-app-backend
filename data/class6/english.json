@@ -1,0 +1,1922 @@
+[
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 6 English: Which statement best matches the topic 'Nouns and Pronouns'?",
+    "options": [
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Nouns and Pronouns' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 6 English, what is the most accurate focus of 'Adjectives'?",
+    "options": [
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Adjectives' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Tenses Basics'. Which option fits this topic correctly?",
+    "options": [
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Tenses Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 English: Which statement best matches the topic 'Subject-Verb Agreement'?",
+    "options": [
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Subject-Verb Agreement' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 English, what is the most accurate focus of 'Articles and Determiners'?",
+    "options": [
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Articles and Determiners' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Prepositions'. Which option fits this topic correctly?",
+    "options": [
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Prepositions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Class 6 English: Which statement best matches the topic 'Conjunctions'?",
+    "options": [
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Conjunctions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 6 English, what is the most accurate focus of 'Punctuation'?",
+    "options": [
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Punctuation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Reading Comprehension'. Which option fits this topic correctly?",
+    "options": [
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Reading Comprehension' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Class 6 English: Which statement best matches the topic 'Vocabulary in Context'?",
+    "options": [
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Vocabulary in Context' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 English, what is the most accurate focus of 'Formal and Informal Writing'?",
+    "options": [
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Formal and Informal Writing' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Poetry Appreciation'. Which option fits this topic correctly?",
+    "options": [
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Poetry Appreciation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 6 English: Which statement best matches the topic 'Nouns and Pronouns'? [Scenario 13]",
+    "options": [
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Nouns and Pronouns' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 6 English, what is the most accurate focus of 'Adjectives'? [Scenario 14]",
+    "options": [
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Adjectives' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Tenses Basics'. Which option fits this topic correctly? [Scenario 15]",
+    "options": [
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Tenses Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Class 6 English: Which statement best matches the topic 'Subject-Verb Agreement'? [Scenario 16]",
+    "options": [
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Subject-Verb Agreement' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "In Class 6 English, what is the most accurate focus of 'Articles and Determiners'? [Scenario 17]",
+    "options": [
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Articles and Determiners' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A student is revising 'Prepositions'. Which option fits this topic correctly? [Scenario 18]",
+    "options": [
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Prepositions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Class 6 English: Which statement best matches the topic 'Conjunctions'? [Scenario 19]",
+    "options": [
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Conjunctions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "In Class 6 English, what is the most accurate focus of 'Punctuation'? [Scenario 20]",
+    "options": [
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Punctuation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A student is revising 'Reading Comprehension'. Which option fits this topic correctly? [Scenario 21]",
+    "options": [
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Reading Comprehension' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 6 English: Which statement best matches the topic 'Vocabulary in Context'? [Scenario 22]",
+    "options": [
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Vocabulary in Context' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "In Class 6 English, what is the most accurate focus of 'Formal and Informal Writing'? [Scenario 23]",
+    "options": [
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Formal and Informal Writing' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Poetry Appreciation'. Which option fits this topic correctly? [Scenario 24]",
+    "options": [
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Poetry Appreciation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 6 English: Which statement best matches the topic 'Nouns and Pronouns'? [Scenario 25]",
+    "options": [
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Nouns and Pronouns' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 English, what is the most accurate focus of 'Adjectives'? [Scenario 26]",
+    "options": [
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Adjectives' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Tenses Basics'. Which option fits this topic correctly? [Scenario 27]",
+    "options": [
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Tenses Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 6 English: Which statement best matches the topic 'Subject-Verb Agreement'? [Scenario 28]",
+    "options": [
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Subject-Verb Agreement' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 6 English, what is the most accurate focus of 'Articles and Determiners'? [Scenario 29]",
+    "options": [
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Articles and Determiners' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Prepositions'. Which option fits this topic correctly? [Scenario 30]",
+    "options": [
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Prepositions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 6 English: Which statement best matches the topic 'Conjunctions'? [Scenario 31]",
+    "options": [
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Conjunctions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 English, what is the most accurate focus of 'Punctuation'? [Scenario 32]",
+    "options": [
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Punctuation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Reading Comprehension'. Which option fits this topic correctly? [Scenario 33]",
+    "options": [
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Reading Comprehension' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Class 6 English: Which statement best matches the topic 'Vocabulary in Context'? [Scenario 34]",
+    "options": [
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Vocabulary in Context' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 6 English, what is the most accurate focus of 'Formal and Informal Writing'? [Scenario 35]",
+    "options": [
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Formal and Informal Writing' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Poetry Appreciation'. Which option fits this topic correctly? [Scenario 36]",
+    "options": [
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Poetry Appreciation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 6 English: Which statement best matches the topic 'Nouns and Pronouns'? [Scenario 37]",
+    "options": [
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Nouns and Pronouns' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "In Class 6 English, what is the most accurate focus of 'Adjectives'? [Scenario 38]",
+    "options": [
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Adjectives' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Tenses Basics'. Which option fits this topic correctly? [Scenario 39]",
+    "options": [
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Tenses Basics' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 English: Which statement best matches the topic 'Subject-Verb Agreement'? [Scenario 40]",
+    "options": [
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Subject-Verb Agreement' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 6 English, what is the most accurate focus of 'Articles and Determiners'? [Scenario 41]",
+    "options": [
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Articles and Determiners' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Prepositions'. Which option fits this topic correctly? [Scenario 42]",
+    "options": [
+      "Prepositions in English helps students understand core ideas, examples, and practical applications.",
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Prepositions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Class 6 English: Which statement best matches the topic 'Conjunctions'? [Scenario 43]",
+    "options": [
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications.",
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Conjunctions' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 6 English, what is the most accurate focus of 'Punctuation'? [Scenario 44]",
+    "options": [
+      "Punctuation in English helps students understand core ideas, examples, and practical applications.",
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Punctuation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Reading Comprehension'. Which option fits this topic correctly? [Scenario 45]",
+    "options": [
+      "Reading Comprehension in English helps students understand core ideas, examples, and practical applications.",
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Reading Comprehension' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Class 6 English: Which statement best matches the topic 'Vocabulary in Context'? [Scenario 46]",
+    "options": [
+      "Vocabulary in Context in English helps students understand core ideas, examples, and practical applications.",
+      "Nouns and Pronouns in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Vocabulary in Context' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 English, what is the most accurate focus of 'Formal and Informal Writing'? [Scenario 47]",
+    "options": [
+      "Formal and Informal Writing in English helps students understand core ideas, examples, and practical applications.",
+      "Adjectives in English helps students understand core ideas, examples, and practical applications.",
+      "Subject-Verb Agreement in English helps students understand core ideas, examples, and practical applications.",
+      "Prepositions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Formal and Informal Writing' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Poetry Appreciation'. Which option fits this topic correctly? [Scenario 48]",
+    "options": [
+      "Poetry Appreciation in English helps students understand core ideas, examples, and practical applications.",
+      "Tenses Basics in English helps students understand core ideas, examples, and practical applications.",
+      "Articles and Determiners in English helps students understand core ideas, examples, and practical applications.",
+      "Conjunctions in English helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Poetry Appreciation' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Nouns and Pronouns' in Class 6 English?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Nouns and Pronouns' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Adjectives'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Adjectives' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "In a subject integration exercise, which choice best applies 'Tenses Basics' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Tenses Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Subject-Verb Agreement' in Class 6 English?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Subject-Verb Agreement' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "During revision, which activity is most directly linked to 'Articles and Determiners'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Articles and Determiners' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "In a subject integration exercise, which choice best applies 'Prepositions' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Prepositions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Conjunctions' in Class 6 English?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Conjunctions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Punctuation'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Punctuation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Reading Comprehension' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Reading Comprehension' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Vocabulary in Context' in Class 6 English?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Vocabulary in Context' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "During revision, which activity is most directly linked to 'Formal and Informal Writing'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Formal and Informal Writing' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "In a subject integration exercise, which choice best applies 'Poetry Appreciation' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Poetry Appreciation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Nouns and Pronouns' in Class 6 English? [Scenario 61]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Nouns and Pronouns' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "During revision, which activity is most directly linked to 'Adjectives'? [Scenario 62]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Adjectives' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "In a subject integration exercise, which choice best applies 'Tenses Basics' concepts? [Scenario 63]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Tenses Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Subject-Verb Agreement' in Class 6 English? [Scenario 64]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Subject-Verb Agreement' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "During revision, which activity is most directly linked to 'Articles and Determiners'? [Scenario 65]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Articles and Determiners' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "In a subject integration exercise, which choice best applies 'Prepositions' concepts? [Scenario 66]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Prepositions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Conjunctions' in Class 6 English? [Scenario 67]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Conjunctions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "During revision, which activity is most directly linked to 'Punctuation'? [Scenario 68]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Punctuation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Reading Comprehension' concepts? [Scenario 69]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Reading Comprehension' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Vocabulary in Context' in Class 6 English? [Scenario 70]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Vocabulary in Context' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Formal and Informal Writing'? [Scenario 71]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Formal and Informal Writing' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "In a subject integration exercise, which choice best applies 'Poetry Appreciation' concepts? [Scenario 72]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Poetry Appreciation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Nouns and Pronouns' in Class 6 English? [Scenario 73]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Nouns and Pronouns' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Adjectives'? [Scenario 74]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Adjectives' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "In a subject integration exercise, which choice best applies 'Tenses Basics' concepts? [Scenario 75]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Tenses Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Subject-Verb Agreement' in Class 6 English? [Scenario 76]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Subject-Verb Agreement' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Articles and Determiners'? [Scenario 77]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Articles and Determiners' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "In a subject integration exercise, which choice best applies 'Prepositions' concepts? [Scenario 78]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Prepositions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Conjunctions' in Class 6 English? [Scenario 79]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Conjunctions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Punctuation'? [Scenario 80]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Punctuation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Reading Comprehension' concepts? [Scenario 81]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Reading Comprehension' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Vocabulary in Context' in Class 6 English? [Scenario 82]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Vocabulary in Context' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "During revision, which activity is most directly linked to 'Formal and Informal Writing'? [Scenario 83]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Formal and Informal Writing' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "In a subject integration exercise, which choice best applies 'Poetry Appreciation' concepts? [Scenario 84]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Poetry Appreciation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Nouns and Pronouns' in Class 6 English? [Scenario 85]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Nouns and Pronouns' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Adjectives'? [Scenario 86]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Adjectives' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Tenses Basics' concepts? [Scenario 87]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Tenses Basics' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Subject-Verb Agreement' in Class 6 English? [Scenario 88]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Subject-Verb Agreement' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Articles and Determiners'? [Scenario 89]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Articles and Determiners' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Prepositions' concepts? [Scenario 90]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Prepositions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Conjunctions' in Class 6 English? [Scenario 91]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Conjunctions' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Punctuation'? [Scenario 92]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Punctuation.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Punctuation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "In a subject integration exercise, which choice best applies 'Reading Comprehension' concepts? [Scenario 93]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Reading Comprehension.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Reading Comprehension' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Vocabulary in Context' in Class 6 English? [Scenario 94]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Vocabulary in Context.",
+      "Identifying key principles and applying them in a short classroom problem on Nouns and Pronouns.",
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Vocabulary in Context' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "During revision, which activity is most directly linked to 'Formal and Informal Writing'? [Scenario 95]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Subject-Verb Agreement.",
+      "Identifying key principles and applying them in a short classroom problem on Formal and Informal Writing.",
+      "Identifying key principles and applying them in a short classroom problem on Adjectives.",
+      "Identifying key principles and applying them in a short classroom problem on Prepositions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Formal and Informal Writing' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Poetry Appreciation' concepts? [Scenario 96]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Articles and Determiners.",
+      "Identifying key principles and applying them in a short classroom problem on Poetry Appreciation.",
+      "Identifying key principles and applying them in a short classroom problem on Tenses Basics.",
+      "Identifying key principles and applying them in a short classroom problem on Conjunctions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Poetry Appreciation' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 72,
+    "question": "A student confuses 'Nouns and Pronouns' with 'Subject-Verb Agreement' and 'Prepositions'. Which choice correctly separates 'Nouns and Pronouns' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Nouns and Pronouns'.",
+      "Use only memorized definitions from 'Prepositions' and ignore context.",
+      "Apply the defining principle of 'Nouns and Pronouns', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Nouns and Pronouns' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 100,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Adjectives'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Adjectives'.",
+      "Use only memorized definitions from 'Conjunctions' and ignore context.",
+      "Apply the defining principle of 'Adjectives', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Adjectives' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 84,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Tenses Basics'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Tenses Basics'.",
+      "Use only memorized definitions from 'Punctuation' and ignore context.",
+      "Apply the defining principle of 'Tenses Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Tenses Basics' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 82,
+    "question": "A student confuses 'Subject-Verb Agreement' with 'Conjunctions' and 'Reading Comprehension'. Which choice correctly separates 'Subject-Verb Agreement' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Subject-Verb Agreement'.",
+      "Use only memorized definitions from 'Reading Comprehension' and ignore context.",
+      "Apply the defining principle of 'Subject-Verb Agreement', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Subject-Verb Agreement' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 99,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Articles and Determiners'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Articles and Determiners'.",
+      "Use only memorized definitions from 'Vocabulary in Context' and ignore context.",
+      "Apply the defining principle of 'Articles and Determiners', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Articles and Determiners' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 92,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Prepositions'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Prepositions'.",
+      "Use only memorized definitions from 'Formal and Informal Writing' and ignore context.",
+      "Apply the defining principle of 'Prepositions', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Prepositions' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 89,
+    "question": "A student confuses 'Conjunctions' with 'Vocabulary in Context' and 'Poetry Appreciation'. Which choice correctly separates 'Conjunctions' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Conjunctions'.",
+      "Use only memorized definitions from 'Poetry Appreciation' and ignore context.",
+      "Apply the defining principle of 'Conjunctions', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Conjunctions' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 120,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Punctuation'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Punctuation'.",
+      "Use only memorized definitions from 'Nouns and Pronouns' and ignore context.",
+      "Apply the defining principle of 'Punctuation', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Punctuation' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 84,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Reading Comprehension'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Reading Comprehension'.",
+      "Use only memorized definitions from 'Adjectives' and ignore context.",
+      "Apply the defining principle of 'Reading Comprehension', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Reading Comprehension' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 84,
+    "question": "A student confuses 'Vocabulary in Context' with 'Nouns and Pronouns' and 'Tenses Basics'. Which choice correctly separates 'Vocabulary in Context' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Vocabulary in Context'.",
+      "Use only memorized definitions from 'Tenses Basics' and ignore context.",
+      "Apply the defining principle of 'Vocabulary in Context', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Vocabulary in Context' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 71,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Formal and Informal Writing'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Formal and Informal Writing'.",
+      "Use only memorized definitions from 'Subject-Verb Agreement' and ignore context.",
+      "Apply the defining principle of 'Formal and Informal Writing', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Formal and Informal Writing' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 112,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Poetry Appreciation'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Poetry Appreciation'.",
+      "Use only memorized definitions from 'Articles and Determiners' and ignore context.",
+      "Apply the defining principle of 'Poetry Appreciation', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Poetry Appreciation' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Nouns and Pronouns",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 82,
+    "question": "A student confuses 'Nouns and Pronouns' with 'Subject-Verb Agreement' and 'Prepositions'. Which choice correctly separates 'Nouns and Pronouns' from the others? [Scenario 109]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Nouns and Pronouns'.",
+      "Use only memorized definitions from 'Prepositions' and ignore context.",
+      "Apply the defining principle of 'Nouns and Pronouns', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Nouns and Pronouns' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Adjectives",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 95,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Adjectives'? [Scenario 110]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Adjectives'.",
+      "Use only memorized definitions from 'Conjunctions' and ignore context.",
+      "Apply the defining principle of 'Adjectives', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Adjectives' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Tenses Basics",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 91,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Tenses Basics'? [Scenario 111]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Tenses Basics'.",
+      "Use only memorized definitions from 'Punctuation' and ignore context.",
+      "Apply the defining principle of 'Tenses Basics', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Tenses Basics' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Subject-Verb Agreement",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 87,
+    "question": "A student confuses 'Subject-Verb Agreement' with 'Conjunctions' and 'Reading Comprehension'. Which choice correctly separates 'Subject-Verb Agreement' from the others? [Scenario 112]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Subject-Verb Agreement'.",
+      "Use only memorized definitions from 'Reading Comprehension' and ignore context.",
+      "Apply the defining principle of 'Subject-Verb Agreement', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Subject-Verb Agreement' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Articles and Determiners",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 74,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Articles and Determiners'? [Scenario 113]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Articles and Determiners'.",
+      "Use only memorized definitions from 'Vocabulary in Context' and ignore context.",
+      "Apply the defining principle of 'Articles and Determiners', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Articles and Determiners' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 119,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Prepositions'? [Scenario 114]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Prepositions'.",
+      "Use only memorized definitions from 'Formal and Informal Writing' and ignore context.",
+      "Apply the defining principle of 'Prepositions', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Prepositions' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Conjunctions",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 87,
+    "question": "A student confuses 'Conjunctions' with 'Vocabulary in Context' and 'Poetry Appreciation'. Which choice correctly separates 'Conjunctions' from the others? [Scenario 115]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Conjunctions'.",
+      "Use only memorized definitions from 'Poetry Appreciation' and ignore context.",
+      "Apply the defining principle of 'Conjunctions', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Conjunctions' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Punctuation",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 92,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Punctuation'? [Scenario 116]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Punctuation'.",
+      "Use only memorized definitions from 'Nouns and Pronouns' and ignore context.",
+      "Apply the defining principle of 'Punctuation', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Punctuation' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Reading Comprehension'? [Scenario 117]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Reading Comprehension'.",
+      "Use only memorized definitions from 'Adjectives' and ignore context.",
+      "Apply the defining principle of 'Reading Comprehension', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Reading Comprehension' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 102,
+    "question": "A student confuses 'Vocabulary in Context' with 'Nouns and Pronouns' and 'Tenses Basics'. Which choice correctly separates 'Vocabulary in Context' from the others? [Scenario 118]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Vocabulary in Context'.",
+      "Use only memorized definitions from 'Tenses Basics' and ignore context.",
+      "Apply the defining principle of 'Vocabulary in Context', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Vocabulary in Context' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Formal and Informal Writing",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 95,
+    "question": "For a high-order Class 6 English question, which response shows the strongest conceptual grasp of 'Formal and Informal Writing'? [Scenario 119]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Formal and Informal Writing'.",
+      "Use only memorized definitions from 'Subject-Verb Agreement' and ignore context.",
+      "Apply the defining principle of 'Formal and Informal Writing', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Formal and Informal Writing' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "English",
+    "topic": "Poetry Appreciation",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 113,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Poetry Appreciation'? [Scenario 120]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Poetry Appreciation'.",
+      "Use only memorized definitions from 'Articles and Determiners' and ignore context.",
+      "Apply the defining principle of 'Poetry Appreciation', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Poetry Appreciation' and validate with context."
+  }
+]

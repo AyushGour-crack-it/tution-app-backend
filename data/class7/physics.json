@@ -1,0 +1,1922 @@
+[
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Motion and Time'?",
+    "options": [
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Time' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Electric Current and its Effects'?",
+    "options": [
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Current and its Effects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Heat'. Which option fits this topic correctly?",
+    "options": [
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Light'?",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Winds, Storms and Cyclones'?",
+    "options": [
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Winds, Storms and Cyclones' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Weather and Climate'. Which option fits this topic correctly?",
+    "options": [
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Weather and Climate' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Sound'?",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Forces and Pressure'?",
+    "options": [
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Forces and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Simple Machines and Work'. Which option fits this topic correctly?",
+    "options": [
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Measurements and Data'?",
+    "options": [
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Measurements and Data' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Energy Sources'?",
+    "options": [
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy Sources' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Safety in Scientific Work'. Which option fits this topic correctly?",
+    "options": [
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Safety in Scientific Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Motion and Time'? [Scenario 13]",
+    "options": [
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Time' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Electric Current and its Effects'? [Scenario 14]",
+    "options": [
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Current and its Effects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Heat'. Which option fits this topic correctly? [Scenario 15]",
+    "options": [
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Light'? [Scenario 16]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Winds, Storms and Cyclones'? [Scenario 17]",
+    "options": [
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Winds, Storms and Cyclones' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Weather and Climate'. Which option fits this topic correctly? [Scenario 18]",
+    "options": [
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Weather and Climate' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Sound'? [Scenario 19]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Forces and Pressure'? [Scenario 20]",
+    "options": [
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Forces and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Simple Machines and Work'. Which option fits this topic correctly? [Scenario 21]",
+    "options": [
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Measurements and Data'? [Scenario 22]",
+    "options": [
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Measurements and Data' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Energy Sources'? [Scenario 23]",
+    "options": [
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy Sources' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Safety in Scientific Work'. Which option fits this topic correctly? [Scenario 24]",
+    "options": [
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Safety in Scientific Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Motion and Time'? [Scenario 25]",
+    "options": [
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Time' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Electric Current and its Effects'? [Scenario 26]",
+    "options": [
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Current and its Effects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Heat'. Which option fits this topic correctly? [Scenario 27]",
+    "options": [
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Light'? [Scenario 28]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Winds, Storms and Cyclones'? [Scenario 29]",
+    "options": [
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Winds, Storms and Cyclones' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Weather and Climate'. Which option fits this topic correctly? [Scenario 30]",
+    "options": [
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Weather and Climate' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Sound'? [Scenario 31]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Forces and Pressure'? [Scenario 32]",
+    "options": [
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Forces and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A student is revising 'Simple Machines and Work'. Which option fits this topic correctly? [Scenario 33]",
+    "options": [
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Measurements and Data'? [Scenario 34]",
+    "options": [
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Measurements and Data' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Energy Sources'? [Scenario 35]",
+    "options": [
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy Sources' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Safety in Scientific Work'. Which option fits this topic correctly? [Scenario 36]",
+    "options": [
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Safety in Scientific Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Motion and Time'? [Scenario 37]",
+    "options": [
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Time' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Electric Current and its Effects'? [Scenario 38]",
+    "options": [
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electric Current and its Effects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Heat'. Which option fits this topic correctly? [Scenario 39]",
+    "options": [
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Light'? [Scenario 40]",
+    "options": [
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Winds, Storms and Cyclones'? [Scenario 41]",
+    "options": [
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Winds, Storms and Cyclones' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Weather and Climate'. Which option fits this topic correctly? [Scenario 42]",
+    "options": [
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Weather and Climate' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Sound'? [Scenario 43]",
+    "options": [
+      "Sound in Physics helps students understand core ideas, examples, and practical applications.",
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Sound' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Forces and Pressure'? [Scenario 44]",
+    "options": [
+      "Forces and Pressure in Physics helps students understand core ideas, examples, and practical applications.",
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Forces and Pressure' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Simple Machines and Work'. Which option fits this topic correctly? [Scenario 45]",
+    "options": [
+      "Simple Machines and Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines and Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 7 Physics: Which statement best matches the topic 'Measurements and Data'? [Scenario 46]",
+    "options": [
+      "Measurements and Data in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Time in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Measurements and Data' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 7 Physics, what is the most accurate focus of 'Energy Sources'? [Scenario 47]",
+    "options": [
+      "Energy Sources in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electric Current and its Effects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light in Physics helps students understand core ideas, examples, and practical applications.",
+      "Weather and Climate in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Energy Sources' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Safety in Scientific Work'. Which option fits this topic correctly? [Scenario 48]",
+    "options": [
+      "Safety in Scientific Work in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat in Physics helps students understand core ideas, examples, and practical applications.",
+      "Winds, Storms and Cyclones in Physics helps students understand core ideas, examples, and practical applications.",
+      "Sound in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Safety in Scientific Work' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Time' in Class 7 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Time' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "During revision, which activity is most directly linked to 'Electric Current and its Effects'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Current and its Effects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "In a subject integration exercise, which choice best applies 'Heat' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Light' in Class 7 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Winds, Storms and Cyclones'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Winds, Storms and Cyclones' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Weather and Climate' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Weather and Climate' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Sound' in Class 7 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Forces and Pressure'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Heat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Forces and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines and Work' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Measurements and Data' in Class 7 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Measurements and Data' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Energy Sources'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy Sources' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "In a subject integration exercise, which choice best applies 'Safety in Scientific Work' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Safety in Scientific Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Time' in Class 7 Physics? [Scenario 61]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Time' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Electric Current and its Effects'? [Scenario 62]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Current and its Effects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Heat' concepts? [Scenario 63]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Light' in Class 7 Physics? [Scenario 64]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "During revision, which activity is most directly linked to 'Winds, Storms and Cyclones'? [Scenario 65]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Winds, Storms and Cyclones' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "In a subject integration exercise, which choice best applies 'Weather and Climate' concepts? [Scenario 66]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Weather and Climate' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Sound' in Class 7 Physics? [Scenario 67]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Forces and Pressure'? [Scenario 68]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Heat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Forces and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines and Work' concepts? [Scenario 69]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Measurements and Data' in Class 7 Physics? [Scenario 70]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Measurements and Data' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "During revision, which activity is most directly linked to 'Energy Sources'? [Scenario 71]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy Sources' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Safety in Scientific Work' concepts? [Scenario 72]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Safety in Scientific Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Time' in Class 7 Physics? [Scenario 73]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Time' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "During revision, which activity is most directly linked to 'Electric Current and its Effects'? [Scenario 74]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Current and its Effects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "In a subject integration exercise, which choice best applies 'Heat' concepts? [Scenario 75]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Light' in Class 7 Physics? [Scenario 76]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Winds, Storms and Cyclones'? [Scenario 77]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Winds, Storms and Cyclones' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "In a subject integration exercise, which choice best applies 'Weather and Climate' concepts? [Scenario 78]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Weather and Climate' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Sound' in Class 7 Physics? [Scenario 79]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "During revision, which activity is most directly linked to 'Forces and Pressure'? [Scenario 80]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Heat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Forces and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines and Work' concepts? [Scenario 81]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Measurements and Data' in Class 7 Physics? [Scenario 82]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Measurements and Data' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Energy Sources'? [Scenario 83]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy Sources' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "In a subject integration exercise, which choice best applies 'Safety in Scientific Work' concepts? [Scenario 84]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Safety in Scientific Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Time' in Class 7 Physics? [Scenario 85]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Time' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "During revision, which activity is most directly linked to 'Electric Current and its Effects'? [Scenario 86]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electric Current and its Effects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "In a subject integration exercise, which choice best applies 'Heat' concepts? [Scenario 87]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Light' in Class 7 Physics? [Scenario 88]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "During revision, which activity is most directly linked to 'Winds, Storms and Cyclones'? [Scenario 89]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Winds, Storms and Cyclones' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 53,
+    "question": "In a subject integration exercise, which choice best applies 'Weather and Climate' concepts? [Scenario 90]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Weather and Climate' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Sound' in Class 7 Physics? [Scenario 91]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Sound.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Sound' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "During revision, which activity is most directly linked to 'Forces and Pressure'? [Scenario 92]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Forces and Pressure.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Heat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Forces and Pressure' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines and Work' concepts? [Scenario 93]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines and Work.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Light."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines and Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Measurements and Data' in Class 7 Physics? [Scenario 94]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Measurements and Data.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Time.",
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Measurements and Data' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "During revision, which activity is most directly linked to 'Energy Sources'? [Scenario 95]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light.",
+      "Identifying key principles and applying them in a short classroom problem on Energy Sources.",
+      "Identifying key principles and applying them in a short classroom problem on Electric Current and its Effects.",
+      "Identifying key principles and applying them in a short classroom problem on Weather and Climate."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Energy Sources' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "In a subject integration exercise, which choice best applies 'Safety in Scientific Work' concepts? [Scenario 96]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Winds, Storms and Cyclones.",
+      "Identifying key principles and applying them in a short classroom problem on Safety in Scientific Work.",
+      "Identifying key principles and applying them in a short classroom problem on Heat.",
+      "Identifying key principles and applying them in a short classroom problem on Sound."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Safety in Scientific Work' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 110,
+    "question": "A student confuses 'Motion and Time' with 'Light' and 'Weather and Climate'. Which choice correctly separates 'Motion and Time' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Motion and Time'.",
+      "Use only memorized definitions from 'Weather and Climate' and ignore context.",
+      "Apply the defining principle of 'Motion and Time', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Motion and Time' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 98,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Electric Current and its Effects'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electric Current and its Effects'.",
+      "Use only memorized definitions from 'Sound' and ignore context.",
+      "Apply the defining principle of 'Electric Current and its Effects', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electric Current and its Effects' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 118,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Heat'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Heat'.",
+      "Use only memorized definitions from 'Forces and Pressure' and ignore context.",
+      "Apply the defining principle of 'Heat', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Heat' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 73,
+    "question": "A student confuses 'Light' with 'Sound' and 'Simple Machines and Work'. Which choice correctly separates 'Light' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light'.",
+      "Use only memorized definitions from 'Simple Machines and Work' and ignore context.",
+      "Apply the defining principle of 'Light', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 83,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Winds, Storms and Cyclones'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Winds, Storms and Cyclones'.",
+      "Use only memorized definitions from 'Measurements and Data' and ignore context.",
+      "Apply the defining principle of 'Winds, Storms and Cyclones', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Winds, Storms and Cyclones' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 87,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Weather and Climate'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Weather and Climate'.",
+      "Use only memorized definitions from 'Energy Sources' and ignore context.",
+      "Apply the defining principle of 'Weather and Climate', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Weather and Climate' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 105,
+    "question": "A student confuses 'Sound' with 'Measurements and Data' and 'Safety in Scientific Work'. Which choice correctly separates 'Sound' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sound'.",
+      "Use only memorized definitions from 'Safety in Scientific Work' and ignore context.",
+      "Apply the defining principle of 'Sound', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sound' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 78,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Forces and Pressure'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Forces and Pressure'.",
+      "Use only memorized definitions from 'Motion and Time' and ignore context.",
+      "Apply the defining principle of 'Forces and Pressure', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Forces and Pressure' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 88,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Simple Machines and Work'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Simple Machines and Work'.",
+      "Use only memorized definitions from 'Electric Current and its Effects' and ignore context.",
+      "Apply the defining principle of 'Simple Machines and Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Simple Machines and Work' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 98,
+    "question": "A student confuses 'Measurements and Data' with 'Motion and Time' and 'Heat'. Which choice correctly separates 'Measurements and Data' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Measurements and Data'.",
+      "Use only memorized definitions from 'Heat' and ignore context.",
+      "Apply the defining principle of 'Measurements and Data', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Measurements and Data' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 114,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Energy Sources'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Energy Sources'.",
+      "Use only memorized definitions from 'Light' and ignore context.",
+      "Apply the defining principle of 'Energy Sources', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Energy Sources' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 101,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Safety in Scientific Work'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Safety in Scientific Work'.",
+      "Use only memorized definitions from 'Winds, Storms and Cyclones' and ignore context.",
+      "Apply the defining principle of 'Safety in Scientific Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Safety in Scientific Work' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Motion and Time",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 77,
+    "question": "A student confuses 'Motion and Time' with 'Light' and 'Weather and Climate'. Which choice correctly separates 'Motion and Time' from the others? [Scenario 109]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Motion and Time'.",
+      "Use only memorized definitions from 'Weather and Climate' and ignore context.",
+      "Apply the defining principle of 'Motion and Time', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Motion and Time' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Electric Current and its Effects",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 71,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Electric Current and its Effects'? [Scenario 110]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electric Current and its Effects'.",
+      "Use only memorized definitions from 'Sound' and ignore context.",
+      "Apply the defining principle of 'Electric Current and its Effects', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electric Current and its Effects' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Heat",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 110,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Heat'? [Scenario 111]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Heat'.",
+      "Use only memorized definitions from 'Forces and Pressure' and ignore context.",
+      "Apply the defining principle of 'Heat', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Heat' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Light",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 108,
+    "question": "A student confuses 'Light' with 'Sound' and 'Simple Machines and Work'. Which choice correctly separates 'Light' from the others? [Scenario 112]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light'.",
+      "Use only memorized definitions from 'Simple Machines and Work' and ignore context.",
+      "Apply the defining principle of 'Light', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Winds, Storms and Cyclones",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 85,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Winds, Storms and Cyclones'? [Scenario 113]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Winds, Storms and Cyclones'.",
+      "Use only memorized definitions from 'Measurements and Data' and ignore context.",
+      "Apply the defining principle of 'Winds, Storms and Cyclones', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Winds, Storms and Cyclones' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Weather and Climate",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 115,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Weather and Climate'? [Scenario 114]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Weather and Climate'.",
+      "Use only memorized definitions from 'Energy Sources' and ignore context.",
+      "Apply the defining principle of 'Weather and Climate', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Weather and Climate' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Sound",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 80,
+    "question": "A student confuses 'Sound' with 'Measurements and Data' and 'Safety in Scientific Work'. Which choice correctly separates 'Sound' from the others? [Scenario 115]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Sound'.",
+      "Use only memorized definitions from 'Safety in Scientific Work' and ignore context.",
+      "Apply the defining principle of 'Sound', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sound' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Forces and Pressure",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 89,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Forces and Pressure'? [Scenario 116]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Forces and Pressure'.",
+      "Use only memorized definitions from 'Motion and Time' and ignore context.",
+      "Apply the defining principle of 'Forces and Pressure', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Forces and Pressure' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Simple Machines and Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 105,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Simple Machines and Work'? [Scenario 117]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Simple Machines and Work'.",
+      "Use only memorized definitions from 'Electric Current and its Effects' and ignore context.",
+      "Apply the defining principle of 'Simple Machines and Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Simple Machines and Work' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Measurements and Data",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 70,
+    "question": "A student confuses 'Measurements and Data' with 'Motion and Time' and 'Heat'. Which choice correctly separates 'Measurements and Data' from the others? [Scenario 118]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Measurements and Data'.",
+      "Use only memorized definitions from 'Heat' and ignore context.",
+      "Apply the defining principle of 'Measurements and Data', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Measurements and Data' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Energy Sources",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 105,
+    "question": "For a high-order Class 7 Physics question, which response shows the strongest conceptual grasp of 'Energy Sources'? [Scenario 119]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Energy Sources'.",
+      "Use only memorized definitions from 'Light' and ignore context.",
+      "Apply the defining principle of 'Energy Sources', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Energy Sources' and validate with context."
+  },
+  {
+    "classLevel": 7,
+    "subject": "Physics",
+    "topic": "Safety in Scientific Work",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 96,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Safety in Scientific Work'? [Scenario 120]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Safety in Scientific Work'.",
+      "Use only memorized definitions from 'Winds, Storms and Cyclones' and ignore context.",
+      "Apply the defining principle of 'Safety in Scientific Work', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Safety in Scientific Work' and validate with context."
+  }
+]

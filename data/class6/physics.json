@@ -1,0 +1,1922 @@
+[
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Motion and Measurement of Distances'?",
+    "options": [
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Measurement of Distances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Light, Shadows and Reflections'?",
+    "options": [
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light, Shadows and Reflections' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Electricity and Circuits'. Which option fits this topic correctly?",
+    "options": [
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electricity and Circuits' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Fun with Magnets'?",
+    "options": [
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fun with Magnets' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Water and Floating Objects'?",
+    "options": [
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water and Floating Objects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Separation of Substances'. Which option fits this topic correctly?",
+    "options": [
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation of Substances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Air Around Us'?",
+    "options": [
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Basic Components of Food'?",
+    "options": [
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Basic Components of Food' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Changes Around Us'. Which option fits this topic correctly?",
+    "options": [
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Changes Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Objects and Materials'?",
+    "options": [
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Objects and Materials' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Heat and Temperature'?",
+    "options": [
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat and Temperature' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Simple Machines'. Which option fits this topic correctly?",
+    "options": [
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Motion and Measurement of Distances'? [Scenario 13]",
+    "options": [
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Measurement of Distances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Light, Shadows and Reflections'? [Scenario 14]",
+    "options": [
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light, Shadows and Reflections' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Electricity and Circuits'. Which option fits this topic correctly? [Scenario 15]",
+    "options": [
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electricity and Circuits' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Fun with Magnets'? [Scenario 16]",
+    "options": [
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fun with Magnets' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Water and Floating Objects'? [Scenario 17]",
+    "options": [
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water and Floating Objects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Separation of Substances'. Which option fits this topic correctly? [Scenario 18]",
+    "options": [
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation of Substances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Air Around Us'? [Scenario 19]",
+    "options": [
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Basic Components of Food'? [Scenario 20]",
+    "options": [
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Basic Components of Food' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "A student is revising 'Changes Around Us'. Which option fits this topic correctly? [Scenario 21]",
+    "options": [
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Changes Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Objects and Materials'? [Scenario 22]",
+    "options": [
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Objects and Materials' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Heat and Temperature'? [Scenario 23]",
+    "options": [
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat and Temperature' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "A student is revising 'Simple Machines'. Which option fits this topic correctly? [Scenario 24]",
+    "options": [
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Motion and Measurement of Distances'? [Scenario 25]",
+    "options": [
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Measurement of Distances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Light, Shadows and Reflections'? [Scenario 26]",
+    "options": [
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light, Shadows and Reflections' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "A student is revising 'Electricity and Circuits'. Which option fits this topic correctly? [Scenario 27]",
+    "options": [
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electricity and Circuits' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Fun with Magnets'? [Scenario 28]",
+    "options": [
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fun with Magnets' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Water and Floating Objects'? [Scenario 29]",
+    "options": [
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water and Floating Objects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "A student is revising 'Separation of Substances'. Which option fits this topic correctly? [Scenario 30]",
+    "options": [
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation of Substances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Air Around Us'? [Scenario 31]",
+    "options": [
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Basic Components of Food'? [Scenario 32]",
+    "options": [
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Basic Components of Food' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "A student is revising 'Changes Around Us'. Which option fits this topic correctly? [Scenario 33]",
+    "options": [
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Changes Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Objects and Materials'? [Scenario 34]",
+    "options": [
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Objects and Materials' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Heat and Temperature'? [Scenario 35]",
+    "options": [
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat and Temperature' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "A student is revising 'Simple Machines'. Which option fits this topic correctly? [Scenario 36]",
+    "options": [
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Motion and Measurement of Distances'? [Scenario 37]",
+    "options": [
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Motion and Measurement of Distances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Light, Shadows and Reflections'? [Scenario 38]",
+    "options": [
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Light, Shadows and Reflections' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Electricity and Circuits'. Which option fits this topic correctly? [Scenario 39]",
+    "options": [
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Electricity and Circuits' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Fun with Magnets'? [Scenario 40]",
+    "options": [
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Fun with Magnets' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Water and Floating Objects'? [Scenario 41]",
+    "options": [
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Water and Floating Objects' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "A student is revising 'Separation of Substances'. Which option fits this topic correctly? [Scenario 42]",
+    "options": [
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Separation of Substances' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Air Around Us'? [Scenario 43]",
+    "options": [
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Air Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Basic Components of Food'? [Scenario 44]",
+    "options": [
+      "Basic Components of Food in Physics helps students understand core ideas, examples, and practical applications.",
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Basic Components of Food' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A student is revising 'Changes Around Us'. Which option fits this topic correctly? [Scenario 45]",
+    "options": [
+      "Changes Around Us in Physics helps students understand core ideas, examples, and practical applications.",
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Changes Around Us' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Class 6 Physics: Which statement best matches the topic 'Objects and Materials'? [Scenario 46]",
+    "options": [
+      "Objects and Materials in Physics helps students understand core ideas, examples, and practical applications.",
+      "Motion and Measurement of Distances in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Objects and Materials' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "In Class 6 Physics, what is the most accurate focus of 'Heat and Temperature'? [Scenario 47]",
+    "options": [
+      "Heat and Temperature in Physics helps students understand core ideas, examples, and practical applications.",
+      "Light, Shadows and Reflections in Physics helps students understand core ideas, examples, and practical applications.",
+      "Fun with Magnets in Physics helps students understand core ideas, examples, and practical applications.",
+      "Separation of Substances in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Heat and Temperature' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "A student is revising 'Simple Machines'. Which option fits this topic correctly? [Scenario 48]",
+    "options": [
+      "Simple Machines in Physics helps students understand core ideas, examples, and practical applications.",
+      "Electricity and Circuits in Physics helps students understand core ideas, examples, and practical applications.",
+      "Water and Floating Objects in Physics helps students understand core ideas, examples, and practical applications.",
+      "Air Around Us in Physics helps students understand core ideas, examples, and practical applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is correct because 'Simple Machines' specifically focuses on its own concept set, unlike the other topics listed."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Measurement of Distances' in Class 6 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Measurement of Distances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "During revision, which activity is most directly linked to 'Light, Shadows and Reflections'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light, Shadows and Reflections' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Electricity and Circuits' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electricity and Circuits' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Fun with Magnets' in Class 6 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fun with Magnets' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Water and Floating Objects'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water and Floating Objects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "In a subject integration exercise, which choice best applies 'Separation of Substances' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation of Substances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Air Around Us' in Class 6 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "During revision, which activity is most directly linked to 'Basic Components of Food'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Basic Components of Food' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "In a subject integration exercise, which choice best applies 'Changes Around Us' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Changes Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Objects and Materials' in Class 6 Physics?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Objects and Materials' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "During revision, which activity is most directly linked to 'Heat and Temperature'?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat and Temperature' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines' concepts?",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Measurement of Distances' in Class 6 Physics? [Scenario 61]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Measurement of Distances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Light, Shadows and Reflections'? [Scenario 62]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light, Shadows and Reflections' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "In a subject integration exercise, which choice best applies 'Electricity and Circuits' concepts? [Scenario 63]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electricity and Circuits' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Fun with Magnets' in Class 6 Physics? [Scenario 64]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fun with Magnets' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Water and Floating Objects'? [Scenario 65]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water and Floating Objects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "In a subject integration exercise, which choice best applies 'Separation of Substances' concepts? [Scenario 66]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation of Substances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Air Around Us' in Class 6 Physics? [Scenario 67]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "During revision, which activity is most directly linked to 'Basic Components of Food'? [Scenario 68]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Basic Components of Food' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "In a subject integration exercise, which choice best applies 'Changes Around Us' concepts? [Scenario 69]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Changes Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Objects and Materials' in Class 6 Physics? [Scenario 70]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Objects and Materials' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "During revision, which activity is most directly linked to 'Heat and Temperature'? [Scenario 71]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat and Temperature' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines' concepts? [Scenario 72]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Measurement of Distances' in Class 6 Physics? [Scenario 73]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Measurement of Distances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "During revision, which activity is most directly linked to 'Light, Shadows and Reflections'? [Scenario 74]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light, Shadows and Reflections' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "In a subject integration exercise, which choice best applies 'Electricity and Circuits' concepts? [Scenario 75]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electricity and Circuits' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Fun with Magnets' in Class 6 Physics? [Scenario 76]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fun with Magnets' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Water and Floating Objects'? [Scenario 77]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water and Floating Objects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "In a subject integration exercise, which choice best applies 'Separation of Substances' concepts? [Scenario 78]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation of Substances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Air Around Us' in Class 6 Physics? [Scenario 79]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "During revision, which activity is most directly linked to 'Basic Components of Food'? [Scenario 80]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Basic Components of Food' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "In a subject integration exercise, which choice best applies 'Changes Around Us' concepts? [Scenario 81]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Changes Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Objects and Materials' in Class 6 Physics? [Scenario 82]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Objects and Materials' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "During revision, which activity is most directly linked to 'Heat and Temperature'? [Scenario 83]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat and Temperature' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines' concepts? [Scenario 84]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Motion and Measurement of Distances' in Class 6 Physics? [Scenario 85]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Motion and Measurement of Distances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "During revision, which activity is most directly linked to 'Light, Shadows and Reflections'? [Scenario 86]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Light, Shadows and Reflections' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "In a subject integration exercise, which choice best applies 'Electricity and Circuits' concepts? [Scenario 87]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Electricity and Circuits' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Fun with Magnets' in Class 6 Physics? [Scenario 88]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Fun with Magnets' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "During revision, which activity is most directly linked to 'Water and Floating Objects'? [Scenario 89]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Water and Floating Objects' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "In a subject integration exercise, which choice best applies 'Separation of Substances' concepts? [Scenario 90]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Separation of Substances' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Air Around Us' in Class 6 Physics? [Scenario 91]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Air Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "During revision, which activity is most directly linked to 'Basic Components of Food'? [Scenario 92]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Basic Components of Food.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Basic Components of Food' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "In a subject integration exercise, which choice best applies 'Changes Around Us' concepts? [Scenario 93]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Changes Around Us.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Changes Around Us' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Objects and Materials' in Class 6 Physics? [Scenario 94]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Objects and Materials.",
+      "Identifying key principles and applying them in a short classroom problem on Motion and Measurement of Distances.",
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Objects and Materials' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 50,
+    "question": "During revision, which activity is most directly linked to 'Heat and Temperature'? [Scenario 95]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Fun with Magnets.",
+      "Identifying key principles and applying them in a short classroom problem on Heat and Temperature.",
+      "Identifying key principles and applying them in a short classroom problem on Light, Shadows and Reflections.",
+      "Identifying key principles and applying them in a short classroom problem on Separation of Substances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Heat and Temperature' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "In a subject integration exercise, which choice best applies 'Simple Machines' concepts? [Scenario 96]",
+    "options": [
+      "Identifying key principles and applying them in a short classroom problem on Water and Floating Objects.",
+      "Identifying key principles and applying them in a short classroom problem on Simple Machines.",
+      "Identifying key principles and applying them in a short classroom problem on Electricity and Circuits.",
+      "Identifying key principles and applying them in a short classroom problem on Air Around Us."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct option requires applying ideas from 'Simple Machines' rather than recalling unrelated details from other units."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 87,
+    "question": "A student confuses 'Motion and Measurement of Distances' with 'Fun with Magnets' and 'Separation of Substances'. Which choice correctly separates 'Motion and Measurement of Distances' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Motion and Measurement of Distances'.",
+      "Use only memorized definitions from 'Separation of Substances' and ignore context.",
+      "Apply the defining principle of 'Motion and Measurement of Distances', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Motion and Measurement of Distances' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 74,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Light, Shadows and Reflections'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light, Shadows and Reflections'.",
+      "Use only memorized definitions from 'Air Around Us' and ignore context.",
+      "Apply the defining principle of 'Light, Shadows and Reflections', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light, Shadows and Reflections' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 83,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Electricity and Circuits'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electricity and Circuits'.",
+      "Use only memorized definitions from 'Basic Components of Food' and ignore context.",
+      "Apply the defining principle of 'Electricity and Circuits', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electricity and Circuits' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 106,
+    "question": "A student confuses 'Fun with Magnets' with 'Air Around Us' and 'Changes Around Us'. Which choice correctly separates 'Fun with Magnets' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Fun with Magnets'.",
+      "Use only memorized definitions from 'Changes Around Us' and ignore context.",
+      "Apply the defining principle of 'Fun with Magnets', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Fun with Magnets' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 115,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Water and Floating Objects'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Water and Floating Objects'.",
+      "Use only memorized definitions from 'Objects and Materials' and ignore context.",
+      "Apply the defining principle of 'Water and Floating Objects', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Water and Floating Objects' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 90,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Separation of Substances'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Separation of Substances'.",
+      "Use only memorized definitions from 'Heat and Temperature' and ignore context.",
+      "Apply the defining principle of 'Separation of Substances', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Separation of Substances' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 83,
+    "question": "A student confuses 'Air Around Us' with 'Objects and Materials' and 'Simple Machines'. Which choice correctly separates 'Air Around Us' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Air Around Us'.",
+      "Use only memorized definitions from 'Simple Machines' and ignore context.",
+      "Apply the defining principle of 'Air Around Us', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Air Around Us' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Basic Components of Food'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Basic Components of Food'.",
+      "Use only memorized definitions from 'Motion and Measurement of Distances' and ignore context.",
+      "Apply the defining principle of 'Basic Components of Food', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Basic Components of Food' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 101,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Changes Around Us'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Changes Around Us'.",
+      "Use only memorized definitions from 'Light, Shadows and Reflections' and ignore context.",
+      "Apply the defining principle of 'Changes Around Us', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Changes Around Us' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 95,
+    "question": "A student confuses 'Objects and Materials' with 'Motion and Measurement of Distances' and 'Electricity and Circuits'. Which choice correctly separates 'Objects and Materials' from the others?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Objects and Materials'.",
+      "Use only memorized definitions from 'Electricity and Circuits' and ignore context.",
+      "Apply the defining principle of 'Objects and Materials', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Objects and Materials' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Heat and Temperature'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Heat and Temperature'.",
+      "Use only memorized definitions from 'Fun with Magnets' and ignore context.",
+      "Apply the defining principle of 'Heat and Temperature', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Heat and Temperature' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 99,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Simple Machines'?",
+    "options": [
+      "Blend all topics without checking the central concept of 'Simple Machines'.",
+      "Use only memorized definitions from 'Water and Floating Objects' and ignore context.",
+      "Apply the defining principle of 'Simple Machines', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Simple Machines' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Motion and Measurement of Distances",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 79,
+    "question": "A student confuses 'Motion and Measurement of Distances' with 'Fun with Magnets' and 'Separation of Substances'. Which choice correctly separates 'Motion and Measurement of Distances' from the others? [Scenario 109]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Motion and Measurement of Distances'.",
+      "Use only memorized definitions from 'Separation of Substances' and ignore context.",
+      "Apply the defining principle of 'Motion and Measurement of Distances', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Motion and Measurement of Distances' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Light, Shadows and Reflections",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 86,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Light, Shadows and Reflections'? [Scenario 110]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Light, Shadows and Reflections'.",
+      "Use only memorized definitions from 'Air Around Us' and ignore context.",
+      "Apply the defining principle of 'Light, Shadows and Reflections', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Light, Shadows and Reflections' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Electricity and Circuits",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 78,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Electricity and Circuits'? [Scenario 111]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Electricity and Circuits'.",
+      "Use only memorized definitions from 'Basic Components of Food' and ignore context.",
+      "Apply the defining principle of 'Electricity and Circuits', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Electricity and Circuits' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Fun with Magnets",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 85,
+    "question": "A student confuses 'Fun with Magnets' with 'Air Around Us' and 'Changes Around Us'. Which choice correctly separates 'Fun with Magnets' from the others? [Scenario 112]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Fun with Magnets'.",
+      "Use only memorized definitions from 'Changes Around Us' and ignore context.",
+      "Apply the defining principle of 'Fun with Magnets', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Fun with Magnets' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Water and Floating Objects",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 117,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Water and Floating Objects'? [Scenario 113]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Water and Floating Objects'.",
+      "Use only memorized definitions from 'Objects and Materials' and ignore context.",
+      "Apply the defining principle of 'Water and Floating Objects', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Water and Floating Objects' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Separation of Substances",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 105,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Separation of Substances'? [Scenario 114]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Separation of Substances'.",
+      "Use only memorized definitions from 'Heat and Temperature' and ignore context.",
+      "Apply the defining principle of 'Separation of Substances', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Separation of Substances' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Air Around Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 104,
+    "question": "A student confuses 'Air Around Us' with 'Objects and Materials' and 'Simple Machines'. Which choice correctly separates 'Air Around Us' from the others? [Scenario 115]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Air Around Us'.",
+      "Use only memorized definitions from 'Simple Machines' and ignore context.",
+      "Apply the defining principle of 'Air Around Us', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Air Around Us' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Basic Components of Food",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 86,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Basic Components of Food'? [Scenario 116]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Basic Components of Food'.",
+      "Use only memorized definitions from 'Motion and Measurement of Distances' and ignore context.",
+      "Apply the defining principle of 'Basic Components of Food', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Basic Components of Food' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Changes Around Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 117,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Changes Around Us'? [Scenario 117]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Changes Around Us'.",
+      "Use only memorized definitions from 'Light, Shadows and Reflections' and ignore context.",
+      "Apply the defining principle of 'Changes Around Us', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Changes Around Us' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Objects and Materials",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 107,
+    "question": "A student confuses 'Objects and Materials' with 'Motion and Measurement of Distances' and 'Electricity and Circuits'. Which choice correctly separates 'Objects and Materials' from the others? [Scenario 118]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Objects and Materials'.",
+      "Use only memorized definitions from 'Electricity and Circuits' and ignore context.",
+      "Apply the defining principle of 'Objects and Materials', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Objects and Materials' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 97,
+    "question": "For a high-order Class 6 Physics question, which response shows the strongest conceptual grasp of 'Heat and Temperature'? [Scenario 119]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Heat and Temperature'.",
+      "Use only memorized definitions from 'Fun with Magnets' and ignore context.",
+      "Apply the defining principle of 'Heat and Temperature', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Heat and Temperature' and validate with context."
+  },
+  {
+    "classLevel": 6,
+    "subject": "Physics",
+    "topic": "Simple Machines",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 107,
+    "question": "In a multi-step reasoning task, which approach is most valid for 'Simple Machines'? [Scenario 120]",
+    "options": [
+      "Blend all topics without checking the central concept of 'Simple Machines'.",
+      "Use only memorized definitions from 'Water and Floating Objects' and ignore context.",
+      "Apply the defining principle of 'Simple Machines', then test it against the scenario constraints.",
+      "Choose whichever option has the longest wording, regardless of concept match."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Simple Machines' and validate with context."
+  }
+]
