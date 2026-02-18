@@ -7,7 +7,10 @@ const ReceiptSchema = new mongoose.Schema(
     amount: { type: Number, required: true },
     paidOn: { type: Date, default: Date.now },
     method: { type: String, default: "UPI" },
-    reference: { type: String, default: "" }
+    reference: { type: String, default: "" },
+    dueDate: { type: Date, default: null },
+    lateDays: { type: Number, default: 0 },
+    xpAwarded: { type: Number, default: 0 }
   },
   { timestamps: true }
 );

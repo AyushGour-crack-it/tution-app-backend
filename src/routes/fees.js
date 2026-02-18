@@ -14,6 +14,65 @@ import { emitFeeUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
 
+const normalizeToDayStart = (value) => {
+  const d = new Date(value);
+  d.setHours(0, 0, 0, 0);
+  return d;
+};
+
+const parseFeeMonth = (value = "") => {
+  const text = String(value || "").trim();
+  if (!text) return null;
+  const direct = new Date(`${text} 01`);
+  if (!Number.isNaN(direct.getTime())) {
+    return { year: direct.getFullYear(), monthIndex: direct.getMonth() };
+  }
+  const yyyyMm = text.match(/^(\d{4})[-/](\d{1,2})$/);
+  if (yyyyMm) {
+    const year = Number(yyyyMm[1]);
+    const month = Number(yyyyMm[2]);
+    if (month >= 1 && month <= 12) {
+      return { year, monthIndex: month - 1 };
+    }
+  }
+  return null;
+};
+
+const computeDueDate = ({ month, joinedAt }) => {
+  const parsed = parseFeeMonth(month);
+  if (!parsed || !joinedAt) return null;
+  const anchor = new Date(joinedAt);
+  if (Number.isNaN(anchor.getTime())) return null;
+  const dueDay = anchor.getDate() || 1;
+  const lastDate = new Date(parsed.year, parsed.monthIndex + 1, 0).getDate();
+  const day = Math.min(dueDay, lastDate);
+  return new Date(parsed.year, parsed.monthIndex, day, 9, 0, 0, 0);
+};
+
+const resolveDueDateForFee = async (fee) => {
+  if (fee?.dueDate) return fee.dueDate;
+  const student = await Student.findById(fee.studentId).select("joinedAt").lean();
+  const computed = computeDueDate({ month: fee?.month, joinedAt: student?.joinedAt });
+  if (computed && fee?.save) {
+    fee.dueDate = computed;
+    await fee.save();
+  }
+  return computed;
+};
+
+const computeFeeXp = ({ dueDate, paidOn }) => {
+  if (!dueDate) {
+    return { lateDays: 0, xpAwarded: 50 };
+  }
+  const due = normalizeToDayStart(dueDate);
+  const paid = normalizeToDayStart(paidOn || new Date());
+  const lateDays = Math.max(0, Math.floor((paid.getTime() - due.getTime()) / (1000 * 60 * 60 * 24)));
+  if (lateDays === 0) {
+    return { lateDays: 0, xpAwarded: 60 };
+  }
+  return { lateDays, xpAwarded: Math.max(25, 60 - lateDays) };
+};
+
 const getRazorpay = () => {
   const key_id = process.env.RAZORPAY_KEY_ID;
   const key_secret = process.env.RAZORPAY_KEY_SECRET;
@@ -23,29 +82,37 @@ const getRazorpay = () => {
   return new Razorpay({ key_id, key_secret });
 };
 
-const notifyTeacherPayment = async ({ fee, amount, method }) => {
+const notifyTeacherPayment = async ({ fee, amount, method, lateDays = 0, dueDate = null }) => {
   const student = await Student.findById(fee.studentId).select("name studentId phone guardian").lean();
   const studentName = student?.name || student?.studentId || "A student";
   const phone = student?.phone || student?.guardian?.phone || "";
+  const timeliness = lateDays > 0
+    ? `${lateDays} day(s) late`
+    : "on time";
   await Notification.create({
     title: "Fee Received",
-    message: `${studentName}${phone ? ` (${phone})` : ""} paid ₹${Number(amount || 0)} via ${method || "UPI"}.`,
+    message:
+      `${studentName}${phone ? ` (${phone})` : ""} paid ₹${Number(amount || 0)} via ${method || "UPI"} (${timeliness})` +
+      `${dueDate ? `, due ${new Date(dueDate).toLocaleDateString()}` : ""}.`,
     target: "teacher"
   });
 };
 
-const awardStudentPaymentXp = async ({ fee, amount, method, source }) => {
+const awardStudentPaymentXp = async ({ fee, amount, method, source, lateDays = 0, xpAwarded = 0 }) => {
   const studentUser = await User.findOne({ role: "student", studentId: fee.studentId }).select("_id bonusXp").lean();
   if (!studentUser?._id) return;
   await User.updateOne(
     { _id: studentUser._id },
-    { $inc: { bonusXp: 50 } }
+    { $inc: { bonusXp: Number(xpAwarded || 0) } }
   );
+  const timelinessMessage = lateDays > 0
+    ? `Paid ${lateDays} day(s) late.`
+    : "Paid on time.";
   await Notification.create({
     title: "Payment Received",
     message:
       `Your payment has been received 🙏 Thank you for being a part of our learning community. ` +
-      `₹${Number(amount || 0)} via ${method || "UPI"} (${source}). +50 XP added.`,
+      `₹${Number(amount || 0)} via ${method || "UPI"} (${source}). ${timelinessMessage} +${Number(xpAwarded || 0)} XP added.`,
     target: "student",
     studentId: fee.studentId
   });
@@ -57,13 +124,20 @@ const createPaymentRecord = async ({ fee, amount, method, reference = "", source
     throw new Error("Invalid amount");
   }
 
+  const dueDate = await resolveDueDateForFee(fee);
+  const paidOn = new Date();
+  const { lateDays, xpAwarded } = computeFeeXp({ dueDate, paidOn });
+
   fee.payments.push({
     amount: numericAmount,
-    paidOn: new Date(),
+    paidOn,
     note: reference || "",
     method: method || "UPI",
     reference: reference || "",
-    source
+    source,
+    dueDateSnapshot: dueDate || null,
+    lateDays,
+    xpAwarded
   });
   await fee.save();
   emitFeeUpdated({ fee, action: "payment_added" });
@@ -72,15 +146,31 @@ const createPaymentRecord = async ({ fee, amount, method, reference = "", source
     studentId: fee.studentId,
     feeId: fee._id,
     amount: numericAmount,
-    paidOn: new Date(),
+    paidOn,
     method: method || "UPI",
-    reference: reference || ""
+    reference: reference || "",
+    dueDate: dueDate || null,
+    lateDays,
+    xpAwarded
   });
 
-  await notifyTeacherPayment({ fee, amount: numericAmount, method: method || "UPI" });
-  await awardStudentPaymentXp({ fee, amount: numericAmount, method: method || "UPI", source });
+  await notifyTeacherPayment({
+    fee,
+    amount: numericAmount,
+    method: method || "UPI",
+    lateDays,
+    dueDate
+  });
+  await awardStudentPaymentXp({
+    fee,
+    amount: numericAmount,
+    method: method || "UPI",
+    source,
+    lateDays,
+    xpAwarded
+  });
 
-  return { fee, receipt };
+  return { fee, receipt, lateDays, xpAwarded, dueDate };
 };
 
 const listPaymentTransactions = async () => {
@@ -118,6 +208,9 @@ const listPaymentTransactions = async () => {
       method: receipt?.method || "UPI",
       reference: receipt?.reference || "",
       paidOn: receipt?.paidOn || receipt?.createdAt,
+      dueDate: receipt?.dueDate || null,
+      lateDays: Number(receipt?.lateDays || 0),
+      xpAwarded: Number(receipt?.xpAwarded || 0),
       daysSincePrevious
     };
   });
@@ -134,6 +227,11 @@ router.get("/", requireAuth, async (req, res) => {
     query.studentId = req.query.studentId;
   }
   const items = await Fee.find(query).sort({ createdAt: -1 });
+  for (const fee of items) {
+    if (!fee?.dueDate) {
+      await resolveDueDateForFee(fee);
+    }
+  }
   res.json(items);
 });
 
@@ -157,13 +255,31 @@ router.get("/offline-requests", requireAuth, requireRole("teacher"), async (req,
 });
 
 router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
-  const created = await Fee.create(req.body);
+  const payload = { ...req.body };
+  if (!payload.dueDate && payload.studentId && payload.month) {
+    const student = await Student.findById(payload.studentId).select("joinedAt").lean();
+    payload.dueDate = computeDueDate({ month: payload.month, joinedAt: student?.joinedAt });
+  }
+  const created = await Fee.create(payload);
   emitFeeUpdated({ fee: created, action: "created" });
   res.status(201).json(created);
 });
 
 router.put("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
-  const updated = await Fee.findByIdAndUpdate(req.params.id, req.body, { new: true });
+  const current = await Fee.findById(req.params.id).select("studentId month").lean();
+  if (!current) {
+    return res.status(404).json({ message: "Fee record not found" });
+  }
+  const payload = { ...req.body };
+  if (!payload.dueDate) {
+    const studentId = payload.studentId || current.studentId;
+    const month = payload.month || current.month;
+    if (studentId && month) {
+      const student = await Student.findById(studentId).select("joinedAt").lean();
+      payload.dueDate = computeDueDate({ month, joinedAt: student?.joinedAt });
+    }
+  }
+  const updated = await Fee.findByIdAndUpdate(req.params.id, payload, { new: true });
   if (!updated) {
     return res.status(404).json({ message: "Fee record not found" });
   }
@@ -260,7 +376,7 @@ router.post("/offline-requests/:id/review", requireAuth, requireRole("teacher"),
     }
 
     const reference = `OfflineReq:${request._id}`;
-    await createPaymentRecord({
+    const paymentResult = await createPaymentRecord({
       fee,
       amount: request.amount,
       method,
@@ -270,7 +386,10 @@ router.post("/offline-requests/:id/review", requireAuth, requireRole("teacher"),
 
     await Notification.create({
       title: "Offline Payment Approved",
-      message: `Your offline payment request of ₹${request.amount} has been approved. +50 XP added.`,
+      message:
+        `Your offline payment request of ₹${request.amount} has been approved. ` +
+        `${paymentResult?.lateDays > 0 ? `Paid ${paymentResult.lateDays} day(s) late.` : "Paid on time."} ` +
+        `+${Number(paymentResult?.xpAwarded || 0)} XP added.`,
       target: "student",
       studentId: request.studentId
     });

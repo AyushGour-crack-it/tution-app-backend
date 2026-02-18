@@ -7,7 +7,10 @@ const PaymentSchema = new mongoose.Schema(
     note: { type: String, default: "" },
     method: { type: String, default: "UPI" },
     reference: { type: String, default: "" },
-    source: { type: String, enum: ["online", "offline", "manual"], default: "manual" }
+    source: { type: String, enum: ["online", "offline", "manual"], default: "manual" },
+    dueDateSnapshot: { type: Date, default: null },
+    lateDays: { type: Number, default: 0 },
+    xpAwarded: { type: Number, default: 0 }
   },
   { _id: false }
 );
@@ -17,6 +20,7 @@ const FeeSchema = new mongoose.Schema(
     studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student" },
     month: { type: String, required: true },
     total: { type: Number, required: true },
+    dueDate: { type: Date, default: null },
     payments: { type: [PaymentSchema], default: [] }
   },
   { timestamps: true }
