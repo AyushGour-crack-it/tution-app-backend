@@ -13,9 +13,25 @@ import Notification from "../models/Notification.js";
 import Message from "../models/Message.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { calculateLevelProgress } from "../utils/gamification.js";
+import { overallLevelFromXp } from "../utils/xpCalculator.js";
 import { emitLeaderboardUpdated, emitStudentsUpdated } from "../utils/realtime.js";
 
 const router = express.Router();
+
+const toPlainNumberMap = (value) => {
+  if (!value) return {};
+  if (value instanceof Map) {
+    return Object.fromEntries(
+      [...value.entries()].map(([key, amount]) => [String(key), Number(amount || 0)])
+    );
+  }
+  if (typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, amount]) => [String(key), Number(amount || 0)])
+    );
+  }
+  return {};
+};
 
 const mapDirectoryItem = ({
   user,
@@ -26,6 +42,9 @@ const mapDirectoryItem = ({
 }) => {
   const totalXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
   const level = calculateLevelProgress(totalXp);
+  const quizTotalXP = Number(user.totalXP || 0);
+  const quizSubjectXP = toPlainNumberMap(user.subjectXP);
+  const quizSubjectLevel = toPlainNumberMap(user.subjectLevel);
   return {
     userId: user._id.toString(),
     name: user.name || "",
@@ -36,6 +55,13 @@ const mapDirectoryItem = ({
     grade: profile?.grade || "",
     level,
     totalXp,
+    quiz: {
+      totalXP: quizTotalXP,
+      overallLevel: overallLevelFromXp(quizTotalXP),
+      streakCount: Number(user.streakCount || 0),
+      subjectXP: quizSubjectXP,
+      subjectLevel: quizSubjectLevel
+    },
     likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0,
     likedByMe: Array.isArray(user.profileLikedBy)
       ? user.profileLikedBy.some((likedUserId) => likedUserId.toString() === viewerUserId)
@@ -73,7 +99,7 @@ router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
 
 router.get("/directory", requireAuth, async (req, res) => {
   const users = await User.find({ role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy")
+    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel")
     .lean();
 
   const studentIds = users
@@ -122,7 +148,7 @@ router.get("/directory", requireAuth, async (req, res) => {
 
 router.get("/directory/:userId", requireAuth, async (req, res) => {
   const targetUser = await User.findOne({ _id: req.params.userId, role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy")
+    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel")
     .lean();
   if (!targetUser) {
     return res.status(404).json({ message: "Student not found" });
