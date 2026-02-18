@@ -97,7 +97,7 @@ router.get("/users", requireAuth, async (req, res) => {
   const users = await User.find({
     $or: [{ role: "teacher" }, { role: "student", studentApprovalStatus: "approved" }]
   })
-    .select("_id name role avatarUrl")
+    .select("_id name role avatarUrl isOnline lastSeenAt")
     .sort({ role: 1, name: 1 })
     .lean();
 

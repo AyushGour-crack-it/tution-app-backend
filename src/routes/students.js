@@ -63,6 +63,8 @@ const mapDirectoryItem = ({
       subjectLevel: quizSubjectLevel
     },
     likesCount: Array.isArray(user.profileLikedBy) ? user.profileLikedBy.length : 0,
+    isOnline: Boolean(user.isOnline),
+    lastSeenAt: user.lastSeenAt || null,
     likedByMe: Array.isArray(user.profileLikedBy)
       ? user.profileLikedBy.some((likedUserId) => likedUserId.toString() === viewerUserId)
       : false,
@@ -99,7 +101,7 @@ router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
 
 router.get("/directory", requireAuth, async (req, res) => {
   const users = await User.find({ role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel")
+    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
     .lean();
 
   const studentIds = users
@@ -148,7 +150,7 @@ router.get("/directory", requireAuth, async (req, res) => {
 
 router.get("/directory/:userId", requireAuth, async (req, res) => {
   const targetUser = await User.findOne({ _id: req.params.userId, role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel")
+    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
     .lean();
   if (!targetUser) {
     return res.status(404).json({ message: "Student not found" });

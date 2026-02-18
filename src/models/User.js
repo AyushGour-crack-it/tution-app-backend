@@ -44,7 +44,9 @@ const UserSchema = new mongoose.Schema(
       emergencyContact: { type: String, default: "" }
     },
     profileLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
-    lastLoginAt: { type: Date, default: null }
+    lastLoginAt: { type: Date, default: null },
+    isOnline: { type: Boolean, default: false },
+    lastSeenAt: { type: Date, default: null }
   },
   { timestamps: true }
 );

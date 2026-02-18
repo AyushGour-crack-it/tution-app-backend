@@ -177,3 +177,8 @@ export const emitInvoicesUpdated = (payload = {}) => {
   emitToRoom("role:teacher", "invoices:updated", payload);
   emitToRoom("role:student", "invoices:updated", payload);
 };
+
+export const emitUserPresenceUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "presence:updated", payload);
+  emitToRoom("role:student", "presence:updated", payload);
+};

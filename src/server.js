@@ -38,7 +38,7 @@ import User from "./models/User.js";
 import Question from "./models/Question.js";
 import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
-import { emitChatTyping, setRealtimeServer } from "./utils/realtime.js";
+import { emitChatTyping, emitUserPresenceUpdated, setRealtimeServer } from "./utils/realtime.js";
 
 
 dotenv.config();
@@ -249,6 +249,7 @@ const validateSecurityConfig = () => {
 };
 
 const buildSocketServer = async () => {
+  const activeConnections = new Map();
   const io = new Server(httpServer, {
     cors: {
       origin: (origin, callback) => {
@@ -293,6 +294,24 @@ const buildSocketServer = async () => {
       socket.join(`student:${user.studentId}`);
     }
 
+    const key = String(user.id);
+    const nextCount = Number(activeConnections.get(key) || 0) + 1;
+    activeConnections.set(key, nextCount);
+    if (nextCount === 1) {
+      User.updateOne(
+        { _id: user.id },
+        { $set: { isOnline: true, lastSeenAt: new Date() } }
+      )
+        .then(() => {
+          emitUserPresenceUpdated({
+            userId: key,
+            isOnline: true,
+            lastSeenAt: new Date().toISOString()
+          });
+        })
+        .catch(() => {});
+    }
+
     socket.on("chat:typing", async (payload = {}) => {
       try {
         const sender = socket.data.user;
@@ -312,6 +331,29 @@ const buildSocketServer = async () => {
       } catch {
         // typing indicator is best-effort
       }
+    });
+
+    socket.on("disconnect", () => {
+      const current = Number(activeConnections.get(key) || 0);
+      const remaining = Math.max(0, current - 1);
+      if (remaining > 0) {
+        activeConnections.set(key, remaining);
+        return;
+      }
+      activeConnections.delete(key);
+      const now = new Date();
+      User.updateOne(
+        { _id: key },
+        { $set: { isOnline: false, lastSeenAt: now } }
+      )
+        .then(() => {
+          emitUserPresenceUpdated({
+            userId: key,
+            isOnline: false,
+            lastSeenAt: now.toISOString()
+          });
+        })
+        .catch(() => {});
     });
   });
 
