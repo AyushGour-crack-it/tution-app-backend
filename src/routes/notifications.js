@@ -1,5 +1,6 @@
 import express from "express";
 import Notification from "../models/Notification.js";
+import User from "../models/User.js";
 import { requireAuth, requireRole } from "../utils/auth.js";
 import { teacherBroadcastLimiter } from "../utils/rateLimiters.js";
 
@@ -28,6 +29,34 @@ router.get("/", requireAuth, async (req, res) => {
   const query = buildNotificationQuery(req.user);
   const items = await Notification.find(query).sort({ createdAt: -1 }).limit(50);
   res.json(items);
+});
+
+router.get("/popup-state", requireAuth, async (req, res) => {
+  const user = await User.findById(req.user.sub).select("popupSeen").lean();
+  if (!user) {
+    return res.status(404).json({ message: "User not found" });
+  }
+  return res.json({
+    announcementId: user?.popupSeen?.announcementId || "",
+    holidayId: user?.popupSeen?.holidayId || ""
+  });
+});
+
+router.post("/popup-state", requireAuth, async (req, res) => {
+  const announcementId = String(req.body.announcementId || "").trim();
+  const holidayId = String(req.body.holidayId || "").trim();
+  const update = {};
+  if (announcementId) {
+    update["popupSeen.announcementId"] = announcementId;
+  }
+  if (holidayId) {
+    update["popupSeen.holidayId"] = holidayId;
+  }
+  if (!Object.keys(update).length) {
+    return res.status(400).json({ message: "Nothing to update" });
+  }
+  await User.updateOne({ _id: req.user.sub }, { $set: update });
+  return res.json({ message: "Popup state updated" });
 });
 
 router.post("/", requireAuth, requireRole("teacher"), teacherBroadcastLimiter, async (req, res) => {
