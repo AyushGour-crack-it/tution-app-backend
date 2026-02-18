@@ -45,6 +45,14 @@ const toResponseUser = (user) => ({
 });
 
 const startOfDay = (date) => new Date(date.getFullYear(), date.getMonth(), date.getDate());
+const toUtcMonthDayKey = (date) => {
+  if (!date) return "";
+  const parsed = new Date(date);
+  if (Number.isNaN(parsed.getTime())) return "";
+  const month = String(parsed.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(parsed.getUTCDate()).padStart(2, "0");
+  return `${month}-${day}`;
+};
 
 const maybeNotifyTeacherForNewStudentLogin = async (user) => {
   if (user.role !== "student" || user.studentApprovalStatus !== "approved" || user.lastLoginAt) return;
@@ -570,32 +578,65 @@ router.post("/daily-xp", requireAuth, requireRole("student"), async (req, res) =
 
   const now = new Date();
   const todayStart = startOfDay(now);
-  const alreadyClaimedToday = user.lastDailyXpAt && user.lastDailyXpAt >= todayStart;
-  if (alreadyClaimedToday) {
-    return res.json({
-      awarded: false,
-      amount: 0,
-      totalBonusXp: Number(user.bonusXp || 0),
-      claimedAt: user.lastDailyXpAt
-    });
+  const currentBonusXp = Number(user.bonusXp || 0);
+  const alreadyClaimedToday = Boolean(user.lastDailyXpAt && user.lastDailyXpAt >= todayStart);
+
+  let dailyAwardAmount = 0;
+  if (!alreadyClaimedToday) {
+    dailyAwardAmount = 25;
+    user.lastDailyXpAt = now;
   }
 
-  user.bonusXp = Number(user.bonusXp || 0) + 25;
-  user.lastDailyXpAt = now;
-  await user.save();
+  let birthdayAwardAmount = 0;
+  const studentProfile = await Student.findById(user.studentId).select("dateOfBirth").lean();
+  const todayKey = toUtcMonthDayKey(now);
+  const dobKey = toUtcMonthDayKey(studentProfile?.dateOfBirth);
+  const currentUtcYear = now.getUTCFullYear();
+  const canAwardBirthday =
+    Boolean(todayKey && dobKey && todayKey === dobKey) &&
+    Number(user.lastBirthdayBonusYear || 0) !== currentUtcYear;
 
-  await Notification.create({
-    title: "Daily XP Bonus",
-    message: "You earned +25 XP for showing up today. Keep the streak alive!",
-    target: "student",
-    studentId: user.studentId || null
-  });
+  if (canAwardBirthday) {
+    birthdayAwardAmount = 250;
+    user.lastBirthdayBonusYear = currentUtcYear;
+  }
+
+  const totalAwarded = dailyAwardAmount + birthdayAwardAmount;
+  if (totalAwarded > 0) {
+    user.bonusXp = currentBonusXp + totalAwarded;
+    await user.save();
+  }
+
+  const notifications = [];
+  if (dailyAwardAmount > 0) {
+    notifications.push({
+      title: "Daily XP Bonus",
+      message: "You earned +25 XP for showing up today. Keep the streak alive!",
+      target: "student",
+      studentId: user.studentId || null
+    });
+  }
+  if (birthdayAwardAmount > 0) {
+    notifications.push({
+      title: "Birthday XP Gift",
+      message: `Happy Birthday, ${user.name}! You received +250 XP as your birthday reward.`,
+      target: "student",
+      studentId: user.studentId || null
+    });
+  }
+  if (notifications.length) {
+    await Notification.insertMany(notifications);
+  }
 
   return res.json({
-    awarded: true,
-    amount: 25,
+    awarded: totalAwarded > 0,
+    amount: totalAwarded,
+    dailyAwarded: dailyAwardAmount > 0,
+    dailyAmount: dailyAwardAmount,
+    birthdayAwarded: birthdayAwardAmount > 0,
+    birthdayAmount: birthdayAwardAmount,
     totalBonusXp: Number(user.bonusXp || 0),
-    claimedAt: now
+    claimedAt: user.lastDailyXpAt || null
   });
 });
 

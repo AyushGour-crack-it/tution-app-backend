@@ -13,6 +13,7 @@ const UserSchema = new mongoose.Schema(
     fcmTokens: { type: [String], default: [] },
     bonusXp: { type: Number, default: 0 },
     lastDailyXpAt: { type: Date, default: null },
+    lastBirthdayBonusYear: { type: Number, default: 0 },
     streakCount: { type: Number, default: 0 },
     lastActiveDate: { type: Date, default: null },
     totalXP: { type: Number, default: 0 },
