@@ -4,576 +4,16 @@
     "subject": "History",
     "topic": "What, Where, How and When",
     "difficulty": "easy",
-    "timeToSolveSeconds": 21,
-    "question": "Class 6 History: Which statement best matches the topic 'What, Where, How and When'?",
+    "timeToSolveSeconds": 20,
+    "question": "Who studies tools, pottery, and buildings to learn about the past?",
     "options": [
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications."
+      "Archaeologists",
+      "Astronomers",
+      "Biologists",
+      "Cartographers"
     ],
     "correctAnswer": 0,
-    "explanation": "This is correct because 'What, Where, How and When' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "In Class 6 History, what is the most accurate focus of 'From Hunting to Growing Food'?",
-    "options": [
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'From Hunting to Growing Food' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 22,
-    "question": "A student is revising 'In the Earliest Cities'. Which option fits this topic correctly?",
-    "options": [
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'In the Earliest Cities' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "Class 6 History: Which statement best matches the topic 'What Books and Burials Tell Us'?",
-    "options": [
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What Books and Burials Tell Us' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 30,
-    "question": "In Class 6 History, what is the most accurate focus of 'Kingdoms, Kings and Early Republic'?",
-    "options": [
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Kingdoms, Kings and Early Republic' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "A student is revising 'New Questions and Ideas'. Which option fits this topic correctly?",
-    "options": [
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Questions and Ideas' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "Class 6 History: Which statement best matches the topic 'Ashoka and the Mauryan Empire'?",
-    "options": [
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Ashoka and the Mauryan Empire' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 29,
-    "question": "In Class 6 History, what is the most accurate focus of 'Vital Villages and Thriving Towns'?",
-    "options": [
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Vital Villages and Thriving Towns' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 25,
-    "question": "A student is revising 'Traders, Kings and Pilgrims'. Which option fits this topic correctly?",
-    "options": [
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Traders, Kings and Pilgrims' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "Class 6 History: Which statement best matches the topic 'New Empires and Kingdoms'?",
-    "options": [
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Empires and Kingdoms' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 29,
-    "question": "In Class 6 History, what is the most accurate focus of 'Buildings, Paintings and Books'?",
-    "options": [
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Buildings, Paintings and Books' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "A student is revising 'Sources in History'. Which option fits this topic correctly?",
-    "options": [
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Sources in History' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 26,
-    "question": "Class 6 History: Which statement best matches the topic 'What, Where, How and When'? [Scenario 13]",
-    "options": [
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What, Where, How and When' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "In Class 6 History, what is the most accurate focus of 'From Hunting to Growing Food'? [Scenario 14]",
-    "options": [
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'From Hunting to Growing Food' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "A student is revising 'In the Earliest Cities'. Which option fits this topic correctly? [Scenario 15]",
-    "options": [
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'In the Earliest Cities' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 22,
-    "question": "Class 6 History: Which statement best matches the topic 'What Books and Burials Tell Us'? [Scenario 16]",
-    "options": [
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What Books and Burials Tell Us' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "In Class 6 History, what is the most accurate focus of 'Kingdoms, Kings and Early Republic'? [Scenario 17]",
-    "options": [
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Kingdoms, Kings and Early Republic' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "A student is revising 'New Questions and Ideas'. Which option fits this topic correctly? [Scenario 18]",
-    "options": [
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Questions and Ideas' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 24,
-    "question": "Class 6 History: Which statement best matches the topic 'Ashoka and the Mauryan Empire'? [Scenario 19]",
-    "options": [
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Ashoka and the Mauryan Empire' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 23,
-    "question": "In Class 6 History, what is the most accurate focus of 'Vital Villages and Thriving Towns'? [Scenario 20]",
-    "options": [
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Vital Villages and Thriving Towns' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 30,
-    "question": "A student is revising 'Traders, Kings and Pilgrims'. Which option fits this topic correctly? [Scenario 21]",
-    "options": [
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Traders, Kings and Pilgrims' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 24,
-    "question": "Class 6 History: Which statement best matches the topic 'New Empires and Kingdoms'? [Scenario 22]",
-    "options": [
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Empires and Kingdoms' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "In Class 6 History, what is the most accurate focus of 'Buildings, Paintings and Books'? [Scenario 23]",
-    "options": [
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Buildings, Paintings and Books' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "A student is revising 'Sources in History'. Which option fits this topic correctly? [Scenario 24]",
-    "options": [
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Sources in History' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 30,
-    "question": "Class 6 History: Which statement best matches the topic 'What, Where, How and When'? [Scenario 25]",
-    "options": [
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What, Where, How and When' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 23,
-    "question": "In Class 6 History, what is the most accurate focus of 'From Hunting to Growing Food'? [Scenario 26]",
-    "options": [
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'From Hunting to Growing Food' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 24,
-    "question": "A student is revising 'In the Earliest Cities'. Which option fits this topic correctly? [Scenario 27]",
-    "options": [
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'In the Earliest Cities' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "Class 6 History: Which statement best matches the topic 'What Books and Burials Tell Us'? [Scenario 28]",
-    "options": [
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What Books and Burials Tell Us' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 21,
-    "question": "In Class 6 History, what is the most accurate focus of 'Kingdoms, Kings and Early Republic'? [Scenario 29]",
-    "options": [
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Kingdoms, Kings and Early Republic' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 24,
-    "question": "A student is revising 'New Questions and Ideas'. Which option fits this topic correctly? [Scenario 30]",
-    "options": [
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Questions and Ideas' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 23,
-    "question": "Class 6 History: Which statement best matches the topic 'Ashoka and the Mauryan Empire'? [Scenario 31]",
-    "options": [
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Ashoka and the Mauryan Empire' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 24,
-    "question": "In Class 6 History, what is the most accurate focus of 'Vital Villages and Thriving Towns'? [Scenario 32]",
-    "options": [
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Vital Villages and Thriving Towns' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 25,
-    "question": "A student is revising 'Traders, Kings and Pilgrims'. Which option fits this topic correctly? [Scenario 33]",
-    "options": [
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Traders, Kings and Pilgrims' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 25,
-    "question": "Class 6 History: Which statement best matches the topic 'New Empires and Kingdoms'? [Scenario 34]",
-    "options": [
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Empires and Kingdoms' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "In Class 6 History, what is the most accurate focus of 'Buildings, Paintings and Books'? [Scenario 35]",
-    "options": [
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Buildings, Paintings and Books' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 21,
-    "question": "A student is revising 'Sources in History'. Which option fits this topic correctly? [Scenario 36]",
-    "options": [
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Sources in History' specifically focuses on its own concept set, unlike the other topics listed."
+    "explanation": "Archaeologists study physical remains of past societies."
   },
   {
     "classLevel": 6,
@@ -581,383 +21,95 @@
     "topic": "What, Where, How and When",
     "difficulty": "easy",
     "timeToSolveSeconds": 22,
-    "question": "Class 6 History: Which statement best matches the topic 'What, Where, How and When'? [Scenario 37]",
+    "question": "Pick the correct option: Material remains from excavations are examined by ...",
     "options": [
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications."
+      "Astronomers",
+      "Biologists",
+      "Cartographers",
+      "Archaeologists"
     ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What, Where, How and When' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 22,
-    "question": "In Class 6 History, what is the most accurate focus of 'From Hunting to Growing Food'? [Scenario 38]",
-    "options": [
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'From Hunting to Growing Food' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 23,
-    "question": "A student is revising 'In the Earliest Cities'. Which option fits this topic correctly? [Scenario 39]",
-    "options": [
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'In the Earliest Cities' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 26,
-    "question": "Class 6 History: Which statement best matches the topic 'What Books and Burials Tell Us'? [Scenario 40]",
-    "options": [
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'What Books and Burials Tell Us' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 22,
-    "question": "In Class 6 History, what is the most accurate focus of 'Kingdoms, Kings and Early Republic'? [Scenario 41]",
-    "options": [
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Kingdoms, Kings and Early Republic' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 23,
-    "question": "A student is revising 'New Questions and Ideas'. Which option fits this topic correctly? [Scenario 42]",
-    "options": [
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications.",
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Questions and Ideas' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 21,
-    "question": "Class 6 History: Which statement best matches the topic 'Ashoka and the Mauryan Empire'? [Scenario 43]",
-    "options": [
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications.",
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Ashoka and the Mauryan Empire' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 26,
-    "question": "In Class 6 History, what is the most accurate focus of 'Vital Villages and Thriving Towns'? [Scenario 44]",
-    "options": [
-      "Vital Villages and Thriving Towns in History helps students understand core ideas, examples, and practical applications.",
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Vital Villages and Thriving Towns' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 26,
-    "question": "A student is revising 'Traders, Kings and Pilgrims'. Which option fits this topic correctly? [Scenario 45]",
-    "options": [
-      "Traders, Kings and Pilgrims in History helps students understand core ideas, examples, and practical applications.",
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Traders, Kings and Pilgrims' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 25,
-    "question": "Class 6 History: Which statement best matches the topic 'New Empires and Kingdoms'? [Scenario 46]",
-    "options": [
-      "New Empires and Kingdoms in History helps students understand core ideas, examples, and practical applications.",
-      "What, Where, How and When in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'New Empires and Kingdoms' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 28,
-    "question": "In Class 6 History, what is the most accurate focus of 'Buildings, Paintings and Books'? [Scenario 47]",
-    "options": [
-      "Buildings, Paintings and Books in History helps students understand core ideas, examples, and practical applications.",
-      "From Hunting to Growing Food in History helps students understand core ideas, examples, and practical applications.",
-      "What Books and Burials Tell Us in History helps students understand core ideas, examples, and practical applications.",
-      "New Questions and Ideas in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Buildings, Paintings and Books' specifically focuses on its own concept set, unlike the other topics listed."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "easy",
-    "timeToSolveSeconds": 27,
-    "question": "A student is revising 'Sources in History'. Which option fits this topic correctly? [Scenario 48]",
-    "options": [
-      "Sources in History in History helps students understand core ideas, examples, and practical applications.",
-      "In the Earliest Cities in History helps students understand core ideas, examples, and practical applications.",
-      "Kingdoms, Kings and Early Republic in History helps students understand core ideas, examples, and practical applications.",
-      "Ashoka and the Mauryan Empire in History helps students understand core ideas, examples, and practical applications."
-    ],
-    "correctAnswer": 0,
-    "explanation": "This is correct because 'Sources in History' specifically focuses on its own concept set, unlike the other topics listed."
+    "correctAnswer": 3,
+    "explanation": "Archaeologists study physical remains of past societies."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "What, Where, How and When",
     "difficulty": "medium",
-    "timeToSolveSeconds": 53,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What, Where, How and When' in Class 6 History?",
+    "timeToSolveSeconds": 48,
+    "question": "A student note says, \"The source is a dug-up site with objects and bones.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns."
+      "Astronomers",
+      "Biologists",
+      "Cartographers",
+      "Archaeologists"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What, Where, How and When' rather than recalling unrelated details from other units."
+    "correctAnswer": 3,
+    "explanation": "Archaeologists study physical remains of past societies."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "From Hunting to Growing Food",
+    "topic": "What, Where, How and When",
     "difficulty": "medium",
-    "timeToSolveSeconds": 41,
-    "question": "During revision, which activity is most directly linked to 'From Hunting to Growing Food'?",
+    "timeToSolveSeconds": 45,
+    "question": "For Class 6 revision, which option best completes this line: Material remains from excavations are examined by ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims."
+      "Cartographers",
+      "Archaeologists",
+      "Astronomers",
+      "Biologists"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'From Hunting to Growing Food' rather than recalling unrelated details from other units."
+    "explanation": "Archaeologists study physical remains of past societies."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 46,
-    "question": "In a subject integration exercise, which choice best applies 'In the Earliest Cities' concepts?",
+    "topic": "What, Where, How and When",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 90,
+    "question": "Which option is historically most accurate given this context: The source is a dug-up site with objects and bones.",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms."
+      "Cartographers",
+      "Archaeologists",
+      "Astronomers",
+      "Biologists"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'In the Earliest Cities' rather than recalling unrelated details from other units."
+    "explanation": "Archaeologists study physical remains of past societies."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 53,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What Books and Burials Tell Us' in Class 6 History?",
+    "topic": "What, Where, How and When",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "What are inscriptions?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books."
+      "Songs remembered orally",
+      "Printed school books",
+      "Paintings on cloth",
+      "Messages carved on hard surfaces"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What Books and Burials Tell Us' rather than recalling unrelated details from other units."
+    "correctAnswer": 3,
+    "explanation": "Inscriptions are engraved records on durable materials."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "During revision, which activity is most directly linked to 'Kingdoms, Kings and Early Republic'?",
+    "topic": "What, Where, How and When",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Pick the correct option: A king's message carved on rock is an ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History."
+      "Printed school books",
+      "Paintings on cloth",
+      "Messages carved on hard surfaces",
+      "Songs remembered orally"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Kingdoms, Kings and Early Republic' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 58,
-    "question": "In a subject integration exercise, which choice best applies 'New Questions and Ideas' concepts?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Questions and Ideas' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 40,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Ashoka and the Mauryan Empire' in Class 6 History?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Ashoka and the Mauryan Empire' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 58,
-    "question": "During revision, which activity is most directly linked to 'Vital Villages and Thriving Towns'?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Vital Villages and Thriving Towns' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "In a subject integration exercise, which choice best applies 'Traders, Kings and Pilgrims' concepts?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Traders, Kings and Pilgrims' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 55,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'New Empires and Kingdoms' in Class 6 History?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Empires and Kingdoms' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 40,
-    "question": "During revision, which activity is most directly linked to 'Buildings, Paintings and Books'?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Buildings, Paintings and Books' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 51,
-    "question": "In a subject integration exercise, which choice best applies 'Sources in History' concepts?",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Sources in History' rather than recalling unrelated details from other units."
+    "correctAnswer": 2,
+    "explanation": "Inscriptions are engraved records on durable materials."
   },
   {
     "classLevel": 6,
@@ -965,31 +117,319 @@
     "topic": "What, Where, How and When",
     "difficulty": "medium",
     "timeToSolveSeconds": 49,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What, Where, How and When' in Class 6 History? [Scenario 61]",
+    "question": "A student note says, \"The order is engraved on stone and cannot be rubbed off easily.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns."
+      "Printed school books",
+      "Paintings on cloth",
+      "Messages carved on hard surfaces",
+      "Songs remembered orally"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Inscriptions are engraved records on durable materials."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What, Where, How and When",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "For Class 6 revision, which option best completes this line: A king's message carved on rock is an ...",
+    "options": [
+      "Messages carved on hard surfaces",
+      "Songs remembered orally",
+      "Printed school books",
+      "Paintings on cloth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inscriptions are engraved records on durable materials."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What, Where, How and When",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 91,
+    "question": "Which option is historically most accurate given this context: The order is engraved on stone and cannot be rubbed off easily.",
+    "options": [
+      "Messages carved on hard surfaces",
+      "Songs remembered orally",
+      "Printed school books",
+      "Paintings on cloth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inscriptions are engraved records on durable materials."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Why did hunter-gatherers move frequently?",
+    "options": [
+      "To mint coins",
+      "To run courts",
+      "To find food, water, and shelter",
+      "To collect school fees"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Early foragers moved based on availability of resources."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Pick the correct option: Frequent movement by early people was mainly linked to ...",
+    "options": [
+      "To run courts",
+      "To find food, water, and shelter",
+      "To collect school fees",
+      "To mint coins"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What, Where, How and When' rather than recalling unrelated details from other units."
+    "explanation": "Early foragers moved based on availability of resources."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "From Hunting to Growing Food",
     "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "During revision, which activity is most directly linked to 'From Hunting to Growing Food'? [Scenario 62]",
+    "timeToSolveSeconds": 50,
+    "question": "A student note says, \"Resources changed with seasons and animal movement.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims."
+      "To run courts",
+      "To find food, water, and shelter",
+      "To collect school fees",
+      "To mint coins"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'From Hunting to Growing Food' rather than recalling unrelated details from other units."
+    "explanation": "Early foragers moved based on availability of resources."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "For Class 6 revision, which option best completes this line: Frequent movement by early people was mainly linked to ...",
+    "options": [
+      "To collect school fees",
+      "To mint coins",
+      "To run courts",
+      "To find food, water, and shelter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Early foragers moved based on availability of resources."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 92,
+    "question": "Which option is historically most accurate given this context: Resources changed with seasons and animal movement.",
+    "options": [
+      "To collect school fees",
+      "To mint coins",
+      "To run courts",
+      "To find food, water, and shelter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Early foragers moved based on availability of resources."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "People at Burzahom are known for living in:",
+    "options": [
+      "Marble palaces",
+      "Pit-houses",
+      "Stone skyscrapers",
+      "Floating huts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Burzahom is known for pit dwellings."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Pick the correct option: Dwellings cut below ground level at Burzahom were ...",
+    "options": [
+      "Pit-houses",
+      "Stone skyscrapers",
+      "Floating huts",
+      "Marble palaces"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Burzahom is known for pit dwellings."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "A student note says, \"Homes were dug into the ground.\" Which answer best matches this clue?",
+    "options": [
+      "Pit-houses",
+      "Stone skyscrapers",
+      "Floating huts",
+      "Marble palaces"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Burzahom is known for pit dwellings."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 48,
+    "question": "For Class 6 revision, which option best completes this line: Dwellings cut below ground level at Burzahom were ...",
+    "options": [
+      "Floating huts",
+      "Marble palaces",
+      "Pit-houses",
+      "Stone skyscrapers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Burzahom is known for pit dwellings."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "From Hunting to Growing Food",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 93,
+    "question": "Which option is historically most accurate given this context: Homes were dug into the ground.",
+    "options": [
+      "Floating huts",
+      "Marble palaces",
+      "Pit-houses",
+      "Stone skyscrapers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Burzahom is known for pit dwellings."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Which city is famous for the Great Bath?",
+    "options": [
+      "Mohenjo-daro",
+      "Kalibangan",
+      "Rajgir",
+      "Taxila"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Great Bath was excavated at Mohenjo-daro."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Pick the correct option: The Great Bath is associated with ...",
+    "options": [
+      "Kalibangan",
+      "Rajgir",
+      "Taxila",
+      "Mohenjo-daro"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Great Bath was excavated at Mohenjo-daro."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 52,
+    "question": "A student note says, \"It had a carefully built public water tank.\" Which answer best matches this clue?",
+    "options": [
+      "Kalibangan",
+      "Rajgir",
+      "Taxila",
+      "Mohenjo-daro"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Great Bath was excavated at Mohenjo-daro."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "For Class 6 revision, which option best completes this line: The Great Bath is associated with ...",
+    "options": [
+      "Taxila",
+      "Mohenjo-daro",
+      "Kalibangan",
+      "Rajgir"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Great Bath was excavated at Mohenjo-daro."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 94,
+    "question": "Which option is historically most accurate given this context: It had a carefully built public water tank.",
+    "options": [
+      "Taxila",
+      "Mohenjo-daro",
+      "Kalibangan",
+      "Rajgir"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Great Bath was excavated at Mohenjo-daro."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "A key feature of Harappan towns was:",
+    "options": [
+      "Random hut clusters",
+      "No drains",
+      "Only circular roads",
+      "Planned streets and drainage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Harappan settlements had advanced civic planning."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Pick the correct option: Urban planning in Harappan cities is shown by ...",
+    "options": [
+      "No drains",
+      "Only circular roads",
+      "Planned streets and drainage",
+      "Random hut clusters"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Harappan settlements had advanced civic planning."
   },
   {
     "classLevel": 6,
@@ -997,191 +437,15 @@
     "topic": "In the Earliest Cities",
     "difficulty": "medium",
     "timeToSolveSeconds": 53,
-    "question": "In a subject integration exercise, which choice best applies 'In the Earliest Cities' concepts? [Scenario 63]",
+    "question": "A student note says, \"Roads met at planned angles and drains were covered.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms."
+      "No drains",
+      "Only circular roads",
+      "Planned streets and drainage",
+      "Random hut clusters"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'In the Earliest Cities' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 57,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What Books and Burials Tell Us' in Class 6 History? [Scenario 64]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What Books and Burials Tell Us' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 57,
-    "question": "During revision, which activity is most directly linked to 'Kingdoms, Kings and Early Republic'? [Scenario 65]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Kingdoms, Kings and Early Republic' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 59,
-    "question": "In a subject integration exercise, which choice best applies 'New Questions and Ideas' concepts? [Scenario 66]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Questions and Ideas' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 47,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Ashoka and the Mauryan Empire' in Class 6 History? [Scenario 67]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Ashoka and the Mauryan Empire' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 55,
-    "question": "During revision, which activity is most directly linked to 'Vital Villages and Thriving Towns'? [Scenario 68]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Vital Villages and Thriving Towns' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 47,
-    "question": "In a subject integration exercise, which choice best applies 'Traders, Kings and Pilgrims' concepts? [Scenario 69]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Traders, Kings and Pilgrims' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 48,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'New Empires and Kingdoms' in Class 6 History? [Scenario 70]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Empires and Kingdoms' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 53,
-    "question": "During revision, which activity is most directly linked to 'Buildings, Paintings and Books'? [Scenario 71]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Buildings, Paintings and Books' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 55,
-    "question": "In a subject integration exercise, which choice best applies 'Sources in History' concepts? [Scenario 72]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Sources in History' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 40,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What, Where, How and When' in Class 6 History? [Scenario 73]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What, Where, How and When' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "During revision, which activity is most directly linked to 'From Hunting to Growing Food'? [Scenario 74]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'From Hunting to Growing Food' rather than recalling unrelated details from other units."
+    "correctAnswer": 2,
+    "explanation": "Harappan settlements had advanced civic planning."
   },
   {
     "classLevel": 6,
@@ -1189,15 +453,159 @@
     "topic": "In the Earliest Cities",
     "difficulty": "medium",
     "timeToSolveSeconds": 50,
-    "question": "In a subject integration exercise, which choice best applies 'In the Earliest Cities' concepts? [Scenario 75]",
+    "question": "For Class 6 revision, which option best completes this line: Urban planning in Harappan cities is shown by ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms."
+      "Planned streets and drainage",
+      "Random hut clusters",
+      "No drains",
+      "Only circular roads"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Harappan settlements had advanced civic planning."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 95,
+    "question": "Which option is historically most accurate given this context: Roads met at planned angles and drains were covered.",
+    "options": [
+      "Planned streets and drainage",
+      "Random hut clusters",
+      "No drains",
+      "Only circular roads"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Harappan settlements had advanced civic planning."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Which is the oldest Veda?",
+    "options": [
+      "Samaveda",
+      "Atharvaveda",
+      "Rigveda",
+      "Yajurveda"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rigveda is considered the oldest Veda."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Pick the correct option: The earliest Vedic text among the options is ...",
+    "options": [
+      "Atharvaveda",
+      "Rigveda",
+      "Yajurveda",
+      "Samaveda"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'In the Earliest Cities' rather than recalling unrelated details from other units."
+    "explanation": "Rigveda is considered the oldest Veda."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "A student note says, \"It is the earliest collection of Vedic hymns.\" Which answer best matches this clue?",
+    "options": [
+      "Atharvaveda",
+      "Rigveda",
+      "Yajurveda",
+      "Samaveda"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rigveda is considered the oldest Veda."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 51,
+    "question": "For Class 6 revision, which option best completes this line: The earliest Vedic text among the options is ...",
+    "options": [
+      "Yajurveda",
+      "Samaveda",
+      "Atharvaveda",
+      "Rigveda"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Rigveda is considered the oldest Veda."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 96,
+    "question": "Which option is historically most accurate given this context: It is the earliest collection of Vedic hymns.",
+    "options": [
+      "Yajurveda",
+      "Samaveda",
+      "Atharvaveda",
+      "Rigveda"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Rigveda is considered the oldest Veda."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Megaliths usually refer to:",
+    "options": [
+      "Iron ploughs",
+      "Large stone burial markers",
+      "Palm-leaf books",
+      "Royal tax coins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Megalithic burials are associated with large stones."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Pick the correct option: Burials marked with large stones are called ...",
+    "options": [
+      "Large stone burial markers",
+      "Palm-leaf books",
+      "Royal tax coins",
+      "Iron ploughs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Megalithic burials are associated with large stones."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "A student note says, \"Archaeologists find stone circles around burial spots.\" Which answer best matches this clue?",
+    "options": [
+      "Large stone burial markers",
+      "Palm-leaf books",
+      "Royal tax coins",
+      "Iron ploughs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Megalithic burials are associated with large stones."
   },
   {
     "classLevel": 6,
@@ -1205,207 +613,79 @@
     "topic": "What Books and Burials Tell Us",
     "difficulty": "medium",
     "timeToSolveSeconds": 52,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What Books and Burials Tell Us' in Class 6 History? [Scenario 76]",
+    "question": "For Class 6 revision, which option best completes this line: Burials marked with large stones are called ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books."
+      "Royal tax coins",
+      "Iron ploughs",
+      "Large stone burial markers",
+      "Palm-leaf books"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What Books and Burials Tell Us' rather than recalling unrelated details from other units."
+    "correctAnswer": 2,
+    "explanation": "Megalithic burials are associated with large stones."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "What Books and Burials Tell Us",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 97,
+    "question": "Which option is historically most accurate given this context: Archaeologists find stone circles around burial spots.",
+    "options": [
+      "Royal tax coins",
+      "Iron ploughs",
+      "Large stone burial markers",
+      "Palm-leaf books"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Megalithic burials are associated with large stones."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "A janapada means:",
+    "options": [
+      "Land where a jana settled",
+      "A temple tax",
+      "A military fort",
+      "A boat route"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Janapada refers to the settled territory of a people."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Pick the correct option: In early India, jana plus territory formed a ...",
+    "options": [
+      "A temple tax",
+      "A military fort",
+      "A boat route",
+      "Land where a jana settled"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Janapada refers to the settled territory of a people."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "Kingdoms, Kings and Early Republic",
     "difficulty": "medium",
-    "timeToSolveSeconds": 45,
-    "question": "During revision, which activity is most directly linked to 'Kingdoms, Kings and Early Republic'? [Scenario 77]",
+    "timeToSolveSeconds": 56,
+    "question": "A student note says, \"The term links people with territory.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History."
+      "A temple tax",
+      "A military fort",
+      "A boat route",
+      "Land where a jana settled"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Kingdoms, Kings and Early Republic' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 54,
-    "question": "In a subject integration exercise, which choice best applies 'New Questions and Ideas' concepts? [Scenario 78]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Questions and Ideas' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 44,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Ashoka and the Mauryan Empire' in Class 6 History? [Scenario 79]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Ashoka and the Mauryan Empire' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 59,
-    "question": "During revision, which activity is most directly linked to 'Vital Villages and Thriving Towns'? [Scenario 80]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Vital Villages and Thriving Towns' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 57,
-    "question": "In a subject integration exercise, which choice best applies 'Traders, Kings and Pilgrims' concepts? [Scenario 81]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Traders, Kings and Pilgrims' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 40,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'New Empires and Kingdoms' in Class 6 History? [Scenario 82]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Empires and Kingdoms' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "During revision, which activity is most directly linked to 'Buildings, Paintings and Books'? [Scenario 83]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Buildings, Paintings and Books' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 58,
-    "question": "In a subject integration exercise, which choice best applies 'Sources in History' concepts? [Scenario 84]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Sources in History' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 58,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What, Where, How and When' in Class 6 History? [Scenario 85]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What, Where, How and When' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 40,
-    "question": "During revision, which activity is most directly linked to 'From Hunting to Growing Food'? [Scenario 86]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'From Hunting to Growing Food' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 42,
-    "question": "In a subject integration exercise, which choice best applies 'In the Earliest Cities' concepts? [Scenario 87]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'In the Earliest Cities' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 60,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'What Books and Burials Tell Us' in Class 6 History? [Scenario 88]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'What Books and Burials Tell Us' rather than recalling unrelated details from other units."
+    "correctAnswer": 3,
+    "explanation": "Janapada refers to the settled territory of a people."
   },
   {
     "classLevel": 6,
@@ -1413,63 +693,719 @@
     "topic": "Kingdoms, Kings and Early Republic",
     "difficulty": "medium",
     "timeToSolveSeconds": 53,
-    "question": "During revision, which activity is most directly linked to 'Kingdoms, Kings and Early Republic'? [Scenario 89]",
+    "question": "For Class 6 revision, which option best completes this line: In early India, jana plus territory formed a ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History."
+      "A boat route",
+      "Land where a jana settled",
+      "A temple tax",
+      "A military fort"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Kingdoms, Kings and Early Republic' rather than recalling unrelated details from other units."
+    "explanation": "Janapada refers to the settled territory of a people."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 98,
+    "question": "Which option is historically most accurate given this context: The term links people with territory.",
+    "options": [
+      "A boat route",
+      "Land where a jana settled",
+      "A temple tax",
+      "A military fort"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Janapada refers to the settled territory of a people."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Which state became especially powerful?",
+    "options": [
+      "Matsya",
+      "Kamboja",
+      "Kuru",
+      "Magadha"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Magadha emerged as a dominant mahajanapada."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Pick the correct option: A major rising power in the Ganga valley was ...",
+    "options": [
+      "Kamboja",
+      "Kuru",
+      "Magadha",
+      "Matsya"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magadha emerged as a dominant mahajanapada."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "A student note says, \"It benefited from fertile land, iron, and river routes.\" Which answer best matches this clue?",
+    "options": [
+      "Kamboja",
+      "Kuru",
+      "Magadha",
+      "Matsya"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magadha emerged as a dominant mahajanapada."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 54,
+    "question": "For Class 6 revision, which option best completes this line: A major rising power in the Ganga valley was ...",
+    "options": [
+      "Magadha",
+      "Matsya",
+      "Kamboja",
+      "Kuru"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magadha emerged as a dominant mahajanapada."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Kingdoms, Kings and Early Republic",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 99,
+    "question": "Which option is historically most accurate given this context: It benefited from fertile land, iron, and river routes.",
+    "options": [
+      "Magadha",
+      "Matsya",
+      "Kamboja",
+      "Kuru"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magadha emerged as a dominant mahajanapada."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Siddhartha Gautama attained enlightenment at:",
+    "options": [
+      "Sarnath",
+      "Kushinagar",
+      "Bodh Gaya",
+      "Lumbini"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bodh Gaya is where Siddhartha attained enlightenment."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Pick the correct option: The site of the Buddha's enlightenment is ...",
+    "options": [
+      "Kushinagar",
+      "Bodh Gaya",
+      "Lumbini",
+      "Sarnath"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bodh Gaya is where Siddhartha attained enlightenment."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "New Questions and Ideas",
     "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "A student note says, \"He meditated under a tree and became the Buddha there.\" Which answer best matches this clue?",
+    "options": [
+      "Kushinagar",
+      "Bodh Gaya",
+      "Lumbini",
+      "Sarnath"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bodh Gaya is where Siddhartha attained enlightenment."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 55,
+    "question": "For Class 6 revision, which option best completes this line: The site of the Buddha's enlightenment is ...",
+    "options": [
+      "Lumbini",
+      "Sarnath",
+      "Kushinagar",
+      "Bodh Gaya"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bodh Gaya is where Siddhartha attained enlightenment."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 100,
+    "question": "Which option is historically most accurate given this context: He meditated under a tree and became the Buddha there.",
+    "options": [
+      "Lumbini",
+      "Sarnath",
+      "Kushinagar",
+      "Bodh Gaya"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bodh Gaya is where Siddhartha attained enlightenment."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "The first sermon of the Buddha was delivered at:",
+    "options": [
+      "Rajgir",
+      "Sarnath",
+      "Taxila",
+      "Ujjain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Buddha's first sermon took place at Sarnath."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Pick the correct option: Dhammachakra Pravartana is associated with ...",
+    "options": [
+      "Sarnath",
+      "Taxila",
+      "Ujjain",
+      "Rajgir"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Buddha's first sermon took place at Sarnath."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "A student note says, \"This sermon is linked to the Deer Park.\" Which answer best matches this clue?",
+    "options": [
+      "Sarnath",
+      "Taxila",
+      "Ujjain",
+      "Rajgir"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Buddha's first sermon took place at Sarnath."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 56,
+    "question": "For Class 6 revision, which option best completes this line: Dhammachakra Pravartana is associated with ...",
+    "options": [
+      "Ujjain",
+      "Rajgir",
+      "Sarnath",
+      "Taxila"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buddha's first sermon took place at Sarnath."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Questions and Ideas",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 101,
+    "question": "Which option is historically most accurate given this context: This sermon is linked to the Deer Park.",
+    "options": [
+      "Ujjain",
+      "Rajgir",
+      "Sarnath",
+      "Taxila"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buddha's first sermon took place at Sarnath."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Who founded the Mauryan Empire?",
+    "options": [
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Harshavardhana",
+      "Samudragupta"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Pick the correct option: The first major Mauryan ruler was ...",
+    "options": [
+      "Ashoka",
+      "Harshavardhana",
+      "Samudragupta",
+      "Chandragupta Maurya"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "A student note says, \"He established the empire before Ashoka's reign.\" Which answer best matches this clue?",
+    "options": [
+      "Ashoka",
+      "Harshavardhana",
+      "Samudragupta",
+      "Chandragupta Maurya"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 57,
+    "question": "For Class 6 revision, which option best completes this line: The first major Mauryan ruler was ...",
+    "options": [
+      "Samudragupta",
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Harshavardhana"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 102,
+    "question": "Which option is historically most accurate given this context: He established the empire before Ashoka's reign.",
+    "options": [
+      "Samudragupta",
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Harshavardhana"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chandragupta Maurya founded the Mauryan Empire."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Ashoka's official messages were mainly issued as:",
+    "options": [
+      "Secret letters",
+      "Only oral speeches",
+      "Palm-leaf stories",
+      "Edicts on rocks and pillars"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ashokan edicts are primary records carved in stone."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "Pick the correct option: The most direct source for Ashoka's policy is ...",
+    "options": [
+      "Only oral speeches",
+      "Palm-leaf stories",
+      "Edicts on rocks and pillars",
+      "Secret letters"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ashokan edicts are primary records carved in stone."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "A student note says, \"These were carved for public reading and hearing.\" Which answer best matches this clue?",
+    "options": [
+      "Only oral speeches",
+      "Palm-leaf stories",
+      "Edicts on rocks and pillars",
+      "Secret letters"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ashokan edicts are primary records carved in stone."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 58,
+    "question": "For Class 6 revision, which option best completes this line: The most direct source for Ashoka's policy is ...",
+    "options": [
+      "Edicts on rocks and pillars",
+      "Secret letters",
+      "Only oral speeches",
+      "Palm-leaf stories"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ashokan edicts are primary records carved in stone."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 103,
+    "question": "Which option is historically most accurate given this context: These were carved for public reading and hearing.",
+    "options": [
+      "Edicts on rocks and pillars",
+      "Secret letters",
+      "Only oral speeches",
+      "Palm-leaf stories"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ashokan edicts are primary records carved in stone."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Which agricultural tool helped plough heavy soil better?",
+    "options": [
+      "Stone bead",
+      "Wooden flute",
+      "Iron ploughshare",
+      "Bronze mirror"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iron ploughshares increased agricultural efficiency."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "Pick the correct option: A key technological aid to early farming was ...",
+    "options": [
+      "Wooden flute",
+      "Iron ploughshare",
+      "Bronze mirror",
+      "Stone bead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Iron ploughshares increased agricultural efficiency."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 41,
+    "question": "A student note says, \"Its stronger edge improved cultivation.\" Which answer best matches this clue?",
+    "options": [
+      "Wooden flute",
+      "Iron ploughshare",
+      "Bronze mirror",
+      "Stone bead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Iron ploughshares increased agricultural efficiency."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 59,
+    "question": "For Class 6 revision, which option best completes this line: A key technological aid to early farming was ...",
+    "options": [
+      "Bronze mirror",
+      "Stone bead",
+      "Wooden flute",
+      "Iron ploughshare"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Iron ploughshares increased agricultural efficiency."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 104,
+    "question": "Which option is historically most accurate given this context: Its stronger edge improved cultivation.",
+    "options": [
+      "Bronze mirror",
+      "Stone bead",
+      "Wooden flute",
+      "Iron ploughshare"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Iron ploughshares increased agricultural efficiency."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 24,
+    "question": "What was a shreni in early Indian towns?",
+    "options": [
+      "Temple tax",
+      "Guild of craftspersons or merchants",
+      "Army camp",
+      "Judicial court"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shrenis coordinated production and trade among members."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Pick the correct option: An organized craft or merchant association was called ...",
+    "options": [
+      "Guild of craftspersons or merchants",
+      "Army camp",
+      "Judicial court",
+      "Temple tax"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shrenis coordinated production and trade among members."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "A student note says, \"Members of one occupation organized themselves in it.\" Which answer best matches this clue?",
+    "options": [
+      "Guild of craftspersons or merchants",
+      "Army camp",
+      "Judicial court",
+      "Temple tax"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shrenis coordinated production and trade among members."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 60,
+    "question": "For Class 6 revision, which option best completes this line: An organized craft or merchant association was called ...",
+    "options": [
+      "Judicial court",
+      "Temple tax",
+      "Guild of craftspersons or merchants",
+      "Army camp"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Shrenis coordinated production and trade among members."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Vital Villages, Thriving Towns",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 105,
+    "question": "Which option is historically most accurate given this context: Members of one occupation organized themselves in it.",
+    "options": [
+      "Judicial court",
+      "Temple tax",
+      "Guild of craftspersons or merchants",
+      "Army camp"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Shrenis coordinated production and trade among members."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 25,
+    "question": "The Silk Route connected China with:",
+    "options": [
+      "Central and western regions",
+      "Only South America",
+      "Only Australia",
+      "Only Arctic islands"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Silk routes linked East Asia with Central and West Asia and beyond."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Pick the correct option: A major impact of the Silk Route was contact between China and ...",
+    "options": [
+      "Only South America",
+      "Only Australia",
+      "Only Arctic islands",
+      "Central and western regions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Silk routes linked East Asia with Central and West Asia and beyond."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "A student note says, \"It supported long-distance overland exchange.\" Which answer best matches this clue?",
+    "options": [
+      "Only South America",
+      "Only Australia",
+      "Only Arctic islands",
+      "Central and western regions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Silk routes linked East Asia with Central and West Asia and beyond."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 40,
+    "question": "For Class 6 revision, which option best completes this line: A major impact of the Silk Route was contact between China and ...",
+    "options": [
+      "Only Arctic islands",
+      "Central and western regions",
+      "Only South America",
+      "Only Australia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Silk routes linked East Asia with Central and West Asia and beyond."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 106,
+    "question": "Which option is historically most accurate given this context: It supported long-distance overland exchange.",
+    "options": [
+      "Only Arctic islands",
+      "Central and western regions",
+      "Only South America",
+      "Only Australia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Silk routes linked East Asia with Central and West Asia and beyond."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 26,
+    "question": "Roman coins found in peninsular India indicate:",
+    "options": [
+      "Roman political rule over all India",
+      "No local markets",
+      "No metal currency use",
+      "Long-distance trade contacts"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Such finds show commercial links, not Roman rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Pick the correct option: Imported Roman coins in India are evidence of ...",
+    "options": [
+      "No local markets",
+      "No metal currency use",
+      "Long-distance trade contacts",
+      "Roman political rule over all India"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Such finds show commercial links, not Roman rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "medium",
     "timeToSolveSeconds": 44,
-    "question": "In a subject integration exercise, which choice best applies 'New Questions and Ideas' concepts? [Scenario 90]",
+    "question": "A student note says, \"Coins and goods moved through maritime exchange.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When."
+      "No local markets",
+      "No metal currency use",
+      "Long-distance trade contacts",
+      "Roman political rule over all India"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Questions and Ideas' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 54,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'Ashoka and the Mauryan Empire' in Class 6 History? [Scenario 91]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Ashoka and the Mauryan Empire' rather than recalling unrelated details from other units."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "medium",
-    "timeToSolveSeconds": 45,
-    "question": "During revision, which activity is most directly linked to 'Vital Villages and Thriving Towns'? [Scenario 92]",
-    "options": [
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Vital Villages and Thriving Towns.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities."
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Vital Villages and Thriving Towns' rather than recalling unrelated details from other units."
+    "correctAnswer": 2,
+    "explanation": "Such finds show commercial links, not Roman rule."
   },
   {
     "classLevel": 6,
@@ -1477,446 +1413,510 @@
     "topic": "Traders, Kings and Pilgrims",
     "difficulty": "medium",
     "timeToSolveSeconds": 41,
-    "question": "In a subject integration exercise, which choice best applies 'Traders, Kings and Pilgrims' concepts? [Scenario 93]",
+    "question": "For Class 6 revision, which option best completes this line: Imported Roman coins in India are evidence of ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on Traders, Kings and Pilgrims.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us."
+      "Long-distance trade contacts",
+      "Roman political rule over all India",
+      "No local markets",
+      "No metal currency use"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Traders, Kings and Pilgrims' rather than recalling unrelated details from other units."
+    "correctAnswer": 0,
+    "explanation": "Such finds show commercial links, not Roman rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Traders, Kings and Pilgrims",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 107,
+    "question": "Which option is historically most accurate given this context: Coins and goods moved through maritime exchange.",
+    "options": [
+      "Long-distance trade contacts",
+      "Roman political rule over all India",
+      "No local markets",
+      "No metal currency use"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Such finds show commercial links, not Roman rule."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "New Empires and Kingdoms",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 27,
+    "question": "Who composed Samudragupta's Allahabad Prashasti?",
+    "options": [
+      "Aryabhata",
+      "Banabhatta",
+      "Harishena",
+      "Kalidasa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Harishena wrote the eulogy of Samudragupta."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "Pick the correct option: The author of Allahabad Prashasti was ...",
+    "options": [
+      "Banabhatta",
+      "Harishena",
+      "Kalidasa",
+      "Aryabhata"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Harishena wrote the eulogy of Samudragupta."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 45,
+    "question": "A student note says, \"He was a court poet praising the ruler.\" Which answer best matches this clue?",
+    "options": [
+      "Banabhatta",
+      "Harishena",
+      "Kalidasa",
+      "Aryabhata"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Harishena wrote the eulogy of Samudragupta."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 42,
+    "question": "For Class 6 revision, which option best completes this line: The author of Allahabad Prashasti was ...",
+    "options": [
+      "Kalidasa",
+      "Aryabhata",
+      "Banabhatta",
+      "Harishena"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Harishena wrote the eulogy of Samudragupta."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 108,
+    "question": "Which option is historically most accurate given this context: He was a court poet praising the ruler.",
+    "options": [
+      "Kalidasa",
+      "Aryabhata",
+      "Banabhatta",
+      "Harishena"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Harishena wrote the eulogy of Samudragupta."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 28,
+    "question": "Harshavardhana's major political center was:",
+    "options": [
+      "Lothal",
+      "Kannauj",
+      "Madurai",
+      "Vaishali"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kannauj was the key center of Harsha's rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Pick the correct option: The city strongly associated with Harsha is ...",
+    "options": [
+      "Kannauj",
+      "Madurai",
+      "Vaishali",
+      "Lothal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kannauj was the key center of Harsha's rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "A student note says, \"This north Indian city became prominent under him.\" Which answer best matches this clue?",
+    "options": [
+      "Kannauj",
+      "Madurai",
+      "Vaishali",
+      "Lothal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kannauj was the key center of Harsha's rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 43,
+    "question": "For Class 6 revision, which option best completes this line: The city strongly associated with Harsha is ...",
+    "options": [
+      "Vaishali",
+      "Lothal",
+      "Kannauj",
+      "Madurai"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kannauj was the key center of Harsha's rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "New Empires and Kingdoms",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 109,
+    "question": "Which option is historically most accurate given this context: This north Indian city became prominent under him.",
+    "options": [
+      "Vaishali",
+      "Lothal",
+      "Kannauj",
+      "Madurai"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kannauj was the key center of Harsha's rule."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 29,
+    "question": "A stupa was generally built to preserve:",
+    "options": [
+      "Relics and sacred memory",
+      "Tax records",
+      "Military weapons",
+      "Grain stock"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stupas housed relics and marked Buddhist sacred sites."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Pick the correct option: Main religious purpose of a stupa was ...",
+    "options": [
+      "Tax records",
+      "Military weapons",
+      "Grain stock",
+      "Relics and sacred memory"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stupas housed relics and marked Buddhist sacred sites."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "A student note says, \"Devotees performed pradakshina around it.\" Which answer best matches this clue?",
+    "options": [
+      "Tax records",
+      "Military weapons",
+      "Grain stock",
+      "Relics and sacred memory"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stupas housed relics and marked Buddhist sacred sites."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 44,
+    "question": "For Class 6 revision, which option best completes this line: Main religious purpose of a stupa was ...",
+    "options": [
+      "Grain stock",
+      "Relics and sacred memory",
+      "Tax records",
+      "Military weapons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stupas housed relics and marked Buddhist sacred sites."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 110,
+    "question": "Which option is historically most accurate given this context: Devotees performed pradakshina around it.",
+    "options": [
+      "Grain stock",
+      "Relics and sacred memory",
+      "Tax records",
+      "Military weapons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stupas housed relics and marked Buddhist sacred sites."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 30,
+    "question": "Who wrote the Aryabhatiya?",
+    "options": [
+      "Kalidasa",
+      "Panini",
+      "Chanakya",
+      "Aryabhata"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aryabhata authored Aryabhatiya."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "Pick the correct option: Scientific writing on astronomy in early India is linked to ...",
+    "options": [
+      "Panini",
+      "Chanakya",
+      "Aryabhata",
+      "Kalidasa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Aryabhata authored Aryabhatiya."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Buildings, Paintings and Books",
     "difficulty": "medium",
     "timeToSolveSeconds": 48,
-    "question": "A teacher gives a mixed worksheet. Which task shows understanding of 'New Empires and Kingdoms' in Class 6 History? [Scenario 94]",
+    "question": "A student note says, \"He gave mathematical and astronomical explanations.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on New Empires and Kingdoms.",
-      "Identifying key principles and applying them in a short classroom problem on What, Where, How and When.",
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic."
+      "Panini",
+      "Chanakya",
+      "Aryabhata",
+      "Kalidasa"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'New Empires and Kingdoms' rather than recalling unrelated details from other units."
+    "correctAnswer": 2,
+    "explanation": "Aryabhata authored Aryabhatiya."
   },
   {
     "classLevel": 6,
     "subject": "History",
     "topic": "Buildings, Paintings and Books",
     "difficulty": "medium",
-    "timeToSolveSeconds": 52,
-    "question": "During revision, which activity is most directly linked to 'Buildings, Paintings and Books'? [Scenario 95]",
+    "timeToSolveSeconds": 45,
+    "question": "For Class 6 revision, which option best completes this line: Scientific writing on astronomy in early India is linked to ...",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on What Books and Burials Tell Us.",
-      "Identifying key principles and applying them in a short classroom problem on Buildings, Paintings and Books.",
-      "Identifying key principles and applying them in a short classroom problem on From Hunting to Growing Food.",
-      "Identifying key principles and applying them in a short classroom problem on New Questions and Ideas."
+      "Aryabhata",
+      "Kalidasa",
+      "Panini",
+      "Chanakya"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Buildings, Paintings and Books' rather than recalling unrelated details from other units."
+    "correctAnswer": 0,
+    "explanation": "Aryabhata authored Aryabhatiya."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "Sources in History",
+    "topic": "Buildings, Paintings and Books",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 111,
+    "question": "Which option is historically most accurate given this context: He gave mathematical and astronomical explanations.",
+    "options": [
+      "Aryabhata",
+      "Kalidasa",
+      "Panini",
+      "Chanakya"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aryabhata authored Aryabhatiya."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 20,
+    "question": "Lothal is especially known for its:",
+    "options": [
+      "Rock-cut cave",
+      "Royal mint",
+      "Dockyard",
+      "Ashokan pillar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lothal had a dockyard-like structure used for trade."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 22,
+    "question": "Pick the correct option: Evidence of sea trade at Lothal includes a ...",
+    "options": [
+      "Royal mint",
+      "Dockyard",
+      "Ashokan pillar",
+      "Rock-cut cave"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lothal had a dockyard-like structure used for trade."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 49,
+    "question": "A student note says, \"Its structure indicates maritime trade activity.\" Which answer best matches this clue?",
+    "options": [
+      "Royal mint",
+      "Dockyard",
+      "Ashokan pillar",
+      "Rock-cut cave"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lothal had a dockyard-like structure used for trade."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 46,
+    "question": "For Class 6 revision, which option best completes this line: Evidence of sea trade at Lothal includes a ...",
+    "options": [
+      "Ashokan pillar",
+      "Rock-cut cave",
+      "Royal mint",
+      "Dockyard"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lothal had a dockyard-like structure used for trade."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "In the Earliest Cities",
+    "difficulty": "hard",
+    "timeToSolveSeconds": 112,
+    "question": "Which option is historically most accurate given this context: Its structure indicates maritime trade activity.",
+    "options": [
+      "Ashokan pillar",
+      "Rock-cut cave",
+      "Royal mint",
+      "Dockyard"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lothal had a dockyard-like structure used for trade."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 21,
+    "question": "After which war did Ashoka publicly regret violence?",
+    "options": [
+      "Talikota",
+      "Kalinga war",
+      "Panipat war",
+      "Plassey"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kalinga war led Ashoka to adopt non-violent ethical governance."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "easy",
+    "timeToSolveSeconds": 23,
+    "question": "Pick the correct option: Ashoka's moral turn followed the ...",
+    "options": [
+      "Kalinga war",
+      "Panipat war",
+      "Plassey",
+      "Talikota"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kalinga war led Ashoka to adopt non-violent ethical governance."
+  },
+  {
+    "classLevel": 6,
+    "subject": "History",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
     "difficulty": "medium",
     "timeToSolveSeconds": 50,
-    "question": "In a subject integration exercise, which choice best applies 'Sources in History' concepts? [Scenario 96]",
+    "question": "A student note says, \"His inscriptions describe suffering after this conflict.\" Which answer best matches this clue?",
     "options": [
-      "Identifying key principles and applying them in a short classroom problem on Kingdoms, Kings and Early Republic.",
-      "Identifying key principles and applying them in a short classroom problem on Sources in History.",
-      "Identifying key principles and applying them in a short classroom problem on In the Earliest Cities.",
-      "Identifying key principles and applying them in a short classroom problem on Ashoka and the Mauryan Empire."
+      "Kalinga war",
+      "Panipat war",
+      "Plassey",
+      "Talikota"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct option requires applying ideas from 'Sources in History' rather than recalling unrelated details from other units."
+    "correctAnswer": 0,
+    "explanation": "Kalinga war led Ashoka to adopt non-violent ethical governance."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 83,
-    "question": "A student confuses 'What, Where, How and When' with 'What Books and Burials Tell Us' and 'New Questions and Ideas'. Which choice correctly separates 'What, Where, How and When' from the others?",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
+    "difficulty": "medium",
+    "timeToSolveSeconds": 47,
+    "question": "For Class 6 revision, which option best completes this line: Ashoka's moral turn followed the ...",
     "options": [
-      "Blend all topics without checking the central concept of 'What, Where, How and When'.",
-      "Use only memorized definitions from 'New Questions and Ideas' and ignore context.",
-      "Apply the defining principle of 'What, Where, How and When', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
+      "Plassey",
+      "Talikota",
+      "Kalinga war",
+      "Panipat war"
     ],
     "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'What, Where, How and When' and validate with context."
+    "explanation": "Kalinga war led Ashoka to adopt non-violent ethical governance."
   },
   {
     "classLevel": 6,
     "subject": "History",
-    "topic": "From Hunting to Growing Food",
+    "topic": "Ashoka, The Emperor Who Gave Up War",
     "difficulty": "hard",
-    "timeToSolveSeconds": 99,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'From Hunting to Growing Food'?",
+    "timeToSolveSeconds": 113,
+    "question": "Which option is historically most accurate given this context: His inscriptions describe suffering after this conflict.",
     "options": [
-      "Blend all topics without checking the central concept of 'From Hunting to Growing Food'.",
-      "Use only memorized definitions from 'Ashoka and the Mauryan Empire' and ignore context.",
-      "Apply the defining principle of 'From Hunting to Growing Food', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
+      "Plassey",
+      "Talikota",
+      "Kalinga war",
+      "Panipat war"
     ],
     "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'From Hunting to Growing Food' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 90,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'In the Earliest Cities'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'In the Earliest Cities'.",
-      "Use only memorized definitions from 'Vital Villages and Thriving Towns' and ignore context.",
-      "Apply the defining principle of 'In the Earliest Cities', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'In the Earliest Cities' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 91,
-    "question": "A student confuses 'What Books and Burials Tell Us' with 'Ashoka and the Mauryan Empire' and 'Traders, Kings and Pilgrims'. Which choice correctly separates 'What Books and Burials Tell Us' from the others?",
-    "options": [
-      "Blend all topics without checking the central concept of 'What Books and Burials Tell Us'.",
-      "Use only memorized definitions from 'Traders, Kings and Pilgrims' and ignore context.",
-      "Apply the defining principle of 'What Books and Burials Tell Us', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'What Books and Burials Tell Us' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 118,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Kingdoms, Kings and Early Republic'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Kingdoms, Kings and Early Republic'.",
-      "Use only memorized definitions from 'New Empires and Kingdoms' and ignore context.",
-      "Apply the defining principle of 'Kingdoms, Kings and Early Republic', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Kingdoms, Kings and Early Republic' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 94,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'New Questions and Ideas'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'New Questions and Ideas'.",
-      "Use only memorized definitions from 'Buildings, Paintings and Books' and ignore context.",
-      "Apply the defining principle of 'New Questions and Ideas', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'New Questions and Ideas' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 87,
-    "question": "A student confuses 'Ashoka and the Mauryan Empire' with 'New Empires and Kingdoms' and 'Sources in History'. Which choice correctly separates 'Ashoka and the Mauryan Empire' from the others?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Ashoka and the Mauryan Empire'.",
-      "Use only memorized definitions from 'Sources in History' and ignore context.",
-      "Apply the defining principle of 'Ashoka and the Mauryan Empire', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Ashoka and the Mauryan Empire' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 118,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Vital Villages and Thriving Towns'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Vital Villages and Thriving Towns'.",
-      "Use only memorized definitions from 'What, Where, How and When' and ignore context.",
-      "Apply the defining principle of 'Vital Villages and Thriving Towns', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Vital Villages and Thriving Towns' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 96,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'Traders, Kings and Pilgrims'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Traders, Kings and Pilgrims'.",
-      "Use only memorized definitions from 'From Hunting to Growing Food' and ignore context.",
-      "Apply the defining principle of 'Traders, Kings and Pilgrims', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Traders, Kings and Pilgrims' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 86,
-    "question": "A student confuses 'New Empires and Kingdoms' with 'What, Where, How and When' and 'In the Earliest Cities'. Which choice correctly separates 'New Empires and Kingdoms' from the others?",
-    "options": [
-      "Blend all topics without checking the central concept of 'New Empires and Kingdoms'.",
-      "Use only memorized definitions from 'In the Earliest Cities' and ignore context.",
-      "Apply the defining principle of 'New Empires and Kingdoms', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'New Empires and Kingdoms' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 75,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Buildings, Paintings and Books'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Buildings, Paintings and Books'.",
-      "Use only memorized definitions from 'What Books and Burials Tell Us' and ignore context.",
-      "Apply the defining principle of 'Buildings, Paintings and Books', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Buildings, Paintings and Books' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 100,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'Sources in History'?",
-    "options": [
-      "Blend all topics without checking the central concept of 'Sources in History'.",
-      "Use only memorized definitions from 'Kingdoms, Kings and Early Republic' and ignore context.",
-      "Apply the defining principle of 'Sources in History', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sources in History' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What, Where, How and When",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 71,
-    "question": "A student confuses 'What, Where, How and When' with 'What Books and Burials Tell Us' and 'New Questions and Ideas'. Which choice correctly separates 'What, Where, How and When' from the others? [Scenario 109]",
-    "options": [
-      "Blend all topics without checking the central concept of 'What, Where, How and When'.",
-      "Use only memorized definitions from 'New Questions and Ideas' and ignore context.",
-      "Apply the defining principle of 'What, Where, How and When', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'What, Where, How and When' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "From Hunting to Growing Food",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 117,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'From Hunting to Growing Food'? [Scenario 110]",
-    "options": [
-      "Blend all topics without checking the central concept of 'From Hunting to Growing Food'.",
-      "Use only memorized definitions from 'Ashoka and the Mauryan Empire' and ignore context.",
-      "Apply the defining principle of 'From Hunting to Growing Food', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'From Hunting to Growing Food' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "In the Earliest Cities",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 104,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'In the Earliest Cities'? [Scenario 111]",
-    "options": [
-      "Blend all topics without checking the central concept of 'In the Earliest Cities'.",
-      "Use only memorized definitions from 'Vital Villages and Thriving Towns' and ignore context.",
-      "Apply the defining principle of 'In the Earliest Cities', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'In the Earliest Cities' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "What Books and Burials Tell Us",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 73,
-    "question": "A student confuses 'What Books and Burials Tell Us' with 'Ashoka and the Mauryan Empire' and 'Traders, Kings and Pilgrims'. Which choice correctly separates 'What Books and Burials Tell Us' from the others? [Scenario 112]",
-    "options": [
-      "Blend all topics without checking the central concept of 'What Books and Burials Tell Us'.",
-      "Use only memorized definitions from 'Traders, Kings and Pilgrims' and ignore context.",
-      "Apply the defining principle of 'What Books and Burials Tell Us', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'What Books and Burials Tell Us' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Kingdoms, Kings and Early Republic",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 92,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Kingdoms, Kings and Early Republic'? [Scenario 113]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Kingdoms, Kings and Early Republic'.",
-      "Use only memorized definitions from 'New Empires and Kingdoms' and ignore context.",
-      "Apply the defining principle of 'Kingdoms, Kings and Early Republic', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Kingdoms, Kings and Early Republic' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Questions and Ideas",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 84,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'New Questions and Ideas'? [Scenario 114]",
-    "options": [
-      "Blend all topics without checking the central concept of 'New Questions and Ideas'.",
-      "Use only memorized definitions from 'Buildings, Paintings and Books' and ignore context.",
-      "Apply the defining principle of 'New Questions and Ideas', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'New Questions and Ideas' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Ashoka and the Mauryan Empire",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 111,
-    "question": "A student confuses 'Ashoka and the Mauryan Empire' with 'New Empires and Kingdoms' and 'Sources in History'. Which choice correctly separates 'Ashoka and the Mauryan Empire' from the others? [Scenario 115]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Ashoka and the Mauryan Empire'.",
-      "Use only memorized definitions from 'Sources in History' and ignore context.",
-      "Apply the defining principle of 'Ashoka and the Mauryan Empire', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Ashoka and the Mauryan Empire' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Vital Villages and Thriving Towns",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 74,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Vital Villages and Thriving Towns'? [Scenario 116]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Vital Villages and Thriving Towns'.",
-      "Use only memorized definitions from 'What, Where, How and When' and ignore context.",
-      "Apply the defining principle of 'Vital Villages and Thriving Towns', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Vital Villages and Thriving Towns' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Traders, Kings and Pilgrims",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 119,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'Traders, Kings and Pilgrims'? [Scenario 117]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Traders, Kings and Pilgrims'.",
-      "Use only memorized definitions from 'From Hunting to Growing Food' and ignore context.",
-      "Apply the defining principle of 'Traders, Kings and Pilgrims', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Traders, Kings and Pilgrims' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "New Empires and Kingdoms",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 111,
-    "question": "A student confuses 'New Empires and Kingdoms' with 'What, Where, How and When' and 'In the Earliest Cities'. Which choice correctly separates 'New Empires and Kingdoms' from the others? [Scenario 118]",
-    "options": [
-      "Blend all topics without checking the central concept of 'New Empires and Kingdoms'.",
-      "Use only memorized definitions from 'In the Earliest Cities' and ignore context.",
-      "Apply the defining principle of 'New Empires and Kingdoms', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'New Empires and Kingdoms' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Buildings, Paintings and Books",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 72,
-    "question": "For a high-order Class 6 History question, which response shows the strongest conceptual grasp of 'Buildings, Paintings and Books'? [Scenario 119]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Buildings, Paintings and Books'.",
-      "Use only memorized definitions from 'What Books and Burials Tell Us' and ignore context.",
-      "Apply the defining principle of 'Buildings, Paintings and Books', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Buildings, Paintings and Books' and validate with context."
-  },
-  {
-    "classLevel": 6,
-    "subject": "History",
-    "topic": "Sources in History",
-    "difficulty": "hard",
-    "timeToSolveSeconds": 118,
-    "question": "In a multi-step reasoning task, which approach is most valid for 'Sources in History'? [Scenario 120]",
-    "options": [
-      "Blend all topics without checking the central concept of 'Sources in History'.",
-      "Use only memorized definitions from 'Kingdoms, Kings and Early Republic' and ignore context.",
-      "Apply the defining principle of 'Sources in History', then test it against the scenario constraints.",
-      "Choose whichever option has the longest wording, regardless of concept match."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Hard questions reward conceptual filtering. The correct method is to anchor the answer in 'Sources in History' and validate with context."
+    "explanation": "Kalinga war led Ashoka to adopt non-violent ethical governance."
   }
 ]
