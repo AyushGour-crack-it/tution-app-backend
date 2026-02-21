@@ -10,7 +10,9 @@ const ReceiptSchema = new mongoose.Schema(
     reference: { type: String, default: "" },
     dueDate: { type: Date, default: null },
     lateDays: { type: Number, default: 0 },
-    xpAwarded: { type: Number, default: 0 }
+    xpAwarded: { type: Number, default: 0 },
+    timingStatus: { type: String, enum: ["early", "on_time", "late"], default: "on_time" },
+    timingDays: { type: Number, default: 0 }
   },
   { timestamps: true }
 );

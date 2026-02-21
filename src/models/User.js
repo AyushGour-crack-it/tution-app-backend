@@ -35,13 +35,19 @@ const UserSchema = new mongoose.Schema(
     studentReviewMessage: { type: String, default: "" },
     pendingStudentProfile: {
       dateOfBirth: { type: Date, default: null },
+      joinedAt: { type: Date, default: null },
+      monthlyFee: { type: Number, default: 0 },
       schoolName: { type: String, default: "" },
       grade: { type: String, default: "" },
       address: { type: String, default: "" },
       guardianName: { type: String, default: "" },
       guardianPhone: { type: String, default: "" },
       guardianRelation: { type: String, default: "" },
-      emergencyContact: { type: String, default: "" }
+      emergencyContact: { type: String, default: "" },
+      hobbies: { type: [String], default: [] },
+      strongSubjects: { type: [String], default: [] },
+      weakSubjects: { type: [String], default: [] },
+      goals: { type: String, default: "" }
     },
     profileLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     popupSeen: {

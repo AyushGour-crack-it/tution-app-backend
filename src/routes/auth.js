@@ -10,6 +10,7 @@ import Otp from "../models/Otp.js";
 import Notification from "../models/Notification.js";
 import cloudinary from "../utils/cloudinary.js";
 import { signToken, requireAuth, requireRole } from "../utils/auth.js";
+import { emitStudentsUpdated } from "../utils/realtime.js";
 import {
   loginLimiter,
   otpRequestLimiter,
@@ -69,15 +70,35 @@ const parseDateSafe = (value) => {
   return Number.isNaN(parsed.getTime()) ? null : parsed;
 };
 
+const parseMoneySafe = (value) => {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric) || numeric < 0) return 0;
+  return Number(numeric.toFixed(2));
+};
+
+const parseStringList = (value, maxItemLength = 60, maxItems = 12) => {
+  const raw = String(value || "")
+    .split(/[\n,]/g)
+    .map((item) => sanitizeText(item, maxItemLength))
+    .filter(Boolean);
+  return [...new Set(raw)].slice(0, maxItems);
+};
+
 const sanitizePendingStudentProfile = (body = {}) => ({
   dateOfBirth: parseDateSafe(body.dateOfBirth),
+  joinedAt: parseDateSafe(body.joinedAt),
+  monthlyFee: parseMoneySafe(body.monthlyFee),
   schoolName: sanitizeText(body.schoolName, 120),
   grade: sanitizeText(body.grade, 60),
   address: sanitizeText(body.address, 240),
   guardianName: sanitizeText(body.guardianName, 120),
   guardianPhone: normalizePhone(body.guardianPhone),
   guardianRelation: sanitizeText(body.guardianRelation, 80),
-  emergencyContact: normalizePhone(body.emergencyContact)
+  emergencyContact: normalizePhone(body.emergencyContact),
+  hobbies: parseStringList(body.hobbies, 60, 12),
+  strongSubjects: parseStringList(body.strongSubjects, 60, 12),
+  weakSubjects: parseStringList(body.weakSubjects, 60, 12),
+  goals: sanitizeText(body.goals, 300)
 });
 
 const generateRollNumber = () => {
@@ -140,6 +161,17 @@ router.post("/register", registerLimiter, upload.single("avatar"), async (req, r
     return res.status(409).json({ message: "Email already registered" });
   }
   const pendingStudentProfile = sanitizePendingStudentProfile(req.body);
+  if (role === "student") {
+    if (!pendingStudentProfile.dateOfBirth) {
+      return res.status(400).json({ message: "Date of birth is required for student signup" });
+    }
+    if (!pendingStudentProfile.joinedAt) {
+      return res.status(400).json({ message: "Tuition joining date is required for student signup" });
+    }
+    if (!pendingStudentProfile.monthlyFee || pendingStudentProfile.monthlyFee <= 0) {
+      return res.status(400).json({ message: "Monthly fee must be greater than 0 for student signup" });
+    }
+  }
   const passwordHash = await bcrypt.hash(password, 10);
   let avatarUrl = "";
   if (req.file) {
@@ -277,6 +309,17 @@ router.post("/google", loginLimiter, async (req, res) => {
     const expectedTeacherAccessId = process.env.TEACHER_ACCESS_ID || "Ayush@8090";
     if (!teacherAccessId || teacherAccessId !== expectedTeacherAccessId) {
       return res.status(403).json({ message: "Invalid Teacher ID" });
+    }
+  }
+  if (role === "student") {
+    if (!pendingStudentProfile.dateOfBirth) {
+      return res.status(400).json({ message: "Date of birth is required for student signup" });
+    }
+    if (!pendingStudentProfile.joinedAt) {
+      return res.status(400).json({ message: "Tuition joining date is required for student signup" });
+    }
+    if (!pendingStudentProfile.monthlyFee || pendingStudentProfile.monthlyFee <= 0) {
+      return res.status(400).json({ message: "Monthly fee must be greater than 0 for student signup" });
     }
   }
   const passwordHash = await bcrypt.hash(randomUUID(), 10);
@@ -451,6 +494,66 @@ router.put(
       }
     }
 
+    if (user.role === "student" && user.studentId) {
+      const student = await Student.findById(user.studentId);
+      if (student) {
+        if (req.body.dateOfBirth !== undefined) {
+          student.dateOfBirth = parseDateSafe(req.body.dateOfBirth);
+        }
+        if (req.body.joinedAt !== undefined) {
+          const joinedAt = parseDateSafe(req.body.joinedAt);
+          if (joinedAt) student.joinedAt = joinedAt;
+        }
+        if (req.body.monthlyFee !== undefined) {
+          student.monthlyFee = parseMoneySafe(req.body.monthlyFee);
+        }
+        if (req.body.grade !== undefined) {
+          student.grade = sanitizeText(req.body.grade, 60);
+        }
+        if (req.body.schoolName !== undefined) {
+          student.schoolName = sanitizeText(req.body.schoolName, 120);
+        }
+        if (req.body.address !== undefined) {
+          student.address = sanitizeText(req.body.address, 240);
+        }
+        if (req.body.emergencyContact !== undefined) {
+          student.emergencyContact = normalizePhone(req.body.emergencyContact);
+        }
+        if (req.body.guardianName !== undefined) {
+          student.guardian = {
+            ...(student.guardian || {}),
+            name: sanitizeText(req.body.guardianName, 120)
+          };
+        }
+        if (req.body.guardianPhone !== undefined) {
+          student.guardian = {
+            ...(student.guardian || {}),
+            phone: normalizePhone(req.body.guardianPhone)
+          };
+        }
+        if (req.body.guardianRelation !== undefined) {
+          student.guardian = {
+            ...(student.guardian || {}),
+            relation: sanitizeText(req.body.guardianRelation, 80)
+          };
+        }
+        if (req.body.hobbies !== undefined) {
+          student.hobbies = parseStringList(req.body.hobbies, 60, 12);
+        }
+        if (req.body.strongSubjects !== undefined) {
+          student.strongSubjects = parseStringList(req.body.strongSubjects, 60, 12);
+        }
+        if (req.body.weakSubjects !== undefined) {
+          student.weakSubjects = parseStringList(req.body.weakSubjects, 60, 12);
+        }
+        if (req.body.goals !== undefined) {
+          student.goals = sanitizeText(req.body.goals, 300);
+        }
+        await student.save();
+        emitStudentsUpdated({ action: "updated", studentId: student._id?.toString() || "" });
+      }
+    }
+
     await user.save();
     return res.json({
       user: toResponseUser(user)
@@ -532,8 +635,14 @@ router.post("/student-requests/:id/review", requireAuth, requireRole("teacher"),
         phone: normalizePhone(profile.guardianPhone)
       },
       dateOfBirth: profile.dateOfBirth || null,
+      joinedAt: profile.joinedAt || new Date(),
+      monthlyFee: Number(profile.monthlyFee || 0),
       schoolName: sanitizeText(profile.schoolName, 120),
       emergencyContact: normalizePhone(profile.emergencyContact),
+      hobbies: Array.isArray(profile.hobbies) ? profile.hobbies : [],
+      strongSubjects: Array.isArray(profile.strongSubjects) ? profile.strongSubjects : [],
+      weakSubjects: Array.isArray(profile.weakSubjects) ? profile.weakSubjects : [],
+      goals: sanitizeText(profile.goals, 300),
       email: user.email,
       phone: user.phone || normalizePhone(profile.guardianPhone),
       address: sanitizeText(profile.address, 240)
