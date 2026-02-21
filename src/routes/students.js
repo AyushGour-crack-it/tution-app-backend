@@ -38,7 +38,8 @@ const mapDirectoryItem = ({
   profile,
   earned,
   definitionMap,
-  viewerUserId
+  viewerUserId,
+  includeSensitive = false
 }) => {
   const totalXp = earned.reduce((sum, badge) => sum + (badge.xpValueSnapshot || 0), 0);
   const level = calculateLevelProgress(totalXp);
@@ -48,11 +49,30 @@ const mapDirectoryItem = ({
   return {
     userId: user._id.toString(),
     name: user.name || "",
+    email: includeSensitive ? (user.email || "") : "",
+    phone: includeSensitive ? (user.phone || "") : "",
     avatarUrl: user.avatarUrl || "",
     bio: user.bio || "",
     studentProfileId: user.studentId ? user.studentId.toString() : "",
     rollNumber: profile?.rollNumber || "",
     grade: profile?.grade || "",
+    dateOfBirth: includeSensitive ? (profile?.dateOfBirth || null) : null,
+    joinedAt: includeSensitive ? (profile?.joinedAt || null) : null,
+    monthlyFee: includeSensitive ? Number(profile?.monthlyFee || 0) : 0,
+    schoolName: includeSensitive ? (profile?.schoolName || "") : "",
+    address: includeSensitive ? (profile?.address || "") : "",
+    emergencyContact: includeSensitive ? (profile?.emergencyContact || "") : "",
+    guardian: {
+      name: includeSensitive ? (profile?.guardian?.name || "") : "",
+      phone: includeSensitive ? (profile?.guardian?.phone || "") : "",
+      relation: includeSensitive ? (profile?.guardian?.relation || "") : "",
+      email: includeSensitive ? (profile?.guardian?.email || "") : ""
+    },
+    hobbies: includeSensitive && Array.isArray(profile?.hobbies) ? profile.hobbies : [],
+    strongSubjects: includeSensitive && Array.isArray(profile?.strongSubjects) ? profile.strongSubjects : [],
+    weakSubjects: includeSensitive && Array.isArray(profile?.weakSubjects) ? profile.weakSubjects : [],
+    goals: includeSensitive ? (profile?.goals || "") : "",
+    subjects: includeSensitive && Array.isArray(profile?.subjects) ? profile.subjects : [],
     level,
     totalXp,
     quiz: {
@@ -100,8 +120,9 @@ router.post("/", requireAuth, requireRole("teacher"), async (req, res) => {
 });
 
 router.get("/directory", requireAuth, async (req, res) => {
+  const includeSensitive = req.user.role === "teacher";
   const users = await User.find({ role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
+    .select("name email phone avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
     .lean();
 
   const studentIds = users
@@ -109,7 +130,7 @@ router.get("/directory", requireAuth, async (req, res) => {
     .filter(Boolean);
 
   const studentProfiles = await Student.find({ _id: { $in: studentIds } })
-    .select("rollNumber grade")
+    .select("rollNumber grade dateOfBirth joinedAt monthlyFee schoolName address emergencyContact guardian hobbies strongSubjects weakSubjects goals subjects")
     .lean();
   const studentUserIds = users.map((user) => user._id);
   const [earnedBadges, badgeDefinitions] = await Promise.all([
@@ -140,7 +161,8 @@ router.get("/directory", requireAuth, async (req, res) => {
         profile,
         earned,
         definitionMap,
-        viewerUserId: req.user.sub
+        viewerUserId: req.user.sub,
+        includeSensitive
       });
     })
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -149,15 +171,18 @@ router.get("/directory", requireAuth, async (req, res) => {
 });
 
 router.get("/directory/:userId", requireAuth, async (req, res) => {
+  const includeSensitive = req.user.role === "teacher";
   const targetUser = await User.findOne({ _id: req.params.userId, role: "student" })
-    .select("name avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
+    .select("name email phone avatarUrl bio studentId profileLikedBy streakCount totalXP subjectXP subjectLevel isOnline lastSeenAt")
     .lean();
   if (!targetUser) {
     return res.status(404).json({ message: "Student not found" });
   }
 
   const [profile, earned, badgeDefinitions] = await Promise.all([
-    targetUser.studentId ? Student.findById(targetUser.studentId).select("rollNumber grade").lean() : null,
+    targetUser.studentId
+      ? Student.findById(targetUser.studentId).select("rollNumber grade dateOfBirth joinedAt monthlyFee schoolName address emergencyContact guardian hobbies strongSubjects weakSubjects goals subjects").lean()
+      : null,
     StudentBadge.find({ studentUserId: targetUser._id }).lean(),
     BadgeDefinition.find({ active: true }).lean()
   ]);
@@ -171,7 +196,8 @@ router.get("/directory/:userId", requireAuth, async (req, res) => {
     profile,
     earned,
     definitionMap,
-    viewerUserId: req.user.sub
+    viewerUserId: req.user.sub,
+    includeSensitive
   });
   return res.json(item);
 });
