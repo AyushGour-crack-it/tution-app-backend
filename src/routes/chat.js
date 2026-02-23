@@ -12,13 +12,26 @@ import {
 } from "../utils/rateLimiters.js";
 import {
   emitChatMessageCreated,
-  emitChatMessageDeleted,
   emitChatMessageUpdated
 } from "../utils/realtime.js";
 import { sendPushToUsers } from "../utils/pushNotifications.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
+const DEFAULT_MESSAGE_PAGE_SIZE = 100;
+const MAX_MESSAGE_PAGE_SIZE = 200;
+
+const parsePositiveInt = (value, fallback, max) => {
+  const parsed = Number.parseInt(String(value || ""), 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return fallback;
+  return Math.min(parsed, max);
+};
+
+const parseDateSafe = (value) => {
+  if (!value) return null;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+};
 
 const canAccessMessage = (message, user) => {
   const me = String(user.sub);
@@ -28,6 +41,8 @@ const canAccessMessage = (message, user) => {
     String(message.recipientUserId) === me
   );
 };
+
+const isDeletedMessage = (message) => Boolean(message?.deletedAt);
 
 const toPushBody = (message) => {
   const content = String(message?.content || "").trim();
@@ -79,6 +94,9 @@ const sendChatPush = async ({ created, senderId }) => {
 };
 
 router.get("/messages", requireAuth, async (req, res) => {
+  const limit = parsePositiveInt(req.query.limit, DEFAULT_MESSAGE_PAGE_SIZE, MAX_MESSAGE_PAGE_SIZE);
+  const before = parseDateSafe(req.query.before);
+  const after = parseDateSafe(req.query.after);
   const query = {
     $or: [
       { recipientUserId: null },
@@ -86,11 +104,39 @@ router.get("/messages", requireAuth, async (req, res) => {
       { recipientUserId: req.user.sub }
     ]
   };
-  const items = await Message.find(query)
-    .sort({ createdAt: 1 })
-    .limit(500)
+
+  if (before) {
+    query.createdAt = { ...(query.createdAt || {}), $lt: before };
+  }
+  if (after) {
+    query.createdAt = { ...(query.createdAt || {}), $gt: after };
+  }
+
+  const itemsDesc = await Message.find(query)
+    .sort({ createdAt: -1 })
+    .limit(limit)
     .lean();
-  res.json(items);
+  const items = [...itemsDesc].reverse();
+  const oldest = items[0]?.createdAt ? new Date(items[0].createdAt).toISOString() : null;
+
+  res.json({
+    items,
+    hasMore: itemsDesc.length === limit,
+    nextBefore: oldest,
+    serverTime: new Date().toISOString()
+  });
+});
+
+router.get("/unread-count", requireAuth, async (req, res) => {
+  const userId = req.user.sub;
+  const query = {
+    $or: [{ recipientUserId: null }, { recipientUserId: userId }],
+    senderId: { $ne: userId },
+    readBy: { $ne: userId },
+    deletedAt: null
+  };
+  const count = await Message.countDocuments(query);
+  res.json({ count });
 });
 
 router.get("/users", requireAuth, async (req, res) => {
@@ -182,9 +228,10 @@ router.post("/messages/read", requireAuth, async (req, res) => {
   const unread = await Message.find({
     ...visibilityQuery,
     senderId: { $ne: userId },
-    readBy: { $ne: userId }
+    readBy: { $ne: userId },
+    deletedAt: null
   })
-    .select("_id senderId senderName senderAvatar role clientMessageId recipientUserId recipientStudentId recipientName type content fileName mimeType replyTo reactions readBy editedAt createdAt updatedAt")
+    .select("_id senderId senderName senderAvatar role clientMessageId recipientUserId recipientStudentId recipientName type content fileName mimeType replyTo reactions readBy editedAt deletedAt deletedBy createdAt updatedAt")
     .lean();
 
   if (unread.length) {
@@ -218,6 +265,9 @@ router.put("/messages/:id([0-9a-fA-F]{24})", requireAuth, async (req, res) => {
   if (message.senderId.toString() !== req.user.sub) {
     return res.status(403).json({ message: "Can only edit your own message" });
   }
+  if (isDeletedMessage(message)) {
+    return res.status(400).json({ message: "Deleted messages cannot be edited" });
+  }
   if (message.type !== "text" && message.type !== "announcement") {
     return res.status(400).json({ message: "Only text/announcement messages can be edited" });
   }
@@ -239,12 +289,18 @@ router.delete("/messages/:id([0-9a-fA-F]{24})", requireAuth, async (req, res) =>
   if (message.senderId.toString() !== req.user.sub) {
     return res.status(403).json({ message: "Can only delete your own message" });
   }
-  const senderId = message.senderId ? String(message.senderId) : "";
-  const recipientUserId = message.recipientUserId ? String(message.recipientUserId) : "";
-  const messageId = String(message._id || "");
-  await message.deleteOne();
-  emitChatMessageDeleted({ messageId, senderId, recipientUserId });
-  return res.json({ message: "Deleted" });
+  if (!isDeletedMessage(message)) {
+    message.deletedAt = new Date();
+    message.deletedBy = req.user.sub;
+    message.editedAt = null;
+    message.content = "";
+    message.fileName = "";
+    message.mimeType = "";
+    message.reactions = [];
+    await message.save();
+    emitChatMessageUpdated(message);
+  }
+  return res.json(message);
 });
 
 router.post("/messages/:id([0-9a-fA-F]{24})/reactions", requireAuth, chatReactionLimiter, async (req, res) => {
@@ -258,6 +314,9 @@ router.post("/messages/:id([0-9a-fA-F]{24})/reactions", requireAuth, chatReactio
   }
   if (!canAccessMessage(message, req.user)) {
     return res.status(403).json({ message: "Forbidden for this message" });
+  }
+  if (isDeletedMessage(message)) {
+    return res.status(400).json({ message: "Deleted messages cannot be reacted to" });
   }
   const existing = message.reactions.find((r) => r.userId.toString() === req.user.sub);
   if (existing) {

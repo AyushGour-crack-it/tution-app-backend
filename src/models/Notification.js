@@ -14,6 +14,9 @@ const NotificationSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+NotificationSchema.index({ target: 1, createdAt: -1 });
+NotificationSchema.index({ target: 1, studentId: 1, createdAt: -1 });
+
 NotificationSchema.pre("save", function markIfNew(next) {
   this.$locals = this.$locals || {};
   this.$locals.wasNew = this.isNew;

@@ -29,9 +29,15 @@ const MessageSchema = new mongoose.Schema(
     replyTo: { type: mongoose.Schema.Types.ObjectId, ref: "Message", default: null },
     reactions: { type: [ReactionSchema], default: [] },
     readBy: { type: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }], default: [] },
-    editedAt: { type: Date, default: null }
+    editedAt: { type: Date, default: null },
+    deletedAt: { type: Date, default: null },
+    deletedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null }
   },
   { timestamps: true }
 );
+
+MessageSchema.index({ createdAt: -1 });
+MessageSchema.index({ recipientUserId: 1, createdAt: -1 });
+MessageSchema.index({ senderId: 1, createdAt: -1 });
 
 export default mongoose.model("Message", MessageSchema);
