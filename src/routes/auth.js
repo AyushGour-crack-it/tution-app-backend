@@ -610,65 +610,73 @@ router.get("/student-requests", requireAuth, requireRole("teacher"), async (req,
 });
 
 router.post("/student-requests/:id/review", requireAuth, requireRole("teacher"), async (req, res) => {
-  const action = sanitizeText(req.body.action, 20);
-  const message = sanitizeText(req.body.message, 300);
-  if (!["approve", "reject"].includes(action)) {
-    return res.status(400).json({ message: "action must be approve or reject" });
-  }
+  try {
+    const action = sanitizeText(req.body.action, 20);
+    const message = sanitizeText(req.body.message, 300);
+    if (!["approve", "reject"].includes(action)) {
+      return res.status(400).json({ message: "action must be approve or reject" });
+    }
 
-  const user = await User.findOne({ _id: req.params.id, role: "student" });
-  if (!user) {
-    return res.status(404).json({ message: "Student request not found" });
-  }
-  if (user.studentApprovalStatus !== "pending") {
-    return res.status(400).json({ message: "Request already reviewed" });
-  }
+    const user = await User.findOne({ _id: req.params.id, role: "student" });
+    if (!user) {
+      return res.status(404).json({ message: "Student request not found" });
+    }
+    if (user.studentApprovalStatus !== "pending") {
+      return res.status(400).json({ message: "Request already reviewed" });
+    }
 
-  if (action === "approve") {
-    const profile = user.pendingStudentProfile || {};
-    const createdStudent = await Student.create({
-      name: user.name,
-      rollNumber: profile.rollNumber || generateRollNumber(),
-      grade: sanitizeText(profile.grade, 60),
-      guardian: {
-        name: sanitizeText(profile.guardianName, 120),
-        phone: normalizePhone(profile.guardianPhone)
-      },
-      dateOfBirth: profile.dateOfBirth || null,
-      joinedAt: profile.joinedAt || new Date(),
-      monthlyFee: Number(profile.monthlyFee || 0),
-      schoolName: sanitizeText(profile.schoolName, 120),
-      emergencyContact: normalizePhone(profile.emergencyContact),
-      hobbies: Array.isArray(profile.hobbies) ? profile.hobbies : [],
-      strongSubjects: Array.isArray(profile.strongSubjects) ? profile.strongSubjects : [],
-      weakSubjects: Array.isArray(profile.weakSubjects) ? profile.weakSubjects : [],
-      goals: sanitizeText(profile.goals, 300),
-      email: user.email,
-      phone: user.phone || normalizePhone(profile.guardianPhone),
-      address: sanitizeText(profile.address, 240)
-    });
+    if (action === "approve") {
+      const profile = user.pendingStudentProfile || {};
+      const guardianName = sanitizeText(profile.guardianName, 120) || "Parent/Guardian";
+      const createdStudent = await Student.create({
+        name: user.name,
+        rollNumber: profile.rollNumber || generateRollNumber(),
+        grade: sanitizeText(profile.grade, 60),
+        guardian: {
+          name: guardianName,
+          phone: normalizePhone(profile.guardianPhone),
+          relation: sanitizeText(profile.guardianRelation, 80)
+        },
+        dateOfBirth: profile.dateOfBirth || null,
+        joinedAt: profile.joinedAt || new Date(),
+        monthlyFee: Number(profile.monthlyFee || 0),
+        schoolName: sanitizeText(profile.schoolName, 120),
+        emergencyContact: normalizePhone(profile.emergencyContact),
+        hobbies: Array.isArray(profile.hobbies) ? profile.hobbies : [],
+        strongSubjects: Array.isArray(profile.strongSubjects) ? profile.strongSubjects : [],
+        weakSubjects: Array.isArray(profile.weakSubjects) ? profile.weakSubjects : [],
+        goals: sanitizeText(profile.goals, 300),
+        email: user.email,
+        phone: user.phone || normalizePhone(profile.guardianPhone),
+        address: sanitizeText(profile.address, 240)
+      });
 
-    user.studentId = createdStudent._id;
-    user.studentApprovalStatus = "approved";
-    user.studentReviewMessage = message || "Your registration is approved.";
-    user.pendingStudentProfile = undefined;
+      user.studentId = createdStudent._id;
+      user.studentApprovalStatus = "approved";
+      user.studentReviewMessage = message || "Your registration is approved.";
+      user.pendingStudentProfile = undefined;
+      await user.save();
+
+      await Notification.create({
+        title: "Registration Approved",
+        message: user.studentReviewMessage,
+        target: "student",
+        studentId: createdStudent._id
+      });
+
+      return res.json({ message: "Student request approved" });
+    }
+
+    user.studentApprovalStatus = "rejected";
+    user.studentReviewMessage = message || "Registration request was declined.";
     await user.save();
 
-    await Notification.create({
-      title: "Registration Approved",
-      message: user.studentReviewMessage,
-      target: "student",
-      studentId: createdStudent._id
+    return res.json({ message: "Student request rejected" });
+  } catch (error) {
+    return res.status(500).json({
+      message: error?.message || "Failed to review student request"
     });
-
-    return res.json({ message: "Student request approved" });
   }
-
-  user.studentApprovalStatus = "rejected";
-  user.studentReviewMessage = message || "Registration request was declined.";
-  await user.save();
-
-  return res.json({ message: "Student request rejected" });
 });
 
 router.post("/daily-xp", requireAuth, requireRole("student"), async (req, res) => {
