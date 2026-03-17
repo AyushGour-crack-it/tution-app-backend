@@ -20,6 +20,8 @@ const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
 const DEFAULT_MESSAGE_PAGE_SIZE = 100;
 const MAX_MESSAGE_PAGE_SIZE = 200;
+const UNREAD_COUNT_CACHE_TTL_MS = 5000;
+const unreadCountCache = new Map();
 
 const parsePositiveInt = (value, fallback, max) => {
   const parsed = Number.parseInt(String(value || ""), 10);
@@ -31,6 +33,32 @@ const parseDateSafe = (value) => {
   if (!value) return null;
   const parsed = new Date(value);
   return Number.isNaN(parsed.getTime()) ? null : parsed;
+};
+
+const getCachedUnreadCount = (userId) => {
+  const key = String(userId || "");
+  if (!key) return null;
+  const cached = unreadCountCache.get(key);
+  if (!cached || cached.expiresAt <= Date.now()) {
+    unreadCountCache.delete(key);
+    return null;
+  }
+  return cached.count;
+};
+
+const setCachedUnreadCount = (userId, count) => {
+  const key = String(userId || "");
+  if (!key) return;
+  unreadCountCache.set(key, {
+    count: Number(count || 0),
+    expiresAt: Date.now() + UNREAD_COUNT_CACHE_TTL_MS
+  });
+};
+
+const clearUnreadCountCacheForUser = (userId) => {
+  const key = String(userId || "");
+  if (!key) return;
+  unreadCountCache.delete(key);
 };
 
 const canAccessMessage = (message, user) => {
@@ -129,6 +157,11 @@ router.get("/messages", requireAuth, async (req, res) => {
 
 router.get("/unread-count", requireAuth, async (req, res) => {
   const userId = req.user.sub;
+  const cachedCount = getCachedUnreadCount(userId);
+  if (cachedCount !== null) {
+    return res.json({ count: cachedCount });
+  }
+
   const query = {
     $or: [{ recipientUserId: null }, { recipientUserId: userId }],
     senderId: { $ne: userId },
@@ -136,6 +169,7 @@ router.get("/unread-count", requireAuth, async (req, res) => {
     deletedAt: null
   };
   const count = await Message.countDocuments(query);
+  setCachedUnreadCount(userId, count);
   res.json({ count });
 });
 
@@ -210,6 +244,11 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
     replyTo: replyTo || null,
     readBy: [req.user.sub]
   });
+  if (recipientUserId) {
+    clearUnreadCountCacheForUser(String(recipientUserId));
+  } else {
+    unreadCountCache.clear();
+  }
   emitChatMessageCreated(created);
   sendChatPush({ created, senderId: req.user.sub }).catch(() => {});
   return res.status(201).json(created);
@@ -247,6 +286,7 @@ router.post("/messages/read", requireAuth, async (req, res) => {
       });
     });
   }
+  clearUnreadCountCacheForUser(userId);
 
   return res.json({
     updatedCount: unread.length
@@ -298,6 +338,7 @@ router.delete("/messages/:id([0-9a-fA-F]{24})", requireAuth, async (req, res) =>
     message.mimeType = "";
     message.reactions = [];
     await message.save();
+    unreadCountCache.clear();
     emitChatMessageUpdated(message);
   }
   return res.json(message);
@@ -332,9 +373,11 @@ router.post("/messages/:id([0-9a-fA-F]{24})/reactions", requireAuth, chatReactio
 router.delete("/messages/clear", requireAuth, async (req, res) => {
   if (req.user.role === "teacher") {
     const deleted = await Message.deleteMany({});
+    unreadCountCache.clear();
     return res.json({ message: "Chat cleared", deletedCount: deleted.deletedCount || 0 });
   }
   const deleted = await Message.deleteMany({ senderId: req.user.sub });
+  clearUnreadCountCacheForUser(req.user.sub);
   return res.json({ message: "Your messages cleared", deletedCount: deleted.deletedCount || 0 });
 });
 

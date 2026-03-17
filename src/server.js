@@ -193,7 +193,9 @@ app.use(
   })
 );
 app.use(express.json({ limit: "2mb" }));
-app.use(morgan("dev"));
+if (process.env.NODE_ENV !== "production") {
+  app.use(morgan("dev"));
+}
 
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -384,12 +386,22 @@ const start = async () => {
 
   await mongoose.connect(mongoUri);
   await buildSocketServer();
-  await ensureBadgeCatalog();
-  await ensureQuizBank();
-  await notifyFeatureUpdateIfNeeded();
   httpServer.listen(port, () => {
     // eslint-disable-next-line no-console
     console.log(`API listening on http://localhost:${port}`);
+  });
+
+  Promise.allSettled([
+    ensureBadgeCatalog(),
+    ensureQuizBank(),
+    notifyFeatureUpdateIfNeeded()
+  ]).then((results) => {
+    results.forEach((result) => {
+      if (result.status === "rejected") {
+        // eslint-disable-next-line no-console
+        console.warn("Background startup task failed:", result.reason?.message || result.reason);
+      }
+    });
   });
 };
 

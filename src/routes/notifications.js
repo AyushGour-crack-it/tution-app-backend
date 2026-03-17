@@ -6,28 +6,30 @@ import { teacherBroadcastLimiter } from "../utils/rateLimiters.js";
 
 const router = express.Router();
 
-const buildNotificationQuery = (user) => {
+const buildNotificationTargetQuery = (user) => {
   if (user.role === "teacher") {
-    return {
-      $and: [
-        { $or: [{ target: "all" }, { target: "teacher" }] },
-        { dismissedBy: { $ne: user.sub } }
-      ]
-    };
+    return { $or: [{ target: "all" }, { target: "teacher" }] };
   }
   return {
-    $and: [
-      {
-        $or: [{ target: "all" }, { target: "student", studentId: user.studentId || null }]
-      },
-      { dismissedBy: { $ne: user.sub } }
-    ]
+    $or: [{ target: "all" }, { target: "student", studentId: user.studentId || null }]
   };
 };
 
 router.get("/", requireAuth, async (req, res) => {
-  const query = buildNotificationQuery(req.user);
-  const items = await Notification.find(query).sort({ createdAt: -1 }).limit(50);
+  const userId = String(req.user.sub || "");
+  const query = buildNotificationTargetQuery(req.user);
+  const rawItems = await Notification.find(query)
+    .sort({ createdAt: -1 })
+    .limit(120)
+    .select("_id title message target studentId createdAt dismissedBy")
+    .lean();
+
+  const items = rawItems
+    .filter((item) => !(item?.dismissedBy || []).some((id) => String(id) === userId))
+    .slice(0, 50)
+    .map(({ dismissedBy, ...rest }) => rest);
+
+  res.set("Cache-Control", "private, max-age=5");
   res.json(items);
 });
 
@@ -91,7 +93,7 @@ router.post("/:id/read", requireAuth, async (req, res) => {
 });
 
 router.delete("/clear", requireAuth, async (req, res) => {
-  const query = buildNotificationQuery(req.user);
+  const query = buildNotificationTargetQuery(req.user);
   await Notification.updateMany(query, { $addToSet: { dismissedBy: req.user.sub } });
   res.json({ message: "Notifications cleared" });
 });
