@@ -187,6 +187,14 @@ const serializeMessage = (message, conversation) => {
   const msg = message?.toObject ? message.toObject() : message;
   const members = getActiveMembers(conversation);
   const createdAt = msg?.createdAt ? new Date(msg.createdAt).getTime() : 0;
+  const deliveredBy = members
+    .filter((member) => String(member.userId || "") !== String(msg?.senderId || ""))
+    .filter((member) => {
+      const deliveredAt = member?.lastDeliveredAt ? new Date(member.lastDeliveredAt).getTime() : 0;
+      const seenAt = member?.lastReadAt ? new Date(member.lastReadAt).getTime() : 0;
+      return Math.max(deliveredAt, seenAt) >= createdAt;
+    })
+    .map((member) => String(member.userId || ""));
   const seenBy = members
     .filter((member) => String(member.userId || "") !== String(msg?.senderId || ""))
     .filter((member) => {
@@ -197,6 +205,8 @@ const serializeMessage = (message, conversation) => {
 
   return {
     ...msg,
+    deliveredBy,
+    deliveredCount: deliveredBy.length,
     seenBy,
     seenCount: seenBy.length
   };
@@ -258,6 +268,7 @@ router.post("/direct", requireAuth, async (req, res) => {
           userId: req.user.sub,
           role: "member",
           joinedAt: new Date(),
+          lastDeliveredAt: new Date(),
           lastReadAt: new Date(),
           leftAt: null
         },
@@ -265,6 +276,7 @@ router.post("/direct", requireAuth, async (req, res) => {
           userId: targetObjectId,
           role: "member",
           joinedAt: new Date(),
+          lastDeliveredAt: null,
           lastReadAt: null,
           leftAt: null
         }
@@ -307,6 +319,7 @@ router.post("/groups", requireAuth, async (req, res) => {
     userId: id,
     role: String(id) === String(req.user.sub) ? "admin" : "member",
     joinedAt: new Date(),
+    lastDeliveredAt: String(id) === String(req.user.sub) ? new Date() : null,
     lastReadAt: String(id) === String(req.user.sub) ? new Date() : null,
     leftAt: null
   }));
@@ -397,7 +410,7 @@ router.post("/conversations/:id/read", requireAuth, async (req, res) => {
   }
   conversation.members = (conversation.members || []).map((member) => {
     if (String(member.userId || "") === String(req.user.sub) && !member.leftAt) {
-      return { ...member.toObject(), lastReadAt: new Date() };
+      return { ...member.toObject(), lastDeliveredAt: new Date(), lastReadAt: new Date() };
     }
     return member;
   });
@@ -407,6 +420,27 @@ router.post("/conversations/:id/read", requireAuth, async (req, res) => {
     userIds: getActiveMemberIds(conversation)
   });
   res.json({ message: "Read state updated." });
+});
+
+router.post("/conversations/:id/delivered", requireAuth, async (req, res) => {
+  const conversationId = toObjectId(req.params.id);
+  if (!conversationId) return res.status(400).json({ message: "Invalid conversation id." });
+  const conversation = await Conversation.findById(conversationId);
+  if (!conversation || !isActiveMember(conversation, req.user.sub)) {
+    return res.status(404).json({ message: "Conversation not found." });
+  }
+  conversation.members = (conversation.members || []).map((member) => {
+    if (String(member.userId || "") === String(req.user.sub) && !member.leftAt) {
+      return { ...member.toObject(), lastDeliveredAt: new Date() };
+    }
+    return member;
+  });
+  await conversation.save();
+  emitChatConversationUpdated({
+    conversation,
+    userIds: getActiveMemberIds(conversation)
+  });
+  res.json({ message: "Delivery state updated." });
 });
 
 router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
@@ -450,7 +484,7 @@ router.post("/messages", requireAuth, chatMessageLimiter, async (req, res) => {
   conversation.lastMessageSenderName = req.user.name;
   conversation.members = (conversation.members || []).map((member) => {
     if (String(member.userId || "") === String(req.user.sub) && !member.leftAt) {
-      return { ...member.toObject(), lastReadAt: new Date() };
+      return { ...member.toObject(), lastDeliveredAt: new Date(), lastReadAt: new Date() };
     }
     return member;
   });
@@ -632,6 +666,7 @@ router.post("/groups/:id([0-9a-fA-F]{24})/members", requireAuth, async (req, res
       userId: user._id,
       role: "member",
       joinedAt: new Date(),
+      lastDeliveredAt: null,
       lastReadAt: null,
       leftAt: null
     });

@@ -5,6 +5,7 @@ const ConversationMemberSchema = new mongoose.Schema(
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     role: { type: String, enum: ["admin", "member"], default: "member" },
     joinedAt: { type: Date, default: Date.now },
+    lastDeliveredAt: { type: Date, default: null },
     lastReadAt: { type: Date, default: null },
     leftAt: { type: Date, default: null }
   },
