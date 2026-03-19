@@ -36,6 +36,7 @@ import Notification from "./models/Notification.js";
 import SystemState from "./models/SystemState.js";
 import BadgeDefinition from "./models/BadgeDefinition.js";
 import User from "./models/User.js";
+import Conversation from "./models/Conversation.js";
 import Question from "./models/Question.js";
 import { badgeCatalogSeed } from "./data/badgeCatalog.js";
 import { xpForRarity } from "./utils/gamification.js";
@@ -320,17 +321,22 @@ const buildSocketServer = async () => {
       try {
         const sender = socket.data.user;
         if (!sender?.id) return;
-        let recipientUserId = "";
-        const requestedUserId = String(payload?.recipientUserId || "").trim();
-        if (requestedUserId && requestedUserId !== sender.id) {
-          const targetUser = await User.findById(requestedUserId).select("_id").lean();
-          recipientUserId = targetUser?._id ? String(targetUser._id) : "";
-        }
+        const conversationId = String(payload?.conversationId || "").trim();
+        if (!conversationId) return;
+        const conversation = await Conversation.findById(conversationId).select("members").lean();
+        if (!conversation) return;
+        const activeMembers = (conversation.members || []).filter((member) => !member?.leftAt);
+        const isMember = activeMembers.some((member) => String(member?.userId || "") === String(sender.id));
+        if (!isMember) return;
+        const recipientIds = activeMembers
+          .map((member) => String(member?.userId || ""))
+          .filter((id) => id && id !== String(sender.id));
         emitChatTyping({
+          conversationId,
           senderId: sender.id,
           senderName: sender.name || (sender.role === "teacher" ? "Teacher" : "Student"),
           senderRole: sender.role,
-          recipientUserId
+          userIds: recipientIds
         });
       } catch {
         // typing indicator is best-effort

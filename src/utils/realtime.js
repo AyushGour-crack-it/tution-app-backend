@@ -11,66 +11,66 @@ const emitToRoom = (room, event, payload) => {
   ioInstance.to(room).emit(event, payload);
 };
 
-export const emitChatMessageCreated = (message) => {
-  if (!ioInstance || !message) return;
-  const payload = message.toObject ? message.toObject() : message;
-  const senderId = payload.senderId ? String(payload.senderId) : "";
-  const recipientUserId = payload.recipientUserId ? String(payload.recipientUserId) : "";
-
-  if (recipientUserId) {
-    emitToRoom(`user:${senderId}`, "chat:new", payload);
-    emitToRoom(`user:${recipientUserId}`, "chat:new", payload);
-    return;
-  }
-
-  emitToRoom("role:teacher", "chat:new", payload);
-  emitToRoom("role:student", "chat:new", payload);
+const emitToUsers = (userIds = [], event, payload) => {
+  if (!ioInstance || !event) return;
+  const unique = [...new Set((userIds || []).map((id) => String(id || "")).filter(Boolean))];
+  unique.forEach((id) => emitToRoom(`user:${id}`, event, payload));
 };
 
-const emitChatEvent = ({ event, payload }) => {
-  if (!ioInstance || !payload || !event) return;
-  const senderId = payload.senderId ? String(payload.senderId) : "";
-  const recipientUserId = payload.recipientUserId ? String(payload.recipientUserId) : "";
-
-  if (recipientUserId) {
-    emitToRoom(`user:${senderId}`, event, payload);
-    emitToRoom(`user:${recipientUserId}`, event, payload);
-    return;
-  }
-
-  emitToRoom("role:teacher", event, payload);
-  emitToRoom("role:student", event, payload);
+export const emitChatConversationCreated = ({ conversation, userIds = [] }) => {
+  if (!conversation) return;
+  const payload = conversation.toObject ? conversation.toObject() : conversation;
+  emitToUsers(userIds, "chat:conversation-created", payload);
+  emitToUsers(userIds, "chat:inbox-updated", { conversationId: String(payload?._id || "") });
 };
 
-export const emitChatMessageUpdated = (message) => {
-  const payload = message?.toObject ? message.toObject() : message;
-  emitChatEvent({ event: "chat:updated", payload });
+export const emitChatConversationUpdated = ({ conversation, userIds = [] }) => {
+  if (!conversation) return;
+  const payload = conversation.toObject ? conversation.toObject() : conversation;
+  emitToUsers(userIds, "chat:conversation-updated", payload);
+  emitToUsers(userIds, "chat:inbox-updated", { conversationId: String(payload?._id || "") });
 };
 
-export const emitChatMessageDeleted = ({ messageId, senderId, recipientUserId }) => {
+export const emitChatMessageCreated = ({ message, conversationId, userIds = [] }) => {
+  if (!message) return;
   const payload = {
-    messageId: String(messageId || ""),
-    senderId: String(senderId || ""),
-    recipientUserId: recipientUserId ? String(recipientUserId) : ""
+    conversationId: String(conversationId || message?.conversationId || ""),
+    message: message.toObject ? message.toObject() : message
   };
-  emitChatEvent({ event: "chat:deleted", payload });
+  emitToUsers(userIds, "chat:message-new", payload);
+  emitToUsers(userIds, "chat:new", payload.message);
 };
 
-export const emitChatTyping = ({ senderId, senderName, senderRole, recipientUserId }) => {
-  if (!ioInstance || !senderId) return;
+export const emitChatMessageUpdated = ({ message, conversationId, userIds = [] }) => {
+  if (!message) return;
   const payload = {
+    conversationId: String(conversationId || message?.conversationId || ""),
+    message: message.toObject ? message.toObject() : message
+  };
+  emitToUsers(userIds, "chat:message-updated", payload);
+  emitToUsers(userIds, "chat:updated", payload.message);
+};
+
+export const emitChatTyping = ({ conversationId, senderId, senderName, senderRole, userIds = [] }) => {
+  if (!senderId || !conversationId) return;
+  emitToUsers(userIds, "chat:typing", {
+    conversationId: String(conversationId),
     senderId: String(senderId),
     senderName: String(senderName || "Someone"),
     senderRole: String(senderRole || "")
-  };
+  });
+};
 
-  if (recipientUserId) {
-    emitToRoom(`user:${String(recipientUserId)}`, "chat:typing", payload);
-    return;
-  }
+export const emitChatReportCreated = ({ report, userIds = [] }) => {
+  if (!report) return;
+  const payload = report.toObject ? report.toObject() : report;
+  emitToUsers(userIds, "chat:report-created", payload);
+};
 
-  emitToRoom("role:teacher", "chat:typing", payload);
-  emitToRoom("role:student", "chat:typing", payload);
+export const emitChatReportUpdated = ({ report, userIds = [] }) => {
+  if (!report) return;
+  const payload = report.toObject ? report.toObject() : report;
+  emitToUsers(userIds, "chat:report-updated", payload);
 };
 
 export const emitNotificationCreated = (notification) => {
