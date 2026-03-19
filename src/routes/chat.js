@@ -68,6 +68,7 @@ const summarizeMessage = (message) => {
   if (message.type === "image" || message.type === "gif" || message.type === "meme") return "Photo";
   if (message.type === "video") return "Video";
   if (message.type === "audio") return "Audio";
+  if (message.type === "file" || message.type === "document") return "Document";
   const content = String(message.content || "").trim();
   if (!content) return "Message";
   return content.length > 90 ? `${content.slice(0, 87)}...` : content;

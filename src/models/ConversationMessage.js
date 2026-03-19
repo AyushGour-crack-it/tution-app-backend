@@ -18,7 +18,7 @@ const ConversationMessageSchema = new mongoose.Schema(
     clientMessageId: { type: String, default: "" },
     type: {
       type: String,
-      enum: ["text", "image", "audio", "video", "gif", "meme", "announcement"],
+      enum: ["text", "image", "audio", "video", "gif", "meme", "announcement", "file", "document"],
       required: true
     },
     content: { type: String, required: true },
