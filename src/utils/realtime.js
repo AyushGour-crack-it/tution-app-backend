@@ -173,6 +173,11 @@ export const emitHolidaysUpdated = (payload = {}) => {
   emitToRoom("role:student", "holidays:updated", payload);
 };
 
+export const emitPopupCampaignsUpdated = (payload = {}) => {
+  emitToRoom("role:teacher", "popup-campaigns:updated", payload);
+  emitToRoom("role:student", "popup-campaigns:updated", payload);
+};
+
 export const emitInvoicesUpdated = (payload = {}) => {
   emitToRoom("role:teacher", "invoices:updated", payload);
   emitToRoom("role:student", "invoices:updated", payload);

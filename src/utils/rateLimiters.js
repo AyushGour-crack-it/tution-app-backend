@@ -71,3 +71,9 @@ export const teacherBroadcastLimiter = buildLimiter({
   max: 20,
   message: "Too many notifications. Please wait before sending more."
 });
+
+export const popupImageUploadLimiter = buildLimiter({
+  windowMs: 10 * 60 * 1000,
+  max: 20,
+  message: "Too many popup image uploads. Please try again later."
+});
