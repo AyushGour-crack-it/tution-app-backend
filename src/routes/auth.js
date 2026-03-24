@@ -769,7 +769,7 @@ router.post("/push-token", requireAuth, async (req, res) => {
   return res.json({ message: "Push token registered" });
 });
 
-router.delete("/push-token", requireAuth, async (req, res) => {
+router.post("/push-token/delete", requireAuth, async (req, res) => {
   const token = sanitizeText(req.body.token, 4096);
   if (!token) {
     return res.status(400).json({ message: "Missing push token" });
