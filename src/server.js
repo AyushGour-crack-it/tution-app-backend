@@ -387,16 +387,54 @@ const buildSocketServer = async () => {
 
 const start = async () => {
   const mongoUri = process.env.MONGODB_URI;
-  if (!mongoUri) {
-    throw new Error("MONGODB_URI is required");
-  }
-  validateSecurityConfig();
+  const allowOfflineMode = process.env.ALLOW_OFFLINE_MODE !== "false";
 
-  await mongoose.connect(mongoUri);
+  if (!mongoUri) {
+    if (allowOfflineMode) {
+      console.warn("⚠️  MONGODB_URI not set, running in offline mode");
+      console.log("🚀 API listening on http://localhost:5000 (OFFLINE MODE)");
+      return;
+    } else {
+      throw new Error("MONGODB_URI is required");
+    }
+  }
+
+  // Add MongoDB connection with retry logic
+  let connected = false;
+  let retries = 0;
+  const maxRetries = 3;
+
+  while (!connected && retries < maxRetries) {
+    try {
+      await mongoose.connect(mongoUri, {
+        serverSelectionTimeoutMS: 10000, // 10 second timeout
+      });
+      connected = true;
+      console.log("✅ MongoDB connected successfully");
+    } catch (error) {
+      retries++;
+      console.error(`❌ MongoDB connection attempt ${retries}/${maxRetries} failed:`, error.message);
+      if (retries < maxRetries) {
+        console.log(`⏳ Retrying in ${retries * 3} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, retries * 3000));
+      }
+    }
+  }
+
+  if (!connected) {
+    if (allowOfflineMode) {
+      console.warn("⚠️  Failed to connect to MongoDB, running in offline mode");
+      console.log("🚀 API listening on http://localhost:5000 (OFFLINE MODE)");
+      return;
+    } else {
+      throw new Error("Failed to connect to MongoDB after multiple attempts");
+    }
+  }
+
   await buildSocketServer();
   httpServer.listen(port, () => {
     // eslint-disable-next-line no-console
-    console.log(`API listening on http://localhost:${port}`);
+    console.log(`🚀 API listening on http://localhost:${port}`);
   });
 
   Promise.allSettled([

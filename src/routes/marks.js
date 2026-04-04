@@ -44,4 +44,57 @@ router.delete("/:id", requireAuth, requireRole("teacher"), async (req, res) => {
   return res.json({ message: "Mark deleted" });
 });
 
+// Clear marks for a student or all marks (admin only)
+router.delete("/clear/:studentId?", requireAuth, requireRole("teacher"), async (req, res) => {
+  try {
+    const { studentId } = req.params;
+    const query = studentId ? { studentId } : {};
+
+    const result = await Mark.deleteMany(query);
+
+    emitMarksUpdated({ action: "cleared", studentId: studentId || "all" });
+    emitLeaderboardUpdated({ source: "marks" });
+
+    return res.json({
+      message: `Cleared ${result.deletedCount} marks`,
+      deletedCount: result.deletedCount
+    });
+  } catch (error) {
+    console.error("Error clearing marks:", error);
+    return res.status(500).json({ message: "Failed to clear marks" });
+  }
+});
+
+// Bulk clear marks by criteria
+router.post("/clear", requireAuth, requireRole("teacher"), async (req, res) => {
+  try {
+    const { studentId, subject, class: className, dateRange } = req.body;
+    const query = {};
+
+    if (studentId) query.studentId = studentId;
+    if (subject) query.subject = subject;
+    if (className) query.class = className;
+    if (dateRange) {
+      query.date = {
+        $gte: new Date(dateRange.start),
+        $lte: new Date(dateRange.end)
+      };
+    }
+
+    const result = await Mark.deleteMany(query);
+
+    emitMarksUpdated({ action: "bulk_cleared", criteria: req.body });
+    emitLeaderboardUpdated({ source: "marks" });
+
+    return res.json({
+      message: `Cleared ${result.deletedCount} marks`,
+      deletedCount: result.deletedCount,
+      criteria: req.body
+    });
+  } catch (error) {
+    console.error("Error bulk clearing marks:", error);
+    return res.status(500).json({ message: "Failed to clear marks" });
+  }
+});
+
 export default router;
