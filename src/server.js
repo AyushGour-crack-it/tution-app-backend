@@ -424,8 +424,6 @@ const start = async () => {
   if (!connected) {
     if (allowOfflineMode) {
       console.warn("⚠️  Failed to connect to MongoDB, running in offline mode");
-      console.log("🚀 API listening on http://localhost:5000 (OFFLINE MODE)");
-      return;
     } else {
       throw new Error("Failed to connect to MongoDB after multiple attempts");
     }
@@ -434,7 +432,7 @@ const start = async () => {
   await buildSocketServer();
   httpServer.listen(port, () => {
     // eslint-disable-next-line no-console
-    console.log(`🚀 API listening on http://localhost:${port}`);
+    console.log(`🚀 API listening on http://localhost:${port}${!connected ? " (OFFLINE MODE)" : ""}`);
   });
 
   Promise.allSettled([
