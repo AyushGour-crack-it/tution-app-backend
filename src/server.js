@@ -48,11 +48,11 @@ dotenv.config();
 const app = express();
 const httpServer = createServer(app);
 const port = process.env.PORT || 5000;
-const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173";
-const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD !== "false";
+const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173,http://127.0.0.1:5173";
+const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD === "true";
 
 const normalizeOrigin = (value) => {
-  const trimmed = value.trim();
+  const trimmed = String(value || "").trim();
   if (!trimmed) return "";
   const withProtocol =
     trimmed.startsWith("http://") || trimmed.startsWith("https://")
@@ -63,15 +63,15 @@ const normalizeOrigin = (value) => {
 
 const allowedOrigins = rawClientOrigin
   .split(",")
-  .map(normalizeOrigin)
+  .map((item) => normalizeOrigin(item))
   .filter(Boolean);
 
 const isAllowedOrigin = (origin) => {
   const normalized = normalizeOrigin(origin);
   if (!normalized) return true;
   if (allowedOrigins.includes(normalized)) return true;
-  // Vercel preview/production domains can change by deployment hash.
-  if (allowVercelWildcard && /^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(normalized)) return true;
+  if (allowVercelWildcard && /^https:\/\/[a-z0-9.-]+\.vercel\.app$/i.test(normalized)) return true;
+  if (allowVercelWildcard && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/i.test(normalized)) return true;
   return false;
 };
 
