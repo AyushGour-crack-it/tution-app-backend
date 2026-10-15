@@ -49,6 +49,7 @@ const app = express();
 const httpServer = createServer(app);
 const port = process.env.PORT || 5000;
 const rawClientOrigin = process.env.CLIENT_ORIGIN || "http://localhost:5173,http://127.0.0.1:5173";
+const productionClientOrigin = "https://tution-app-frontend-rho.vercel.app";
 const allowVercelWildcard = process.env.ALLOW_VERCEL_WILDCARD === "true";
 
 const normalizeOrigin = (value) => {
@@ -64,7 +65,8 @@ const normalizeOrigin = (value) => {
 const allowedOrigins = rawClientOrigin
   .split(",")
   .map((item) => normalizeOrigin(item))
-  .filter(Boolean);
+  .filter(Boolean)
+  .concat(productionClientOrigin);
 
 const isAllowedOrigin = (origin) => {
   const normalized = normalizeOrigin(origin);
